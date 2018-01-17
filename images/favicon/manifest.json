@@ -1,0 +1,19 @@
+{
+    "name": "Cookoon",
+    "icons": [
+        {
+            "src": "/images/favicon/android-chrome-192x192-b4bfa5fe.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/favicon/android-chrome-256x256-53e7cb15.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#006f8b",
+    "background_color": "#006f8b",
+    "start_url": "https://www.cookoon.fr",
+    "display": "standalone"
+}
