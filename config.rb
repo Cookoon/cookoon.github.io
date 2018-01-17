@@ -56,10 +56,6 @@ configure :build do
   activate :minify_css
   activate :minify_javascript
   activate :asset_hash
-<<<<<<< HEAD
-=======
-
->>>>>>> f7f4869544235f94e92441277c73f40a96115d21
   activate :relative_assets
   set :relative_links, true
 end
