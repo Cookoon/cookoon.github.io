@@ -22,10 +22,13 @@
     <meta name="twitter:description" content="<%= current_page.data.description || config[:description] %>">
     <meta name="twitter:image:src" content="<%= config[:host] + (image_path(current_page.data.og_image || 'og_image.jpg')) %>">
 
-    <%= stylesheet_link_tag "site" %>
+    <%= stylesheet_link_tag "application" %>
     <%= javascript_include_tag "site" %>
   </head>
   <body>
     <%= yield %>
   </body>
+  <footer>
+    <p>2017 Réceptions Nouvelles. Tous droits réservés.</p>
+  </footer>
 </html>
