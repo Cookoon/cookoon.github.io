@@ -38,12 +38,18 @@ page '/*.txt', layout: false
 # end
 
 # Build-specific configuration
+# https://middlemanapp.com/basics/build-and-deploy/
 # https://middlemanapp.com/advanced/configuration/#environment-specific-settings
 
-# configure :build do
-#   activate :minify_css
-#   activate :minify_javascript
-# end
+configure :build do
+  activate :minify_css
+  activate :minify_javascript
+
+  # Append a hash to asset urls (make sure to use the url helpers)
+  activate :asset_hash
+
+  # activate :asset_host, host: '//YOURDOMAIN.cloudfront.net'
+end
 
 # middleman-deploy
 # https://github.com/middleman-contrib/middleman-deploy
@@ -51,6 +57,7 @@ page '/*.txt', layout: false
 activate :deploy do |deploy|
   deploy.build_before = true
   deploy.deploy_method = :git
+
   # Optional Settings
   # deploy.remote   = 'git@github.com:Cookoon/cookoon.github.io.git' # remote name or git url, default: origin
   deploy.branch = 'master' # default: gh-pages
