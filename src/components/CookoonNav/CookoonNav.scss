@@ -1,0 +1,21 @@
+.cookoon-nav {
+  &-top {
+    background-color: "#00FFFFFF";
+    padding-top: 30px;
+    padding-bottom: 10px;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    transition: background-color 0.5s;
+  }
+  &-scrolled {
+    background-color: #006f8b;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    transition: background-color 1s;
+  }
+  &-opened {
+    background-color: #006f8b;
+  }
+}
