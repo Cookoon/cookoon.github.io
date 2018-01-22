@@ -1,0 +1,27 @@
+.banner {
+  height: 100vh;
+  background-color: $blue;
+  background-size: cover;
+  background-position: center;
+  padding-top: 5rem;
+  color: white;
+  h1 {
+    text-transform: uppercase;
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+  .store-badge img {
+    height: 2.5rem;
+  }
+  .device-frame {
+    margin-top: 14rem;
+  }
+}
+
+@include media-breakpoint-down(sm) {
+  .banner .device-frame {
+    margin-top: 3rem;
+  }
+}
