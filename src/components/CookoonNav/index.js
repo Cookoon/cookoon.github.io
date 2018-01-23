@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import Link from "gatsby-link";
 import logo from "./logo-cookoon-white.png";
 import classNames from "classnames";
-import "./CookoonNav.scss";
 import {
   Collapse,
   Navbar,
@@ -30,7 +29,7 @@ class CookoonNav extends Component {
     }
   };
   classes = () => {
-    return classNames({
+    return classNames('cookoon-nav', {
       "cookoon-nav-top": this.state.isTop,
       "cookoon-nav-scrolled": !this.state.isTop,
       "cookoon-nav-opened": this.state.isOpen
@@ -54,13 +53,13 @@ class CookoonNav extends Component {
             <Collapse isOpen={this.state.isOpen} navbar>
               <Nav navbar>
                 <NavItem>
-                  <NavLink href="/member/">Être Membre</NavLink>
+                  <NavLink href="/etre-membre/">Être Membre</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink href="/host/">Devenir Hôte</NavLink>
+                  <NavLink href="/devenir-hote/">Devenir Hôte</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink href="/warranties/">Garanties</NavLink>
+                  <NavLink href="/garanties/">Garanties</NavLink>
                 </NavItem>
               </Nav>
             </Collapse>
