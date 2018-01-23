@@ -14,12 +14,12 @@
     top: 0;
   }
   &-scrolled {
-    background-color: #006f8b;
+    background-color: $blue;
     position: fixed;
     width: 100%;
     top: 0;
   }
   &-opened {
-    background-color: #006f8b;
+    background-color: $blue;
   }
 }

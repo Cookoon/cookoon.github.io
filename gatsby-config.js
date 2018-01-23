@@ -10,6 +10,7 @@ module.exports = {
     twitter: '@cookoon'
   },
   plugins: [
+    'gatsby-plugin-catch-links',
     {
       resolve: 'gatsby-plugin-favicon',
       options: {

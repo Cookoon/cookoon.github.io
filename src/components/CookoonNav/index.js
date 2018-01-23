@@ -1,7 +1,6 @@
-import React, { Component } from "react";
-import Link from "gatsby-link";
-import logo from "./logo-cookoon-white.png";
-import classNames from "classnames";
+import React, { Component } from 'react';
+import Link from 'gatsby-link';
+import classNames from 'classnames';
 import {
   Collapse,
   Navbar,
@@ -10,7 +9,9 @@ import {
   Nav,
   NavItem,
   NavLink
-} from "reactstrap";
+} from 'reactstrap';
+
+import logo from './logo-cookoon-white.png';
 
 class CookoonNav extends Component {
   state = {
@@ -30,16 +31,16 @@ class CookoonNav extends Component {
   };
   classes = () => {
     return classNames('cookoon-nav', {
-      "cookoon-nav-top": this.state.isTop,
-      "cookoon-nav-scrolled": !this.state.isTop,
-      "cookoon-nav-opened": this.state.isOpen
+      'cookoon-nav-top': this.state.isTop,
+      'cookoon-nav-scrolled': !this.state.isTop,
+      'cookoon-nav-opened': this.state.isOpen
     });
   };
   componentDidMount() {
-    document.addEventListener("scroll", this.handleScroll);
+    document.addEventListener('scroll', this.handleScroll);
   }
   componentWillUnmount() {
-    document.removeEventListener("scroll", this.handleScroll);
+    document.removeEventListener('scroll', this.handleScroll);
   }
   render() {
     return (
