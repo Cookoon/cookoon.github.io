@@ -1,0 +1,5 @@
+@include media-breakpoint-down(sm) {
+  .background-hidden-sm {
+    background-image: none !important;
+  }
+}

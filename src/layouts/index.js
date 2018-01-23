@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
+
 import CookoonNav from '../components/CookoonNav';
-import '../scss/index.scss';
+import '../styles/index.scss';
 import ogImage from '../images/ogImage.jpg';
 
 class TemplateWrapper extends Component {
