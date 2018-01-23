@@ -35,7 +35,56 @@ const IndexPage = () => (
         </a>
       </div>
     </Banner>
-    <Link to="/page-2/">Go to page 2</Link>
+
+    <div className="container text-center">
+      <p className="mt-4">
+        <span className="font-weight-bold">En toute simplicité</span>
+        <br />
+        <span className="font-italic">Comment ça marche ?</span>
+      </p>
+
+      <div className="row">
+        <div className="col-md">
+          <h2>Etre Membre</h2>
+          <p>Chez Cookoon, tout le monde se connaît, ou presque.</p>
+          <p>
+            Chaque membre est invité par un parrain qui est responsable de son
+            filleul.
+            <br />La communauté se construit sur des valeurs d'échange,
+            d'implication et de respect.
+          </p>
+          <Link to="/etre-membre/">En savoir plus ></Link>
+        </div>
+
+        <div className="col-md">
+          <h2>Organiser un événement</h2>
+          <p>
+            Louez l’appartement d’un autre membre en 3 minutes pour tous vos
+            besoins de courte durée :
+            <br />rendez-vous, dîner entre amis, réunions, etc.
+          </p>
+          <p>
+            Choisissez vos options : traiteur, chef à domicile, joueur de harpe
+            … pour personnaliser votre expérience.
+          </p>
+          <Link to="/">En savoir plus ></Link>
+        </div>
+
+        <div className="col-md">
+          <h2>Devenir hôte</h2>
+          <p>
+            Participer à la vie de la communauté en proposant votre appartement
+            ou votre maison, pour rentabiliser votre lieu de vie pendant vos
+            absences quotidiennes. Et pas besoin de dormir ailleurs !
+          </p>
+          <p>
+            Choisissez des services pour vous affranchir de toutes contraintes :
+            ménage, concierge...
+          </p>
+          <Link to="/devenir-hote/">En savoir plus ></Link>
+        </div>
+      </div>
+    </div>
   </div>
 );
 
