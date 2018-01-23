@@ -10,7 +10,7 @@ const Footer = () => (
       <div className="navbar-nav">
         <a
           className="nav-item nav-link"
-          href="mailto:Concierge Cookoon <concierge@cookoon.fr>"
+          href="mailto:Concierge Cookoon<concierge@cookoon.fr>"
           target="_blank"
           rel="noreferrer noopener"
         >
