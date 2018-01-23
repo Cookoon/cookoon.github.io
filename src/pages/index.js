@@ -40,10 +40,12 @@ const IndexPage = () => (
       </p>
 
       <div className="row">
-        <div className="col-md">
-          <h2>Etre Membre</h2>
-          <p>Chez Cookoon, tout le monde se connaît, ou presque.</p>
-          <p>
+        <div className="col-md p-4 d-flex flex-column justify-content-around">
+          <h2 className="h3 font-weight-normal mb-4">Etre Membre</h2>
+          <p className="text-justify">
+            Chez Cookoon, tout le monde se connaît, ou presque.
+          </p>
+          <p className="text-justify">
             Chaque membre est invité par un parrain qui est responsable de son
             filleul.
             <br />La communauté se construit sur des valeurs d'échange,
@@ -52,32 +54,57 @@ const IndexPage = () => (
           <Link to="/etre-membre/">En savoir plus ></Link>
         </div>
 
-        <div className="col-md">
-          <h2>Organiser un événement</h2>
-          <p>
+        <div className="col-md p-4 d-flex flex-column justify-content-around">
+          <h2 className="h3 font-weight-normal mb-4">Organiser un événement</h2>
+          <p className="text-justify">
             Louez l’appartement d’un autre membre en 3 minutes pour tous vos
-            besoins de courte durée :
-            <br />rendez-vous, dîner entre amis, réunions, etc.
+            besoins de courte durée : rendez-vous, dîner entre amis, réunions,
+            etc.
           </p>
-          <p>
+          <p className="text-justify">
             Choisissez vos options : traiteur, chef à domicile, joueur de harpe
             … pour personnaliser votre expérience.
           </p>
           <Link to="/">En savoir plus ></Link>
         </div>
 
-        <div className="col-md">
-          <h2>Devenir hôte</h2>
-          <p>
+        <div className="col-md p-4 d-flex flex-column justify-content-around">
+          <h2 className="h3 font-weight-normal mb-4">Devenir hôte</h2>
+          <p className="text-justify">
             Participer à la vie de la communauté en proposant votre appartement
             ou votre maison, pour rentabiliser votre lieu de vie pendant vos
             absences quotidiennes. Et pas besoin de dormir ailleurs !
           </p>
-          <p>
+          <p className="text-justify">
             Choisissez des services pour vous affranchir de toutes contraintes :
             ménage, concierge...
           </p>
           <Link to="/devenir-hote/">En savoir plus ></Link>
+        </div>
+      </div>
+    </div>
+
+    <div className="container text-center">
+      <div className="row">
+        <div className="col-md p-5 bg-primary text-white">
+          <h2 className="h3 font-weight-normal mb-4">
+            Rejoindre la communauté ?
+          </h2>
+          <p>Seuls les membres parrainés peuvent rejoindre Cookoon.</p>
+          <p>
+            Vous n'avez pas de parrain ? Vous pouvez postuler en proposant votre
+            logement !
+          </p>
+          <Link to="/devenir-hote/" className="btn btn-light">
+            Devenir hôte
+          </Link>
+        </div>
+
+        <div className="col-md p-5 bg-white">
+          <h2 className="h3 font-weight-normal mb-4">En toute sécurité</h2>
+          <p>Toutes les locations sont assurées par notre partenaire</p>
+
+          <Link to="/garanties/">En savoir plus sur les garanties</Link>
         </div>
       </div>
     </div>
