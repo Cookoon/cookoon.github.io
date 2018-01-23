@@ -1,13 +1,21 @@
 import React from 'react';
-import Link from 'gatsby-link';
 import Helmet from 'react-helmet';
+
+import Banner from '../components/Banner';
 
 const MemberPage = () => (
   <div>
     <Helmet title="Etre membre" />
 
-    <h1>Etre membre</h1>
-    <Link to="/">Accueil</Link>
+    <Banner>
+      <h1 className="h4 font-weight-light mb-4">
+        Nos membres louent des Cookoon en 3 minutes et tous les jours pour tous
+        leurs événements.
+      </h1>
+      <p className="h4 font-weight-light">
+        Et vous, pourquoi allez-vous louer un Cookoon ?
+      </p>
+    </Banner>
   </div>
 );
 

@@ -1,13 +1,15 @@
 import React from 'react';
-import Link from 'gatsby-link';
 import Helmet from 'react-helmet';
+
+import Banner from '../components/Banner';
 
 const InsurancePage = () => (
   <div>
     <Helmet title="Garanties" />
 
-    <h1>Garanties</h1>
-    <Link to="/">Accueil</Link>
+    <Banner>
+      <h1 className="h4 font-weight-light mb-4">Garanties</h1>
+    </Banner>
   </div>
 );
 

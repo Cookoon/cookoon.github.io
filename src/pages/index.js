@@ -2,20 +2,16 @@ import React from 'react';
 import Link from 'gatsby-link';
 
 import Banner from '../components/Banner';
-import logo from '../images/logo.png';
 import appStoreBadge from '../images/appStoreBadge.png';
 import googlePlayBadge from '../images/googlePlayBadge.png';
 
 const IndexPage = () => (
   <div>
     <Banner>
-      <h1 className="mb-4">
-        <img alt="Cookoon" src={logo} />
-      </h1>
-      <p className="h4 font-weight-light mb-4">
+      <h1 className="h4 font-weight-light mb-4">
         Une communauté exclusive pour
         <br />organiser vos événements chez les autres
-      </p>
+      </h1>
       <div className="store-badge">
         <a
           href="https://itunes.apple.com/fr/app/cookoon-inside/id1291943406"
