@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     name: 'Cookoon',
     title:
-      'Cookoon - Une communauté exclusive pour organiser vos événements chez les autres',
+      'Une communauté exclusive pour organiser vos événements chez les autres',
     description:
       'Une communauté exclusive pour organiser vos événements chez les autres',
     keywords: 'cookoon, communauté, événements',

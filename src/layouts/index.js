@@ -16,6 +16,8 @@ class TemplateWrapper extends Component {
       twitter
     } = this.props.data.site.siteMetadata;
 
+    const nameAndTitle = `${name} · ${title}`;
+
     const ogImageUrl =
       process.env.NODE_ENV === 'production' ? url + ogImage : ogImage;
 
@@ -23,21 +25,21 @@ class TemplateWrapper extends Component {
       <div>
         <Helmet
           htmlAttributes={{ lang: 'fr' }}
-          titleTemplate={`${name} - %s`}
-          defaultTitle={title}
+          titleTemplate={`${name} · %s`}
+          defaultTitle={nameAndTitle}
           meta={[
             { name: 'description', content: description },
             { name: 'keywords', content: keywords },
             { name: 'og:type', content: 'website' },
             { name: 'og:site_name', content: name },
             { name: 'og:url', content: url },
-            { name: 'og:title', content: title },
+            { name: 'og:title', content: nameAndTitle },
             { name: 'og:description', content: description },
             { name: 'og:image', content: ogImageUrl },
             { name: 'twitter:card', content: 'summary_large_image' },
             { name: 'twitter:site', content: name },
             { name: 'twitter:creator', content: twitter },
-            { name: 'twitter:title', content: title },
+            { name: 'twitter:title', content: nameAndTitle },
             { name: 'twitter:description', content: description },
             { name: 'twitter:image:src', content: ogImageUrl }
           ]}
