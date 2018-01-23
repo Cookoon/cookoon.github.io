@@ -1,0 +1,24 @@
+.device-frame {
+  width: 100%;
+  max-width: 540px;
+  position: relative;
+  overflow: hidden;
+  .frame {
+    position: relative;
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+  .screen {
+    position: absolute;
+    top: 11%;
+    left: 7%;
+    width: 87%;
+    height: 80%;
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+}
