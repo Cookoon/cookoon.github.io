@@ -26,7 +26,10 @@ const ExamplePage = () => (
           content: 'https://specific.open.graph/image_url.jpg'
         },
         { name: 'twitter:title', content: 'Specific Twitter title' },
-        { name: 'twitter:description', content: 'Specific Twitter desc.' },
+        {
+          name: 'twitter:description',
+          content: 'Specific Twitter description'
+        },
         {
           name: 'twitter:image:src',
           content: 'https://specific.open.graph/image_url.jpg'
