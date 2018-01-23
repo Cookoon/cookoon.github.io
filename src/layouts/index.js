@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 
 import CookoonNav from '../components/CookoonNav';
+import Footer from '../components/Footer';
 import '../styles/index.scss';
 import ogImage from '../images/ogImage.jpg';
 
@@ -48,6 +49,8 @@ class TemplateWrapper extends Component {
         <CookoonNav />
 
         <div>{this.props.children()}</div>
+
+        <Footer />
       </div>
     );
   }
