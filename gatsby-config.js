@@ -10,6 +10,13 @@ module.exports = {
     twitter: '@cookoon'
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-google-tagmanager`,
+      options: {
+        id: 'GTM-P3ZBPZG',
+        includeInDevelopment: false
+      }
+    },
     'gatsby-plugin-react-helmet',
     {
       resolve: 'gatsby-plugin-sass',
