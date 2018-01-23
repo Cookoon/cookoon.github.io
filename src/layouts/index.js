@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 
 import Header from '../components/Header';
+import CookoonNav from '../components/CookoonNav';
 import './index.scss';
 
 const TemplateWrapper = ({ children }) => (
@@ -14,6 +15,7 @@ const TemplateWrapper = ({ children }) => (
         { name: 'keywords', content: 'sample, something' }
       ]}
     />
+    <CookoonNav />
     <Header />
     <div
       style={{
