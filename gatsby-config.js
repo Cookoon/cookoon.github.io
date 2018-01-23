@@ -11,7 +11,25 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: `gatsby-plugin-google-tagmanager`,
+      resolve: 'gatsby-plugin-favicon',
+      options: {
+        logo: './src/images/favicon.png',
+        injectHTML: true,
+        icons: {
+          android: true,
+          appleIcon: true,
+          appleStartup: true,
+          coast: false,
+          favicons: true,
+          firefox: true,
+          twitter: false,
+          yandex: false,
+          windows: false
+        }
+      }
+    },
+    {
+      resolve: 'gatsby-plugin-google-tagmanager',
       options: {
         id: 'GTM-P3ZBPZG',
         includeInDevelopment: false
