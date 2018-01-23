@@ -12,6 +12,7 @@
     "gatsby-plugin-google-tagmanager": "^1.0.12",
     "gatsby-plugin-react-helmet": "^2.0.3",
     "gatsby-plugin-sass": "^1.0.15",
+    "gatsby-plugin-sitemap": "^1.2.10",
     "react-helmet": "^5.2.0"
   },
   "keywords": [

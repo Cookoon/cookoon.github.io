@@ -12,14 +12,14 @@ class TemplateWrapper extends Component {
       title,
       description,
       keywords,
-      url,
+      siteUrl,
       twitter
     } = this.props.data.site.siteMetadata;
 
     const nameAndTitle = `${name} · ${title}`;
 
     const ogImageUrl =
-      process.env.NODE_ENV === 'production' ? url + ogImage : ogImage;
+      process.env.NODE_ENV === 'production' ? siteUrl + ogImage : ogImage;
 
     return (
       <div>
@@ -32,7 +32,7 @@ class TemplateWrapper extends Component {
             { name: 'keywords', content: keywords },
             { name: 'og:type', content: 'website' },
             { name: 'og:site_name', content: name },
-            { name: 'og:url', content: url },
+            { name: 'og:url', content: siteUrl },
             { name: 'og:title', content: nameAndTitle },
             { name: 'og:description', content: description },
             { name: 'og:image', content: ogImageUrl },
@@ -65,7 +65,7 @@ export const pageQuery = graphql`
         title
         description
         keywords
-        url
+        siteUrl
         twitter
       }
     }

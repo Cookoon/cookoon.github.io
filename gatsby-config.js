@@ -6,7 +6,7 @@ module.exports = {
     description:
       'Une communauté exclusive pour organiser vos événements chez les autres',
     keywords: 'cookoon, communauté, événements',
-    url: 'https://cookoon.github.io', // TODO update this before release
+    siteUrl: 'https://cookoon.github.io', // TODO update this before release
     twitter: '@cookoon'
   },
   plugins: [
@@ -41,6 +41,7 @@ module.exports = {
       options: {
         precision: 8
       }
-    }
+    },
+    'gatsby-plugin-sitemap'
   ]
 };
