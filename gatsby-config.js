@@ -5,7 +5,9 @@ module.exports = {
       'Cookoon - Une communauté exclusive pour organiser vos événements chez les autres',
     description:
       'Une communauté exclusive pour organiser vos événements chez les autres',
-    url: 'https://cookoon.github.io' // TODO update this before release
+    keywords: 'cookoon, communauté, événements',
+    url: 'https://cookoon.github.io', // TODO update this before release
+    twitter: '@cookoon'
   },
   plugins: [
     'gatsby-plugin-react-helmet',
