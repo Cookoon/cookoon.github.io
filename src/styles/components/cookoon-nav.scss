@@ -23,3 +23,8 @@
     background-color: $blue;
   }
 }
+@include media-breakpoint-down(sm) {
+  .cookoon-nav-top {
+    padding-top: 0;
+  }
+}
