@@ -1,0 +1,2 @@
+webpackJsonp([0xa7e49a349e28],{193:function(e,t,a){"use strict";function l(e){return e&&e.__esModule?e:{default:e}}t.__esModule=!0;var u=a(2),n=l(u),f=a(47),r=l(f),d=a(38),c=l(d),i=function(){return n.default.createElement("div",null,n.default.createElement(r.default,{title:"Garanties"}),n.default.createElement(c.default,null,n.default.createElement("h1",{className:"h4 font-weight-light mb-4"},"Garanties")))};t.default=i,e.exports=t.default}});
+//# sourceMappingURL=component---src-pages-garanties-js-9a784ce86dcd29f55d6b.js.map
