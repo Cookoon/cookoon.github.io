@@ -1,13 +1,39 @@
-# gatsby-starter-default
-The default Gatsby starter
+# cookoon.github.io
 
-For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/)
+Build with [Gatsby JS](https://www.gatsbyjs.org/)
 
-Install this starter (assuming Gatsby is installed) by running from your CLI:
+## Meta
+
+Metas are defined globally, but you can specify different ones using Helmet:
+
+```jsx
+// /src/pages/example.js
+import React from 'react';
+import Helmet from 'react-helmet';
+
+import specificOgImage from '../images/specificOgImage.jpg';
+
+const ExamplePage = () => (
+  <div>
+    <Helmet
+      title="Specific title"
+      meta={[
+        { name: 'description', content: 'Specific description' },
+        { name: 'keywords', content: 'specific, keywords' },
+        { name: 'og:url', content: 'Specific OpenGraph url' },
+        { name: 'og:title', content: 'Specific OpenGraph title' },
+        { name: 'og:description', content: 'Specific OpenGraph description' },
+        { name: 'og:image', content: specificOgImage },
+        { name: 'twitter:title', content: 'Specific Twitter title' },
+        { name: 'twitter:description', content: 'Specific Twitter desc.' },
+        { name: 'twitter:image:src', content: specificOgImage }
+      ]}
+    />
+
+    <h1>Example Page</h1>
+    {/* ... */}
+  </div>
+);
+
+export default ExamplePage;
 ```
-gatsby new gatsby-example-site
-```
-
-## Deploy
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
