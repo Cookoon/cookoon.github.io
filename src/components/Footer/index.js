@@ -16,7 +16,12 @@ const Footer = () => (
         >
           Contact
         </a>
-        <a className="nav-item nav-link" href="#">
+        <a
+          className="nav-item nav-link"
+          href="mailto:presse@cookoon.fr"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
           Presse
         </a>
         <a
