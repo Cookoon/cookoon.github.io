@@ -1,6 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Default Starter'
+    name: 'Cookoon',
+    title:
+      'Cookoon - Une communauté exclusive pour organiser vos événements chez les autres',
+    description:
+      'Une communauté exclusive pour organiser vos événements chez les autres',
+    url: 'https://cookoon.github.io' // TODO update this before release
   },
   plugins: [
     'gatsby-plugin-react-helmet',
