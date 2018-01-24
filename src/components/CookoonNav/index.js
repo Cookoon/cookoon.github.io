@@ -7,8 +7,7 @@ import {
   NavbarToggler,
   NavbarBrand,
   Nav,
-  NavItem,
-  NavLink
+  NavItem
 } from 'reactstrap';
 
 import logo from './logo-cookoon-white.png';
@@ -18,30 +17,35 @@ class CookoonNav extends Component {
     isOpen: false,
     isTop: true
   };
+
+  componentDidMount() {
+    document.addEventListener('scroll', this.handleScroll);
+  }
+
+  componentWillUnmount() {
+    document.removeEventListener('scroll', this.handleScroll);
+  }
+
   toggle = () => {
     this.setState({
       isOpen: !this.state.isOpen
     });
   };
+
   handleScroll = () => {
     const isTop = window.scrollY < 30;
     if (isTop !== this.state.isTop) {
       this.setState({ isTop });
     }
   };
-  classes = () => {
-    return classNames('cookoon-nav', {
+
+  classes = () =>
+    classNames('cookoon-nav', {
       'cookoon-nav-top': this.state.isTop,
       'cookoon-nav-scrolled': !this.state.isTop,
       'cookoon-nav-opened': this.state.isOpen
     });
-  };
-  componentDidMount() {
-    document.addEventListener('scroll', this.handleScroll);
-  }
-  componentWillUnmount() {
-    document.removeEventListener('scroll', this.handleScroll);
-  }
+
   render() {
     return (
       <div className={this.classes()}>
@@ -54,13 +58,31 @@ class CookoonNav extends Component {
             <Collapse isOpen={this.state.isOpen} navbar>
               <Nav navbar>
                 <NavItem>
-                  <NavLink href="/etre-membre/">Être Membre</NavLink>
+                  <Link
+                    to="/etre-membre/"
+                    className="nav-link"
+                    activeClassName="active"
+                  >
+                    Être Membre
+                  </Link>
                 </NavItem>
                 <NavItem>
-                  <NavLink href="/devenir-hote/">Devenir Hôte</NavLink>
+                  <Link
+                    to="/devenir-hote/"
+                    className="nav-link"
+                    activeClassName="active"
+                  >
+                    Devenir Hôte
+                  </Link>
                 </NavItem>
                 <NavItem>
-                  <NavLink href="/garanties/">Garanties</NavLink>
+                  <Link
+                    to="/garanties/"
+                    className="nav-link"
+                    activeClassName="active"
+                  >
+                    Garanties
+                  </Link>
                 </NavItem>
               </Nav>
             </Collapse>

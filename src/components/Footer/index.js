@@ -5,7 +5,7 @@ const Footer = () => (
   <footer className="navbar navbar-expand-md navbar-dark bg-dark text-center">
     <div className="container justify-content-center justify-content-md-between">
       <div className="navbar-text">
-        <span className="text-nowrap">® Récéptions Nouvelles 2018</span> ·{' '}
+        <span className="text-nowrap">® Réceptions Nouvelles 2018</span> ·{' '}
         <span className="text-nowrap">Tous droits réservés</span>
       </div>
       <div className="navbar-nav">
