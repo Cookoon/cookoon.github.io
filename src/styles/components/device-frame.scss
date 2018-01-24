@@ -22,3 +22,15 @@
     }
   }
 }
+
+@include media-breakpoint-down(xs) {
+  .device-frame {
+    width: 90%;
+  }
+}
+
+@media (max-width: 320px) {
+  .device-frame {
+    width: 75%;
+  }
+}

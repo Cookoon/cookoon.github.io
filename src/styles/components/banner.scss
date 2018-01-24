@@ -27,3 +27,15 @@
     padding-top: 7rem;
   }
 }
+
+@include media-breakpoint-down(xs) {
+  .banner .device-frame {
+    margin-top: 1rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .banner {
+    height: 125vh;
+  }
+}
