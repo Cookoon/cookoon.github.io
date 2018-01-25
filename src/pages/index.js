@@ -42,7 +42,7 @@ const IndexPage = () => (
       </p>
 
       <div className="row">
-        <div className="col-md p-4 d-flex flex-column justify-content-around align-items-center">
+        <div className="col-md p-4 d-flex flex-column justify-content-between align-items-center">
           <img src={iconUser} role="presentation" className="mb-4 w-6r" />
           <h2 className="h3 font-weight-normal mb-4">Etre Membre</h2>
           <p className="text-justify">
@@ -57,7 +57,7 @@ const IndexPage = () => (
           <Link to="/etre-membre/">En savoir plus ></Link>
         </div>
 
-        <div className="col-md p-4 d-flex flex-column justify-content-around align-items-center">
+        <div className="col-md p-4 d-flex flex-column justify-content-between align-items-center">
           <img src={iconSnap} role="presentation" className="mb-4 w-6r" />
           <h2 className="h3 font-weight-normal mb-4">Organiser un événement</h2>
           <p className="text-justify">
@@ -72,7 +72,7 @@ const IndexPage = () => (
           <Link to="/">En savoir plus ></Link>
         </div>
 
-        <div className="col-md p-4 d-flex flex-column justify-content-around align-items-center">
+        <div className="col-md p-4 d-flex flex-column justify-content-between align-items-center">
           <img src={iconJanitor} role="presentation" className="mb-4 w-6r" />
           <h2 className="h3 font-weight-normal mb-4">Devenir hôte</h2>
           <p className="text-justify">
@@ -91,7 +91,7 @@ const IndexPage = () => (
 
     <div className="container text-center">
       <div className="row">
-        <div className="col-md p-5 d-flex flex-column justify-content-around align-items-center bg-primary text-white">
+        <div className="col-md p-5 d-flex flex-column justify-content-between align-items-center bg-primary text-white">
           <h2 className="h3 font-weight-normal mb-4">
             Rejoindre la communauté ?
           </h2>
@@ -108,7 +108,7 @@ const IndexPage = () => (
           </Link>
         </div>
 
-        <div className="col-md p-5 d-flex flex-column justify-content-around align-items-center bg-white">
+        <div className="col-md p-5 d-flex flex-column justify-content-between align-items-center bg-white">
           <h2 className="h3 font-weight-normal mb-4">En toute sécurité</h2>
           <p>Toutes les locations sont assurées par notre partenaire</p>
           <img src={iconAxa} role="presentation" className="mb-4 w-6r" />
