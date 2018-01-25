@@ -20,7 +20,6 @@ const IndexPage = () => (
         <a
           href="https://itunes.apple.com/fr/app/cookoon-inside/id1291943406"
           target="_blank"
-          rel="noreferrer noopener"
           className="d-inline-block mx-1 ml-md-0 mr-md-3 my-2"
         >
           <img alt="App Store" src={appStoreBadge} />
@@ -28,7 +27,6 @@ const IndexPage = () => (
         <a
           href="https://play.google.com/store/apps/details?id=cookoon.cookoonandroid"
           target="_blank"
-          rel="noreferrer noopener"
           className="d-inline-block mx-1 ml-md-0 mr-md-3 my-2"
         >
           <img alt="Google Play" src={googlePlayBadge} />
