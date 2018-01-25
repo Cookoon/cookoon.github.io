@@ -1,6 +1,5 @@
 import React from 'react';
 import Helmet from 'react-helmet';
-import Link from 'gatsby-link';
 
 import Banner from '../components/Banner';
 
@@ -68,7 +67,7 @@ const MemberPage = () => (
                 />
                 <p className="h4">Une réunion en dehors de vos locaux</p>
                 <p className="text-justify small mb-0">
-                  Un comité d’entreprise, une réunion, une séance de formation,
+                  Un comité d'entreprise, une réunion, une séance de formation,
                   pour deux heures ou pour la journée, louez un Cookoon et...
                   réservez le service traiteur !
                 </p>
