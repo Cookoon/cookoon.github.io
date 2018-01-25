@@ -5,7 +5,7 @@ module.exports = {
     description: 'Une communauté exclusive pour recevoir et partager',
     keywords:
       'cookoon, recevons, partout, communauté, exclusive, recevoir, partager',
-    siteUrl: 'https://cookoon.github.io', // TODO update this before release
+    siteUrl: 'http://www.cookoon.fr', // TODO update to https when available
     twitter: '@cookoon'
   },
   plugins: [
