@@ -1,11 +1,10 @@
 module.exports = {
   siteMetadata: {
     name: 'Cookoon',
-    title:
-      'Une communauté exclusive pour organiser vos événements chez les autres',
-    description:
-      'Une communauté exclusive pour organiser vos événements chez les autres',
-    keywords: 'cookoon, communauté, événements',
+    title: 'Recevons partout !',
+    description: 'Une communauté exclusive pour recevoir et partager',
+    keywords:
+      'cookoon, recevons, partout, communauté, exclusive, recevoir, partager',
     siteUrl: 'https://cookoon.github.io', // TODO update this before release
     twitter: '@cookoon'
   },
