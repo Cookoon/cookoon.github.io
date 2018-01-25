@@ -79,9 +79,6 @@ const InsurancePage = () => (
         </div>
       </div>
     </div>
-
-    <div className="container py-4">Questions fréquentes</div>
-
     <div className="bg-white py-5">
       <div className="container d-flex align-items-center">
         <i className="co co-check fa-3x text-primary mx-3" aria-hidden="true" />
