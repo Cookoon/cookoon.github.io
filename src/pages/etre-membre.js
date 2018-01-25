@@ -174,6 +174,59 @@ const MemberPage = () => (
         </div>
       </div>
     </div>
+
+    <div className="bg-white py-5">
+      <div className="container">
+        <div className="row">
+          <div className="col-md d-flex flex-column justify-content-around">
+            <h3>
+              Des services sur-mesure,<br />pour personnaliser votre expérience
+            </h3>
+            <p>
+              Afin que nos membres puissent créer leurs micro-événements du
+              quotidien à l'image de leurs envies, nous proposons un gamme de
+              services accessibles dès la réservation et un service de
+              conciergerie dédié.
+            </p>
+          </div>
+          <div className="col-md">
+            <div className="d-flex flex-column flex-md-row justify-content-beetween align-items-center">
+              <i
+                className="co co-concierge text-primary mr-0 mr-md-3 fa-3x"
+                aria-hidden="true"
+              />
+              <p className="mt-2 mb-md-0 ">
+                <strong>Traiteur :</strong> profitez des offres exclusives de
+                nos traiteurs pour profiter de votre Cookoon. Selon l'heure de
+                votre réception, nous vous proposons à chaque fois une offre
+                simple et dédiée.
+              </p>
+            </div>
+            <div className="d-flex flex-column flex-md-row justify-content-beetween align-items-center">
+              <i
+                className="co co-notifications text-primary mr-0 mr-md-3 fa-3x"
+                aria-hidden="true"
+              />
+              <p className="mt-2 mb-md-0 ">
+                <strong>Chefs à domicile :</strong> envie d'une prestation
+                originale et insolite ? Commander un chef à domicile, selon le
+                budget que vous souhaitez allouer à votre événement.
+              </p>
+            </div>
+            <div className="d-flex flex-column flex-md-row justify-content-beetween align-items-center">
+              <i
+                className="co co-success text-primary mr-0 mr-md-3 fa-3x"
+                aria-hidden="true"
+              />
+              <p className="mt-2 mb-md-0 ">
+                <strong>Une envie insolite ?</strong> Contactez nos concierges,
+                ils trouveront toujours pour vous un service sur-mesure.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 );
 
