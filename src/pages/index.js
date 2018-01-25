@@ -4,6 +4,7 @@ import Link from 'gatsby-link';
 import Banner from '../components/Banner';
 import appStoreBadge from '../images/appStoreBadge.png';
 import googlePlayBadge from '../images/googlePlayBadge.png';
+import ctaBackground from '../images/ctaBackground.jpg';
 import iconAxa from '../images/iconAxa.jpg';
 
 const IndexPage = () => (
@@ -53,7 +54,6 @@ const IndexPage = () => (
             <br />La communauté se construit sur des valeurs d'échange,
             d'implication et de respect.
           </p>
-          <Link to="/etre-membre/">En savoir plus ></Link>
         </div>
 
         <div className="col-md p-4 d-flex flex-column justify-content-between align-items-center">
@@ -75,7 +75,6 @@ const IndexPage = () => (
             Choisissez vos options : traiteur, chef à domicile, joueur de
             harpe... pour personnaliser votre expérience.
           </p>
-          <Link to="/">En savoir plus ></Link>
         </div>
 
         <div className="col-md p-4 d-flex flex-column justify-content-between align-items-center">
@@ -95,8 +94,21 @@ const IndexPage = () => (
             Choisissez des services pour vous affranchir de toutes contraintes :
             ménage, concierge...
           </p>
-          <Link to="/devenir-hote/">En savoir plus ></Link>
         </div>
+      </div>
+    </div>
+
+    <div className="cta" style={{ backgroundImage: `url(${ctaBackground})` }}>
+      <div className="container h-100 py-5 text-center d-flex flex-column justify-content-around align-items-center">
+        <h3 className="text-primary font-weight-normal">
+          Découvrez comment nos membres utilisent Cookoon
+        </h3>
+        <Link
+          to="/etre-membre/"
+          className="btn btn-primary px-5 text-uppercase"
+        >
+          Être membre
+        </Link>
       </div>
     </div>
 
