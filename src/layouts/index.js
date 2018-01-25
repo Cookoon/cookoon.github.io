@@ -48,7 +48,7 @@ class TemplateWrapper extends Component {
         />
         <CookoonNav />
 
-        <div>{this.props.children()}</div>
+        <div className='content'>{this.props.children()}</div>
 
         <Footer />
       </div>
