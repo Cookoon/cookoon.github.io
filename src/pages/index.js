@@ -4,9 +4,6 @@ import Link from 'gatsby-link';
 import Banner from '../components/Banner';
 import appStoreBadge from '../images/appStoreBadge.png';
 import googlePlayBadge from '../images/googlePlayBadge.png';
-import iconUser from '../images/iconUser.png';
-import iconSnap from '../images/iconSnap.png';
-import iconJanitor from '../images/iconJanitor.png';
 import iconAxa from '../images/iconAxa.jpg';
 
 const IndexPage = () => (
@@ -42,9 +39,11 @@ const IndexPage = () => (
       </p>
 
       <div className="row">
-        <div className="col-md p-4 d-flex flex-column justify-content-around align-items-center">
-          <img src={iconUser} role="presentation" className="mb-4 w-6r" />
-          <h2 className="h3 font-weight-normal mb-4">Etre Membre</h2>
+        <div className="col-md p-4 d-flex flex-column justify-content-between align-items-center">
+          <div>
+            <i className="co co-user fa-5x text-primary" aria-hidden="true" />
+            <h2 className="h3 font-weight-normal my-3">Etre Membre</h2>
+          </div>
           <p className="text-justify">
             Chez Cookoon, tout le monde se connaît, ou presque.
           </p>
@@ -57,9 +56,16 @@ const IndexPage = () => (
           <Link to="/etre-membre/">En savoir plus ></Link>
         </div>
 
-        <div className="col-md p-4 d-flex flex-column justify-content-around align-items-center">
-          <img src={iconSnap} role="presentation" className="mb-4 w-6r" />
-          <h2 className="h3 font-weight-normal mb-4">Organiser un événement</h2>
+        <div className="col-md p-4 d-flex flex-column justify-content-between align-items-center">
+          <div>
+            <i
+              className="co co-success fa-5x text-primary"
+              aria-hidden="true"
+            />
+            <h2 className="h3 font-weight-normal my-3">
+              Organiser un événement
+            </h2>
+          </div>
           <p className="text-justify">
             Louez l'appartement d'un autre membre en 3 minutes pour tous vos
             besoins de courte durée : rendez-vous, dîner entre amis, réunions,
@@ -72,9 +78,14 @@ const IndexPage = () => (
           <Link to="/">En savoir plus ></Link>
         </div>
 
-        <div className="col-md p-4 d-flex flex-column justify-content-around align-items-center">
-          <img src={iconJanitor} role="presentation" className="mb-4 w-6r" />
-          <h2 className="h3 font-weight-normal mb-4">Devenir hôte</h2>
+        <div className="col-md p-4 d-flex flex-column justify-content-between align-items-center">
+          <div>
+            <i
+              className="co co-concierge fa-5x text-primary"
+              aria-hidden="true"
+            />
+            <h2 className="h3 font-weight-normal my-3">Devenir hôte</h2>
+          </div>
           <p className="text-justify">
             Participer à la vie de la communauté en proposant votre appartement
             ou votre maison, pour rentabiliser votre lieu de vie pendant vos
@@ -91,7 +102,7 @@ const IndexPage = () => (
 
     <div className="container text-center">
       <div className="row">
-        <div className="col-md p-5 d-flex flex-column justify-content-around align-items-center bg-primary text-white">
+        <div className="col-md p-5 d-flex flex-column justify-content-between align-items-center bg-primary text-white">
           <h2 className="h3 font-weight-normal mb-4">
             Rejoindre la communauté ?
           </h2>
@@ -108,7 +119,7 @@ const IndexPage = () => (
           </Link>
         </div>
 
-        <div className="col-md p-5 d-flex flex-column justify-content-around align-items-center bg-white">
+        <div className="col-md p-5 d-flex flex-column justify-content-between align-items-center bg-white">
           <h2 className="h3 font-weight-normal mb-4">En toute sécurité</h2>
           <p>Toutes les locations sont assurées par notre partenaire</p>
           <img src={iconAxa} role="presentation" className="mb-4 w-6r" />
