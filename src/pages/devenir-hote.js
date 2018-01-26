@@ -15,7 +15,7 @@ const HostPage = () => (
       </h1>
       <a
         href="https://quentin21.typeform.com/to/ljnp8X"
-        className="btn btn-light px-5 text-uppercase"
+        className="btn btn-lg btn-light px-5 text-uppercase"
         target="_blank"
         rel="noreferrer noopener"
       >
@@ -165,7 +165,7 @@ const HostPage = () => (
       </div>
       <a
         href="https://quentin21.typeform.com/to/ljnp8X"
-        className="btn btn-light px-5 text-uppercase"
+        className="btn btn-lg btn-light px-5 text-uppercase"
         target="_blank"
         rel="noreferrer noopener"
       >
