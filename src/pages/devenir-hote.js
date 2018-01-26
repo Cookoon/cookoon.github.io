@@ -10,8 +10,9 @@ const HostPage = () => (
 
     <Banner>
       <h1 className="h4 font-weight-light mb-5">
-        Rentabilisez votre logement pendant vos absences quotidiennes, sans
-        contraintes avec les services.
+        Rentabilisez votre logement
+        <br />durant vos absences quotidiennes
+        <br />sans contraintes avec les services.
       </h1>
       <a
         href="https://quentin21.typeform.com/to/ljnp8X"
@@ -116,7 +117,7 @@ const HostPage = () => (
               <p className="mt-2 mb-md-0 ">
                 Organiser des <strong>micro-événements du quotidien</strong> en
                 louant un Cookoon et en choisissant des services complémentaires
-                comme un traiteur, un chef à domicile, un musicien, …
+                comme un traiteur, un chef à domicile, un musicien, ...
               </p>
             </div>
             <div className="d-flex flex-column flex-md-row justify-content-beetween align-items-center">
@@ -154,8 +155,8 @@ const HostPage = () => (
             <h2 className="h3">Vous souhaitez rejoindre la communauté ?</h2>
             <p className="py-3">
               Si vous ne connaissez pas de membres Cookoon ayant des
-              invitations, vous pouvez postulez en proposant votre logement :
-              appartement, maison, loft ou château.
+              invitations, vous pouvez postuler en proposant votre logement :
+              appartement, maison, loft ou ... château!
               <br />S'il est retenu vous serez invité à nous rejoindre.
             </p>
           </div>

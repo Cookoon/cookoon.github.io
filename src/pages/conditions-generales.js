@@ -577,7 +577,7 @@ const TermsPage = () => (
       </p>
       <p>
         En revanche si la mise à disposition de l'Espace est marquée par des
-        incidents (bris, casse, dégradations…), cette somme sera débitée par
+        incidents (bris, casse, dégradations...), cette somme sera débitée par
         COOKOON à titre de pénalités, sans préjudice des dommages-intérêts qui
         pourrait être réclamés par l'Hôte, en complément.
       </p>

@@ -9,7 +9,7 @@ const MemberPage = () => (
 
     <Banner>
       <h1 className="h4 font-weight-light mb-4">
-        Nos membres louent des Cookoon en 3 minutes et tous les jours pour tous
+        Nos membres louent des Cookoon en 3 minutes tous les jours pour tous
         leurs événements.
       </h1>
       <p className="h4 font-weight-light">
@@ -19,7 +19,7 @@ const MemberPage = () => (
 
     <div className="container text-center">
       <h2 className="h3 pt-5 mb-5">
-        Louer un Cookoon
+        Louez un Cookoon
         <br />pour tous vos besoins personnels ou professionnels
       </h2>
 

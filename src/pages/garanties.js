@@ -9,12 +9,15 @@ const InsurancePage = () => (
   <div>
     <Helmet title="Garanties" />
     <Banner>
-      <h1 className="h4 font-weight-light mb-4">
-        Votre assurance incluse à chaque location
-      </h1>
-      <div className="d-flex justify-content-center justify-content-md-start align-items-end">
-        <p className="h4 font-weight-light mb-2 mr-2">en partenariat avec </p>
-        <img src={logoAxa} alt="Axa" className="w-6r" />
+      <div className="row">
+        <div className="col-md-9 d-flex align-items-center">
+          <h1 className="h4 font-weight-light mb-4 mb-md-0">
+            Votre assurance incluse à chaque location grâce à notre partenaire
+          </h1>
+        </div>
+        <div className="col-md-3 d-flex justify-content-center justify-content-md-start align-items-center">
+          <img src={logoAxa} alt="Axa" className="w-6r" />
+        </div>
       </div>
     </Banner>
     <div className="bg-primary text-white">

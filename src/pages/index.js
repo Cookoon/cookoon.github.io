@@ -10,9 +10,9 @@ import iconAxa from '../images/iconAxa.jpg';
 const IndexPage = () => (
   <div>
     <Banner>
-      <h1 className="h4 font-weight-light mb-4">
-        Une communauté exclusive pour
-        <br />recevoir et échanger
+      <h1 className="h3 mb-4">
+        Une communauté exclusive
+        <br />pour recevoir et échanger
       </h1>
       <div className="store-badge">
         <a
@@ -82,7 +82,7 @@ const IndexPage = () => (
             <h3 className="font-weight-normal my-3">Devenir hôte</h3>
           </div>
           <p>
-            Participer à la vie de la communauté en proposant votre appartement
+            Participez à la vie de la communauté en proposant votre appartement
             ou votre maison, pour rentabiliser votre lieu de vie pendant vos
             absences quotidiennes. Et pas besoin de dormir ailleurs !
           </p>
