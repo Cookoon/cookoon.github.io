@@ -13,48 +13,36 @@ const InsurancePage = () => (
         Votre assurance incluse à chaque location
       </h1>
       <div className="d-flex justify-content-center justify-content-md-start align-items-end">
-        <p className="small mb-2 mr-2">en partenariat avec </p>
+        <p className="h4 font-weight-light mb-2 mr-2">en partenariat avec </p>
         <img src={logoAxa} alt="Axa" className="w-6r" />
       </div>
     </Banner>
     <div className="bg-primary text-white">
       <div className="container">
-        <p className="text-center pt-4 font-weight-bold">
+        <h2 className="h3 text-center pt-5 mb-5">
           Vous êtes immédiatement assuré
-        </p>
+        </h2>
 
-        <div className="row py-3">
+        <div className="row pb-3">
           <div className="offset-md-1 col-md-10 offset-lg-2 col-lg-8">
             <div className="row text-center">
               <div className="col-sm">
-                <i
-                  className="co co-reversed-cleaning fa-3x"
-                  aria-hidden="true"
-                />
+                <i className="co co-stain fa-3x" aria-hidden="true" />
                 <p className="mt-2">Un verre de vin renversé ?</p>
               </div>
 
               <div className="col-sm">
-                <i
-                  className="co co-reversed-cleaning fa-3x"
-                  aria-hidden="true"
-                />
+                <i className="co co-broken-door fa-3x" aria-hidden="true" />
                 <p className="mt-2">Une porte de placard endommagée ?</p>
               </div>
 
               <div className="col-sm">
-                <i
-                  className="co co-reversed-cleaning fa-3x"
-                  aria-hidden="true"
-                />
+                <i className="co co-fire fa-3x" aria-hidden="true" />
                 <p className="mt-2">Un incendit ou un dégât des eaux ?</p>
               </div>
 
               <div className="col-sm">
-                <i
-                  className="co co-reversed-cleaning fa-3x"
-                  aria-hidden="true"
-                />
+                <i className="co co-lost fa-3x" aria-hidden="true" />
                 <p className="mt-2">Un objet qui disparaît ?</p>
               </div>
             </div>

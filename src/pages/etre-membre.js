@@ -18,13 +18,13 @@ const MemberPage = () => (
     </Banner>
 
     <div className="container text-center">
-      <p className="mt-4 font-weight-bold">
+      <h2 className="h3 pt-5 mb-5">
         Louer un Cookoon
         <br />pour tous vos besoins personnels ou professionnels
-      </p>
+      </h2>
 
       <div className="row text-white">
-        <div className="col-md py-3 d-flex justify-content-center">
+        <div className="col-md pb-4 d-flex justify-content-center">
           <div className="flip-container">
             <div className="flipper">
               <div className="front bg-primary rounded p-4 d-flex flex-column justify-content-around align-items-center">
@@ -32,7 +32,7 @@ const MemberPage = () => (
                   className="co co-reversed-notifications fa-5x"
                   aria-hidden="true"
                 />
-                <h2 className="h3">Un dîner entre amis</h2>
+                <h3>Un dîner entre amis</h3>
               </div>
               <div className="back bg-dark rounded p-4 d-flex flex-column justify-content-around align-items-center">
                 <i
@@ -40,7 +40,7 @@ const MemberPage = () => (
                   aria-hidden="true"
                 />
                 <p className="h4">Un dîner entre amis</p>
-                <p className="text-justify small mb-0">
+                <p className="small mb-0">
                   Pour un déjeuner ou un repas entre amis, quand on manque de
                   plance ou que l'on souhaite changer d'air, Cookon est idéal.
                   <br />Ça l'est encore plus avec un chef à domicile !
@@ -50,12 +50,12 @@ const MemberPage = () => (
           </div>
         </div>
 
-        <div className="col-md py-3 d-flex justify-content-center">
+        <div className="col-md pb-4 d-flex justify-content-center">
           <div className="flip-container">
             <div className="flipper">
               <div className="front bg-primary rounded p-4 d-flex flex-column justify-content-around align-items-center">
                 <i className="co co-reversed-user fa-5x" aria-hidden="true" />
-                <h2 className="h3">Une réunion de travail avec votre équipe</h2>
+                <h3>Une réunion de travail avec votre équipe</h3>
               </div>
               <div className="back bg-dark rounded p-4 d-flex flex-column justify-content-around align-items-center">
                 <i
@@ -63,7 +63,7 @@ const MemberPage = () => (
                   aria-hidden="true"
                 />
                 <p className="h4">Une réunion de travail avec votre équipe</p>
-                <p className="text-justify small mb-0">
+                <p className="small mb-0">
                   Pour sortir de la salle Rome ou la salle XL, profitez d'un
                   Cookoon avec votre équipe pour travailler dans un cadre
                   original et vous concentrer en dehors de vos problématiques.
@@ -75,7 +75,7 @@ const MemberPage = () => (
           </div>
         </div>
 
-        <div className="col-md py-3 d-flex justify-content-center">
+        <div className="col-md pb-4 d-flex justify-content-center">
           <div className="flip-container">
             <div className="flipper">
               <div className="front bg-primary rounded p-4 d-flex flex-column justify-content-around align-items-center">
@@ -83,7 +83,7 @@ const MemberPage = () => (
                   className="co co-reversed-addcookoon fa-5x"
                   aria-hidden="true"
                 />
-                <h2 className="h3">Une journée de formation</h2>
+                <h3>Une journée de formation</h3>
               </div>
               <div className="back bg-dark rounded p-4 d-flex flex-column justify-content-around align-items-center">
                 <i
@@ -92,7 +92,7 @@ const MemberPage = () => (
                 />
 
                 <p className="h4">Une journée de formation</p>
-                <p className="text-justify small mb-0">
+                <p className="small mb-0">
                   Formez-vous dans un cadre original et spontané. Demandez
                   l'option traiteur et des outils (paperboard, retroprojecteur,
                   cahiers, etc.) pour vous éviter toute contrainte.
@@ -102,7 +102,7 @@ const MemberPage = () => (
           </div>
         </div>
 
-        <div className="col-md py-3 d-flex justify-content-center">
+        <div className="col-md pb-4 d-flex justify-content-center">
           <div className="flip-container">
             <div className="flipper">
               <div className="front bg-primary rounded p-4 d-flex flex-column justify-content-around align-items-center">
@@ -110,7 +110,7 @@ const MemberPage = () => (
                   className="co co-reversed--camera fa-5x"
                   aria-hidden="true"
                 />
-                <h2 className="h3">Un match de foot sur grand écran</h2>
+                <h3>Un match de foot sur grand écran</h3>
               </div>
               <div className="back bg-dark rounded p-4 d-flex flex-column justify-content-around align-items-center">
                 <i
@@ -118,7 +118,7 @@ const MemberPage = () => (
                   aria-hidden="true"
                 />
                 <p className="h4">Un match de foot sur grand écran</p>
-                <p className="text-justify small mb-0">
+                <p className="small mb-0">
                   Vous n'avez pas la place chez vous pour un grand mur blanc et
                   un retroprojecteur ? Profitez de celui de l'un de nos Hôtes
                   pour regarder une finale de Champion's League ou de Jeux
@@ -129,12 +129,12 @@ const MemberPage = () => (
           </div>
         </div>
 
-        <div className="col-md py-3 d-flex justify-content-center">
+        <div className="col-md pb-4 d-flex justify-content-center">
           <div className="flip-container">
             <div className="flipper">
               <div className="front bg-primary rounded p-4 d-flex flex-column justify-content-around align-items-center">
                 <i className="co co-reversed-bank fa-5x" aria-hidden="true" />
-                <h2 className="h3">Un vide-dressing</h2>
+                <h3>Un vide-dressing</h3>
               </div>
               <div className="back bg-dark rounded p-4 d-flex flex-column justify-content-around align-items-center">
                 <i
@@ -142,7 +142,7 @@ const MemberPage = () => (
                   aria-hidden="true"
                 />
                 <p className="h4">Un vide-dressing</p>
-                <p className="text-justify small mb-0">
+                <p className="small mb-0">
                   Pour recevoir vos ami(e)s, ou vos acheteurs et exposer vos
                   produits, Cookoon est idéal pour accueillir votre événement en
                   toute simplicité.
@@ -152,21 +152,21 @@ const MemberPage = () => (
           </div>
         </div>
 
-        <div className="col-md py-3 d-flex justify-content-center">
+        <div className="col-md pb-4 d-flex justify-content-center">
           <div className="flip-container">
             <div className="flipper">
               <div className="front bg-primary rounded p-4 d-flex flex-column justify-content-around align-items-center">
                 <i className="fa fa-instagram fa-5x" aria-hidden="true" />
-                <h2 className="h3">
+                <h3>
                   Des nouvelles idées ?<br />#cookoonlife
-                </h2>
+                </h3>
               </div>
               <div className="back bg-dark rounded p-4 d-flex flex-column justify-content-around align-items-center">
                 <i className="fa fa-instagram fa-3x mb-2" aria-hidden="true" />
                 <p className="h4">
                   Des nouvelles idées ?<br />#cookoonlife
                 </p>
-                <p className="text-justify small mb-0">
+                <p className="small mb-0">
                   Faites-nous part de toutes vos expériences avec #cookoonlife
                 </p>
               </div>
@@ -180,9 +180,9 @@ const MemberPage = () => (
       <div className="container">
         <div className="row">
           <div className="col-md d-flex flex-column justify-content-around">
-            <h3>
+            <h2 className="h3">
               Des services sur-mesure,<br />pour personnaliser votre expérience
-            </h3>
+            </h2>
             <p>
               Afin que nos membres puissent créer leurs micro-événements du
               quotidien à l'image de leurs envies, nous proposons un gamme de
