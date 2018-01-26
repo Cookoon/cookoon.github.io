@@ -10,7 +10,7 @@ const HostPage = () => (
 
     <Banner>
       <h1 className="h4 font-weight-light mb-5">
-        Rentabilisez votre logement pendant vos absences quotidiennes, et sans
+        Rentabilisez votre logement pendant vos absences quotidiennes, sans
         contraintes avec les services.
       </h1>
       <a
@@ -43,8 +43,8 @@ const HostPage = () => (
           </p>
           <p className="text-justify">
             Le tarif horaire de location est fixé par l'Hôte, que nous
-            conseillons en fonction de sa taille, de son emplacement, ou encore
-            de la demande des membres.
+            conseillons en fonction de la taille, de l'emplacement et des
+            caractéristiques de son logement.
           </p>
           <div className="mb-3" />
         </div>
@@ -66,7 +66,8 @@ const HostPage = () => (
           </p>
           <p className="text-justify">
             Cookoon prélève 7% au titre des frais de services, et vous propose
-            des options supplémentaires : Conciergerie et Ménage à partir de 20€
+            des options supplémentaires : Conciergerie et Ménage à partir de
+            20€.
           </p>
           <div className="mb-3" />
         </div>
@@ -127,7 +128,7 @@ const HostPage = () => (
               />
               <p className="mt-2 mb-md-0 ">
                 Pour des <strong>usages personnels</strong> : un diner entre
-                amis, un match de foot sur grand écran, un vide-dressing etc.,
+                amis, un match de foot sur grand écran, un vide-dressing, etc.,
                 ou <strong>professionnels</strong> : un comité d'entreprise, un
                 repas d'affaires, une journée de formation, etc.
               </p>
@@ -150,13 +151,17 @@ const HostPage = () => (
     </div>
     <div className="bg-primary text-center text-white py-5">
       <div className="container">
-        <h3>Vous souhaitez rejoindre la communauté ?</h3>
-        <p className="py-3">
-          Si vous ne connaissez pas de membres Cookoon ayant des invitations,
-          vous pouvez postulez en proposant votre logement : appartement,
-          maison, loft ou château. S'il est retenu vous serez invité à nous
-          rejoindre.
-        </p>
+        <div className="row">
+          <div className="offset-md-1 col-md-10 offset-lg-2 col-lg-8">
+            <h3>Vous souhaitez rejoindre la communauté ?</h3>
+            <p className="py-3">
+              Si vous ne connaissez pas de membres Cookoon ayant des
+              invitations, vous pouvez postulez en proposant votre logement :
+              appartement, maison, loft ou château.
+              <br />S'il est retenu vous serez invité à nous rejoindre.
+            </p>
+          </div>
+        </div>
       </div>
       <a
         href="https://quentin21.typeform.com/to/ljnp8X"
