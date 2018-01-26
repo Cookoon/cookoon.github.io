@@ -1,0 +1,72 @@
+.faq-container {
+  min-height: 385px;
+}
+
+.accordion {
+  position: relative;
+}
+
+.accordion__title {
+  cursor: pointer;
+  font-weight: bold;
+  color: $blue;
+  &:focus {
+    padding-left: 5px;
+    color: black;
+    outline: none;
+  }
+}
+
+.accordion__body {
+  display: block;
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 0.7px solid black;
+}
+
+.accordion__body--hidden {
+  display: none;
+  opacity: 0;
+  animation: fadein 0.35s ease-in;
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .accordion__body {
+    position: absolute;
+    min-width: 460px;
+    left: 500px;
+    top: 0;
+    animation: fadein 0.35s ease-in;
+  }
+}

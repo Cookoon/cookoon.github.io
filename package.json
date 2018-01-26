@@ -15,6 +15,7 @@
     "gatsby-plugin-react-helmet": "^2.0.3",
     "gatsby-plugin-sass": "^1.0.15",
     "gatsby-plugin-sitemap": "^1.2.10",
+    "react-accessible-accordion": "^1.0.2",
     "react-helmet": "^5.2.0",
     "reactstrap": "^5.0.0-alpha.4"
   },
