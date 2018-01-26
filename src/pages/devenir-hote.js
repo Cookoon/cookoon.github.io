@@ -1,8 +1,8 @@
-import React from "react";
-import Link from "gatsby-link";
+import React from 'react';
+import Link from 'gatsby-link';
 
-import Helmet from "react-helmet";
-import Banner from "../components/Banner";
+import Helmet from 'react-helmet';
+import Banner from '../components/Banner';
 
 const HostPage = () => (
   <div>
@@ -12,7 +12,7 @@ const HostPage = () => (
       <h1 className="h4 font-weight-light mb-5">
         Rentabilisez votre logement
         <br />durant vos absences quotidiennes
-        <br />sans contraintes avec les services.
+        <br />sans contraintes grâce aux services proposés
       </h1>
       <a
         href="https://quentin21.typeform.com/to/ljnp8X"
