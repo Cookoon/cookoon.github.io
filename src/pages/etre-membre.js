@@ -12,9 +12,6 @@ const MemberPage = () => (
         Nos membres louent des Cookoon en 3 minutes tous les jours pour tous
         leurs événements.
       </h1>
-      <p className="h4 font-weight-light">
-        Et vous, pourquoi allez-vous louer un Cookoon ?
-      </p>
     </Banner>
 
     <div className="container text-center">
