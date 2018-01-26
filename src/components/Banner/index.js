@@ -1,14 +1,14 @@
 import React from 'react';
 
 import logo from '../../images/logo.png';
-import backgroundImage from './backgroundImage.jpg';
+import bannerBackground from './bannerBackground.jpg';
 import appScreen from './appScreen.jpg';
 import DeviceFrame from '../DeviceFrame';
 
 const Banner = ({ children }) => (
   <div
     className="banner background-hidden-sm"
-    style={{ backgroundImage: `url(${backgroundImage})` }}
+    style={{ backgroundImage: `url(${bannerBackground})` }}
   >
     <div className="container h-100">
       <div className="row h-100 align-items-center">

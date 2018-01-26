@@ -10,8 +10,6 @@ import {
   NavItem
 } from "reactstrap";
 
-import logo from "./logo-cookoon-white.png";
-
 class CookoonNav extends Component {
   state = {
     isOpen: false,

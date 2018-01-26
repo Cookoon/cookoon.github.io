@@ -1,11 +1,11 @@
-import React from "react";
-import Link from "gatsby-link";
+import React from 'react';
+import Link from 'gatsby-link';
 
-import Banner from "../components/Banner";
-import appStoreBadge from "../images/appStoreBadge.png";
-import googlePlayBadge from "../images/googlePlayBadge.png";
-import ctaBackground from "../images/ctaBackground.jpg";
-import iconAxa from "../images/iconAxa.jpg";
+import Banner from '../components/Banner';
+import appStoreBadge from '../images/appStoreBadge.png';
+import googlePlayBadge from '../images/googlePlayBadge.png';
+import ctaBackground from '../images/ctaBackground.jpg';
+import iconAxa from '../images/iconAxa.jpg';
 
 const IndexPage = () => (
   <div>
@@ -105,7 +105,7 @@ const IndexPage = () => (
         </h3>
         <Link
           to="/etre-membre/"
-          className="btn btn-primary px-5 text-uppercase"
+          className="btn btn-lg btn-primary px-5 text-uppercase"
         >
           Être membre
         </Link>
@@ -125,7 +125,7 @@ const IndexPage = () => (
           </p>
           <Link
             to="/devenir-hote/"
-            className="btn btn-light px-5 text-uppercase"
+            className="btn btn-lg btn-light px-5 text-uppercase"
           >
             Devenir hôte
           </Link>
