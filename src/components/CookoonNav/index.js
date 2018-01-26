@@ -50,7 +50,7 @@ class CookoonNav extends Component {
 
   render() {
     return (
-      <div className={this.classes()}>
+      <div className={this.classes()} onBlur={this.closeOnNav}>
         <Navbar dark expand="md">
           <div className="container">
             <NavbarBrand href="/">
@@ -58,7 +58,7 @@ class CookoonNav extends Component {
             </NavbarBrand>
             <NavbarToggler onClick={this.toggle} />
             <Collapse isOpen={this.state.isOpen} navbar>
-              <Nav onClick={this.closeOnNav} navbar>
+              <Nav navbar>
                 <NavItem>
                   <Link
                     to="/etre-membre/"
