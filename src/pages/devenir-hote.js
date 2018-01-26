@@ -24,24 +24,24 @@ const HostPage = () => (
     </Banner>
 
     <div className="container text-center">
-      <p className="mt-4">
-        <span className="font-weight-bold">Être Hôte Cookoon</span>
+      <h2 className="h3 text-center pt-5 mb-5">
+        Être Hôte Cookoon
         <br />
         <span className="font-italic">Comment ça marche ?</span>
-      </p>
+      </h2>
 
       <div className="row">
         <div className="col-md px-4 d-flex flex-column justify-content-between align-items-center">
           <div>
             <i className="co co-home text-primary fa-5x" aria-hidden="true" />
-            <h2 className="h3 font-weight-normal my-4">Un appartement</h2>
+            <h3 className="font-weight-normal my-4">Un appartement</h3>
           </div>
-          <p className="text-justify">
+          <p>
             Les Hôtes inscrivent leur logement sur l'application Cookoon, le
             rendent disponible durant leurs absences quotidiennes et reçoivent
             le paiement quelques jours après chaque location.
           </p>
-          <p className="text-justify">
+          <p>
             Le tarif horaire de location est fixé par l'Hôte, que nous
             conseillons en fonction de la taille, de l'emplacement et des
             caractéristiques de son logement.
@@ -55,16 +55,16 @@ const HostPage = () => (
               className="co co-success text-primary fa-5x"
               aria-hidden="true"
             />
-            <h2 className="h3 font-weight-normal my-4">
+            <h3 className="font-weight-normal my-4">
               Le rentabiliser simplement
-            </h2>
+            </h3>
           </div>
-          <p className="text-justify">
+          <p>
             Avec seulement 2 locations de quelques heures par semaine, les
             membres peuvent obtenir jusqu'à 1500 € par mois en fonction du tarif
             horaire qu'ils proposent.
           </p>
-          <p className="text-justify">
+          <p>
             Cookoon prélève 7% au titre des frais de services, et vous propose
             des options supplémentaires : Conciergerie et Ménage à partir de
             20€.
@@ -78,16 +78,14 @@ const HostPage = () => (
               className="co co-concierge text-primary fa-5x"
               aria-hidden="true"
             />
-            <h2 className="h3 font-weight-normal my-4">En toute tranquilité</h2>
+            <h3 className="font-weight-normal my-4">En toute tranquilité</h3>
           </div>
-          <p className="text-justify">
-            Seuls les membres peuvent louer l'appartement de l'Hôte.
-          </p>
-          <p className="text-justify">
+          <p>Seuls les membres peuvent louer l'appartement de l'Hôte.</p>
+          <p>
             Chaque location fait l'objet d'un check-in et d'un check-out par vos
             soins ou par un concierge Cookoon.
           </p>
-          <p className="text-justify">
+          <p>
             AXA, notre partenaire, garantit toutes les locations via un contrat
             d'assurance spécialement conçu pour les usages Cookoon.
           </p>
@@ -99,7 +97,7 @@ const HostPage = () => (
       <div className="container">
         <div className="row">
           <div className="col-md d-flex flex-column justify-content-around">
-            <h3>Qui sommes-nous ?</h3>
+            <h2 className="h3">Qui sommes-nous ?</h2>
             <p>
               Cookoon est une communauté exclusive qui repose sur la confiance
               et l'implication de ses membres.
@@ -112,7 +110,7 @@ const HostPage = () => (
           <div className="col-md">
             <div className="d-flex flex-column flex-md-row justify-content-beetween align-items-center">
               <i
-                className="co co-concierge text-primary mr-0 mr-md-3 fa-3x"
+                className="co co-success text-primary mr-0 mr-md-3 fa-3x"
                 aria-hidden="true"
               />
               <p className="mt-2 mb-md-0 ">
@@ -123,7 +121,7 @@ const HostPage = () => (
             </div>
             <div className="d-flex flex-column flex-md-row justify-content-beetween align-items-center">
               <i
-                className="co co-notifications text-primary mr-0 mr-md-3 fa-3x"
+                className="co co-user text-primary mr-0 mr-md-3 fa-3x"
                 aria-hidden="true"
               />
               <p className="mt-2 mb-md-0 ">
@@ -135,7 +133,7 @@ const HostPage = () => (
             </div>
             <div className="d-flex flex-column flex-md-row justify-content-beetween align-items-center">
               <i
-                className="co co-success text-primary mr-0 mr-md-3 fa-3x"
+                className="co co-concierge text-primary mr-0 mr-md-3 fa-3x"
                 aria-hidden="true"
               />
               <p className="mt-2 mb-md-0 ">
@@ -153,7 +151,7 @@ const HostPage = () => (
       <div className="container">
         <div className="row">
           <div className="offset-md-1 col-md-10 offset-lg-2 col-lg-8">
-            <h3>Vous souhaitez rejoindre la communauté ?</h3>
+            <h2 className="h3">Vous souhaitez rejoindre la communauté ?</h2>
             <p className="py-3">
               Si vous ne connaissez pas de membres Cookoon ayant des
               invitations, vous pouvez postulez en proposant votre logement :

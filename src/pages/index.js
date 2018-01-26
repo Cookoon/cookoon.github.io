@@ -33,22 +33,20 @@ const IndexPage = () => (
     </Banner>
 
     <div className="container text-center">
-      <p className="mt-4">
-        <span className="font-weight-bold">En toute simplicité</span>
+      <h2 className="h3 pt-5 mb-5">
+        En toute simplicité
         <br />
         <span className="font-italic">Comment ça marche ?</span>
-      </p>
+      </h2>
 
       <div className="row">
-        <div className="col-md p-4 d-flex flex-column justify-content-between align-items-center">
+        <div className="col-md pb-4 px-4 d-flex flex-column justify-content-between align-items-center">
           <div>
             <i className="co co-user fa-5x text-primary" aria-hidden="true" />
-            <h2 className="h3 font-weight-normal my-3">Etre Membre</h2>
+            <h3 className="font-weight-normal my-3">Etre Membre</h3>
           </div>
-          <p className="text-justify">
-            Chez Cookoon, tout le monde se connaît, ou presque.
-          </p>
-          <p className="text-justify">
+          <p>Chez Cookoon, tout le monde se connaît, ou presque.</p>
+          <p>
             Chaque membre est invité par un parrain qui est responsable de son
             filleul.
             <br />La communauté se construit sur des valeurs d'échange,
@@ -56,41 +54,39 @@ const IndexPage = () => (
           </p>
         </div>
 
-        <div className="col-md p-4 d-flex flex-column justify-content-between align-items-center">
+        <div className="col-md pb-4 px-4 d-flex flex-column justify-content-between align-items-center">
           <div>
             <i
               className="co co-success fa-5x text-primary"
               aria-hidden="true"
             />
-            <h2 className="h3 font-weight-normal my-3">
-              Organiser un événement
-            </h2>
+            <h3 className="font-weight-normal my-3">Organiser un événement</h3>
           </div>
-          <p className="text-justify">
+          <p>
             Louez l'appartement d'un autre membre en 3 minutes pour tous vos
             besoins de courte durée : rendez-vous, dîner entre amis, réunions,
             etc.
           </p>
-          <p className="text-justify">
+          <p>
             Choisissez vos options : traiteur, chef à domicile, joueur de
             harpe... pour personnaliser votre expérience.
           </p>
         </div>
 
-        <div className="col-md p-4 d-flex flex-column justify-content-between align-items-center">
+        <div className="col-md pb-4 px-4 d-flex flex-column justify-content-between align-items-center">
           <div>
             <i
               className="co co-concierge fa-5x text-primary"
               aria-hidden="true"
             />
-            <h2 className="h3 font-weight-normal my-3">Devenir hôte</h2>
+            <h3 className="font-weight-normal my-3">Devenir hôte</h3>
           </div>
-          <p className="text-justify">
+          <p>
             Participer à la vie de la communauté en proposant votre appartement
             ou votre maison, pour rentabiliser votre lieu de vie pendant vos
             absences quotidiennes. Et pas besoin de dormir ailleurs !
           </p>
-          <p className="text-justify">
+          <p>
             Choisissez des services pour vous affranchir de toutes contraintes :
             ménage, concierge...
           </p>
@@ -100,9 +96,9 @@ const IndexPage = () => (
 
     <div className="cta" style={{ backgroundImage: `url(${ctaBackground})` }}>
       <div className="container h-100 py-5 text-center d-flex flex-column justify-content-around align-items-center">
-        <h3 className="text-primary font-weight-normal">
+        <h2 className="h3 text-primary">
           Découvrez comment nos membres utilisent Cookoon
-        </h3>
+        </h2>
         <Link
           to="/etre-membre/"
           className="btn btn-lg btn-primary px-5 text-uppercase"
@@ -115,9 +111,7 @@ const IndexPage = () => (
     <div className="container-fluid text-center">
       <div className="row">
         <div className="col-md p-5 d-flex flex-column justify-content-between align-items-center bg-primary text-white">
-          <h2 className="h3 font-weight-normal mb-4">
-            Rejoindre la communauté ?
-          </h2>
+          <h2 className="h3 mb-4">Rejoindre la communauté ?</h2>
           <p>Seuls les membres parrainés peuvent rejoindre Cookoon.</p>
           <p>
             Vous n'avez pas de parrain ?
@@ -132,7 +126,7 @@ const IndexPage = () => (
         </div>
 
         <div className="col-md p-5 d-flex flex-column justify-content-between align-items-center bg-white">
-          <h2 className="h3 font-weight-normal mb-4">En toute sécurité</h2>
+          <h2 className="h3 mb-4">En toute sécurité</h2>
           <p>Toutes les locations sont assurées par notre partenaire</p>
           <img src={iconAxa} role="presentation" className="mb-4 w-6r" />
           <Link to="/garanties/">En savoir plus sur les garanties ></Link>

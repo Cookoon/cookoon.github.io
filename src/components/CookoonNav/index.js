@@ -59,28 +59,28 @@ class CookoonNav extends Component {
             <NavbarToggler onClick={this.toggle} />
             <Collapse isOpen={this.state.isOpen} navbar>
               <Nav navbar>
-                <NavItem>
+                <NavItem className="px-3">
                   <Link
                     to="/etre-membre/"
-                    className="nav-link px-3"
+                    className="nav-link"
                     activeClassName="active"
                   >
                     Être Membre
                   </Link>
                 </NavItem>
-                <NavItem>
+                <NavItem className="px-3">
                   <Link
                     to="/devenir-hote/"
-                    className="nav-link px-3"
+                    className="nav-link"
                     activeClassName="active"
                   >
                     Devenir Hôte
                   </Link>
                 </NavItem>
-                <NavItem>
+                <NavItem className="px-3">
                   <Link
                     to="/garanties/"
-                    className="nav-link px-3"
+                    className="nav-link"
                     activeClassName="active"
                   >
                     Garanties
