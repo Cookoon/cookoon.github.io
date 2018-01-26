@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
-import Link from 'gatsby-link';
-import classNames from 'classnames';
+import React, { Component } from "react";
+import Link from "gatsby-link";
+import classNames from "classnames";
 import {
   Collapse,
   Navbar,
@@ -8,7 +8,7 @@ import {
   NavbarBrand,
   Nav,
   NavItem
-} from 'reactstrap';
+} from "reactstrap";
 
 class CookoonNav extends Component {
   state = {
@@ -17,11 +17,11 @@ class CookoonNav extends Component {
   };
 
   componentDidMount() {
-    document.addEventListener('scroll', this.handleScroll);
+    document.addEventListener("scroll", this.handleScroll);
   }
 
   componentWillUnmount() {
-    document.removeEventListener('scroll', this.handleScroll);
+    document.removeEventListener("scroll", this.handleScroll);
   }
 
   toggle = () => {
@@ -42,15 +42,15 @@ class CookoonNav extends Component {
   };
 
   classes = () =>
-    classNames('cookoon-nav', {
-      'cookoon-nav-top': this.state.isTop,
-      'cookoon-nav-scrolled': !this.state.isTop,
-      'cookoon-nav-opened': this.state.isOpen
+    classNames("cookoon-nav", {
+      "cookoon-nav-top": this.state.isTop,
+      "cookoon-nav-scrolled": !this.state.isTop,
+      "cookoon-nav-opened": this.state.isOpen
     });
 
   render() {
     return (
-      <div className={this.classes()}>
+      <div className={this.classes()} onBlur={this.closeOnNav}>
         <Navbar dark expand="md">
           <div className="container">
             <NavbarBrand href="/">
@@ -58,7 +58,7 @@ class CookoonNav extends Component {
             </NavbarBrand>
             <NavbarToggler onClick={this.toggle} />
             <Collapse isOpen={this.state.isOpen} navbar>
-              <Nav onClick={this.closeOnNav} navbar>
+              <Nav navbar>
                 <NavItem className="px-3">
                   <Link
                     to="/etre-membre/"
