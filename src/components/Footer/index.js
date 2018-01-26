@@ -9,36 +9,41 @@ const Footer = () => (
         <span className="text-nowrap">Tous droits réservés</span>
       </div>
       <div className="navbar-nav">
-        <a
-          className="nav-item nav-link px-3"
-          href="mailto:Concierge Cookoon<concierge@cookoon.fr>"
-          target="_blank"
-          rel="noreferrer noopener"
-        >
-          Contact
-        </a>
-        <a
-          className="nav-item nav-link px-3"
-          href="mailto:presse@cookoon.fr"
-          target="_blank"
-          rel="noreferrer noopener"
-        >
-          Presse
-        </a>
-        <a
-          className="nav-item nav-link px-3"
-          href="https://aide.cookoon.fr"
-          target="_blank"
-          rel="noreferrer noopener"
-        >
-          Aide
-        </a>
-        <Link
-          to="/conditions-generales/"
-          className="nav-item nav-link px-3 pr-md-0"
-        >
-          Conditions générales
-        </Link>
+        <div className="nav-item px-3">
+          <a
+            className="nav-link"
+            href="mailto:Concierge Cookoon<concierge@cookoon.fr>"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            Contact
+          </a>
+        </div>
+        <div className="nav-item px-3">
+          <a
+            className="nav-link"
+            href="mailto:presse@cookoon.fr"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            Presse
+          </a>
+        </div>
+        <div className="nav-item px-3">
+          <a
+            className="nav-link"
+            href="https://aide.cookoon.fr"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            Aide
+          </a>
+        </div>
+        <div className="nav-item px-3 pr-md-0">
+          <Link to="/conditions-generales/" className="nav-link">
+            Conditions générales
+          </Link>
+        </div>
       </div>
     </div>
   </footer>

@@ -1,6 +1,6 @@
-import React, { Component } from "react";
-import Link from "gatsby-link";
-import classNames from "classnames";
+import React, { Component } from 'react';
+import Link from 'gatsby-link';
+import classNames from 'classnames';
 import {
   Collapse,
   Navbar,
@@ -8,7 +8,7 @@ import {
   NavbarBrand,
   Nav,
   NavItem
-} from "reactstrap";
+} from 'reactstrap';
 
 class CookoonNav extends Component {
   state = {
@@ -17,11 +17,11 @@ class CookoonNav extends Component {
   };
 
   componentDidMount() {
-    document.addEventListener("scroll", this.handleScroll);
+    document.addEventListener('scroll', this.handleScroll);
   }
 
   componentWillUnmount() {
-    document.removeEventListener("scroll", this.handleScroll);
+    document.removeEventListener('scroll', this.handleScroll);
   }
 
   toggle = () => {
@@ -42,10 +42,10 @@ class CookoonNav extends Component {
   };
 
   classes = () =>
-    classNames("cookoon-nav", {
-      "cookoon-nav-top": this.state.isTop,
-      "cookoon-nav-scrolled": !this.state.isTop,
-      "cookoon-nav-opened": this.state.isOpen
+    classNames('cookoon-nav', {
+      'cookoon-nav-top': this.state.isTop,
+      'cookoon-nav-scrolled': !this.state.isTop,
+      'cookoon-nav-opened': this.state.isOpen
     });
 
   render() {
@@ -59,28 +59,28 @@ class CookoonNav extends Component {
             <NavbarToggler onClick={this.toggle} />
             <Collapse isOpen={this.state.isOpen} navbar>
               <Nav onClick={this.closeOnNav} navbar>
-                <NavItem>
+                <NavItem className="px-3">
                   <Link
                     to="/etre-membre/"
-                    className="nav-link px-3"
+                    className="nav-link"
                     activeClassName="active"
                   >
                     Être Membre
                   </Link>
                 </NavItem>
-                <NavItem>
+                <NavItem className="px-3">
                   <Link
                     to="/devenir-hote/"
-                    className="nav-link px-3"
+                    className="nav-link"
                     activeClassName="active"
                   >
                     Devenir Hôte
                   </Link>
                 </NavItem>
-                <NavItem>
+                <NavItem className="px-3">
                   <Link
                     to="/garanties/"
-                    className="nav-link px-3"
+                    className="nav-link"
                     activeClassName="active"
                   >
                     Garanties
