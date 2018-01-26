@@ -32,14 +32,14 @@ const MemberPage = () => (
                   className="co co-reversed-notifications fa-5x"
                   aria-hidden="true"
                 />
-                <h2 className="h3">Un repas hors les murs</h2>
+                <h2 className="h3">Un dîner entre amis</h2>
               </div>
               <div className="back bg-dark rounded p-4 d-flex flex-column justify-content-around align-items-center">
                 <i
                   className="co co-reversed-notifications fa-3x mb-2"
                   aria-hidden="true"
                 />
-                <p className="h4">Un repas hors les murs</p>
+                <p className="h4">Un dîner entre amis</p>
                 <p className="text-justify small mb-0">
                   Pour un déjeuner ou un repas entre amis, quand on manque de
                   plance ou que l'on souhaite changer d'air, Cookon est idéal.
@@ -54,18 +54,15 @@ const MemberPage = () => (
           <div className="flip-container">
             <div className="flipper">
               <div className="front bg-primary rounded p-4 d-flex flex-column justify-content-around align-items-center">
-                <i
-                  className="co co-reversed-meeting fa-5x"
-                  aria-hidden="true"
-                />
-                <h2 className="h3">Une réunion en dehors de vos locaux</h2>
+                <i className="co co-reversed-user fa-5x" aria-hidden="true" />
+                <h2 className="h3">Une réunion de travail avec votre équipe</h2>
               </div>
               <div className="back bg-dark rounded p-4 d-flex flex-column justify-content-around align-items-center">
                 <i
-                  className="co co-reversed-meeting fa-3x mb-2"
+                  className="co co-reversed-user fa-3x mb-2"
                   aria-hidden="true"
                 />
-                <p className="h4">Une réunion en dehors de vos locaux</p>
+                <p className="h4">Une réunion de travail avec votre équipe</p>
                 <p className="text-justify small mb-0">
                   Un comité d'entreprise, une réunion, une séance de formation,
                   pour deux heures ou pour la journée, louez un Cookoon et...
@@ -84,7 +81,7 @@ const MemberPage = () => (
                   className="co co-reversed-addcookoon fa-5x"
                   aria-hidden="true"
                 />
-                <h2 className="h3">Une sieste ou un moment de repos</h2>
+                <h2 className="h3">Une journée de formation</h2>
               </div>
               <div className="back bg-dark rounded p-4 d-flex flex-column justify-content-around align-items-center">
                 <i
@@ -92,11 +89,8 @@ const MemberPage = () => (
                   aria-hidden="true"
                 />
 
-                <p className="h4">Une sieste ou un moment de repos</p>
-                <p className="text-justify small mb-0">
-                  Pour vous retrouver avec vous-même, travailler au calme ou
-                  réfléchir... louez un Cookoon !
-                </p>
+                <p className="h4">Une journée de formation</p>
+                <p className="text-justify small mb-0">TODO texte</p>
               </div>
             </div>
           </div>
@@ -110,19 +104,15 @@ const MemberPage = () => (
                   className="co co-reversed--camera fa-5x"
                   aria-hidden="true"
                 />
-                <h2 className="h3">Un shooting ou un casting</h2>
+                <h2 className="h3">Un match de foot sur grand écran</h2>
               </div>
               <div className="back bg-dark rounded p-4 d-flex flex-column justify-content-around align-items-center">
                 <i
                   className="co co-reversed--camera fa-3x mb-2"
                   aria-hidden="true"
                 />
-                <p className="h4">Un shooting ou un casting</p>
-                <p className="text-justify small mb-0">
-                  Avoir un décor qui colle avec votre produit ou recevoir ceux
-                  qui vous serviront de modèles ? Cookoon est parfait organiser
-                  une matinée de travail !
-                </p>
+                <p className="h4">Un match de foot sur grand écran</p>
+                <p className="text-justify small mb-0">TODO texte</p>
               </div>
             </div>
           </div>
@@ -133,14 +123,14 @@ const MemberPage = () => (
             <div className="flipper">
               <div className="front bg-primary rounded p-4 d-flex flex-column justify-content-around align-items-center">
                 <i className="co co-reversed-bank fa-5x" aria-hidden="true" />
-                <h2 className="h3">Un vide-dressing ou un pop-up store ?</h2>
+                <h2 className="h3">Un vide-dressing</h2>
               </div>
               <div className="back bg-dark rounded p-4 d-flex flex-column justify-content-around align-items-center">
                 <i
                   className="co co-reversed-bank fa-3x mb-2"
                   aria-hidden="true"
                 />
-                <p className="h4">Un vide-dressing ou un pop-up store ?</p>
+                <p className="h4">Un vide-dressing</p>
                 <p className="text-justify small mb-0">
                   Pour recevoir vos ami(e)s, ou vos acheteurs et exposer vos
                   produits, Cookoon est idéal pour accueillir votre événement en
@@ -166,7 +156,7 @@ const MemberPage = () => (
                   Des nouvelles idées ?<br />#cookoonlife
                 </p>
                 <p className="text-justify small mb-0">
-                  Faites-nous part de toutes vos expérience avec #cookoonlife
+                  Faites-nous part de toutes vos expériences avec #cookoonlife
                 </p>
               </div>
             </div>

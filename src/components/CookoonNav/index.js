@@ -52,7 +52,7 @@ class CookoonNav extends Component {
         <Navbar dark expand="md">
           <div className="container">
             <NavbarBrand href="/">
-              <img src={logo} alt="Logo" />
+              <i className="co co-logo fa-3x" aria-hidden="true" />
             </NavbarBrand>
             <NavbarToggler onClick={this.toggle} />
             <Collapse isOpen={this.state.isOpen} navbar>
@@ -60,7 +60,7 @@ class CookoonNav extends Component {
                 <NavItem>
                   <Link
                     to="/etre-membre/"
-                    className="nav-link"
+                    className="nav-link px-3"
                     activeClassName="active"
                   >
                     Être Membre
@@ -69,7 +69,7 @@ class CookoonNav extends Component {
                 <NavItem>
                   <Link
                     to="/devenir-hote/"
-                    className="nav-link"
+                    className="nav-link px-3"
                     activeClassName="active"
                   >
                     Devenir Hôte
@@ -78,7 +78,7 @@ class CookoonNav extends Component {
                 <NavItem>
                   <Link
                     to="/garanties/"
-                    className="nav-link"
+                    className="nav-link px-3"
                     activeClassName="active"
                   >
                     Garanties

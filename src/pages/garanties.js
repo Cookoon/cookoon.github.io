@@ -47,7 +47,7 @@ const InsurancePage = () => (
                   className="co co-reversed-cleaning fa-3x"
                   aria-hidden="true"
                 />
-                <p className="mt-2">Un incendit ou un dégat des eaux ?</p>
+                <p className="mt-2">Un incendit ou un dégât des eaux ?</p>
               </div>
 
               <div className="col-sm">

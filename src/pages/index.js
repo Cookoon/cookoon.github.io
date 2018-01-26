@@ -12,7 +12,7 @@ const IndexPage = () => (
     <Banner>
       <h1 className="h4 font-weight-light mb-4">
         Une communauté exclusive pour
-        <br />organiser vos événements chez les autres
+        <br />recevoir et échanger
       </h1>
       <div className="store-badge">
         <a
@@ -120,8 +120,8 @@ const IndexPage = () => (
           </h2>
           <p>Seuls les membres parrainés peuvent rejoindre Cookoon.</p>
           <p>
-            Vous n'avez pas de parrain ? Vous pouvez postuler en proposant votre
-            logement !
+            Vous n'avez pas de parrain ?
+            <br />Vous pouvez postuler en proposant votre logement !
           </p>
           <Link
             to="/devenir-hote/"
