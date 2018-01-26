@@ -15,10 +15,8 @@
     width: 100%;
     top: 0;
   }
-  &-opened {
-    background-color: $blue;
-  }
 }
+
 @include media-breakpoint-down(sm) {
   .cookoon-nav {
     background-color: $blue;
