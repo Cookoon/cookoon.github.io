@@ -18,11 +18,14 @@ const ExamplePage = () => (
       meta={[
         { name: 'description', content: 'Specific description' },
         { name: 'keywords', content: 'specific, keywords' },
-        { name: 'og:url', content: 'Specific OpenGraph url' },
-        { name: 'og:title', content: 'Specific OpenGraph title' },
-        { name: 'og:description', content: 'Specific OpenGraph description' },
+        { property: 'og:url', content: 'Specific OpenGraph url' },
+        { property: 'og:title', content: 'Specific OpenGraph title' },
         {
-          name: 'og:image',
+          property: 'og:description',
+          content: 'Specific OpenGraph description'
+        },
+        {
+          property: 'og:image',
           content: 'https://specific.open.graph/image_url.jpg'
         },
         { name: 'twitter:title', content: 'Specific Twitter title' },
