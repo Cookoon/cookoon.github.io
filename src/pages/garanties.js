@@ -1,9 +1,10 @@
-import React from 'react';
-import Link from 'gatsby-link';
-import Helmet from 'react-helmet';
+import React from "react";
+import Link from "gatsby-link";
+import Helmet from "react-helmet";
 
-import Banner from '../components/Banner';
-import logoAxa from '../images/logoAxa.png';
+import Banner from "../components/Banner";
+import Faq from "../components/Faq";
+import logoAxa from "../images/logoAxa.png";
 
 const InsurancePage = () => (
   <div>
@@ -70,27 +71,31 @@ const InsurancePage = () => (
         </div>
       </div>
     </div>
+    <div className="container faq-container">
+      <h2 className="h3 text-center pt-5 mb-5">Questions fréquentes</h2>
+      <Faq />
+    </div>
     <div className="bg-white py-5">
       <div className="container d-flex align-items-center">
         <i className="co co-check fa-3x text-primary mx-3" aria-hidden="true" />
         <p className="mb-0">
           Les informations ci-dessus sont non contractuelles, pour toute
-          information supplémentaire, merci de consulter les{' '}
+          information supplémentaire, merci de consulter les{" "}
           <a
             href="https://drive.google.com/open?id=1YSDLo0SK3z9Yf0lLvoSO7KCp6Jv7OGnO"
             target="_blank"
             rel="noreferrer noopener"
           >
             conditions générales
-          </a>{' '}
-          et les{' '}
+          </a>{" "}
+          et les{" "}
           <a
             href="https://drive.google.com/open?id=1HxostqQkQs0FxH9a4-aXeey9oHTiD4Sa"
             target="_blank"
             rel="noreferrer noopener"
           >
             conditions particulières
-          </a>{' '}
+          </a>{" "}
           des garanties offertes par Cookoon.
         </p>
       </div>
