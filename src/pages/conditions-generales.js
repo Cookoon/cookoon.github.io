@@ -902,11 +902,11 @@ const TermsPage = () => (
         fait que si les Membres refusent les cookies, certaines fonctionnalités
         proposées pourraient ne pas être effectives.
       </p>
-      <p>
+      {/* <p>
         Veuillez également lire attentivement notre Charte de Protection des
         Données à Caractère Personnel, consultable sur le site
         https://www.COOKOON.fr/terms/privacy_policy.
-      </p>
+      </p> */}
       <h4>9.2 Modification et notification</h4>
       <p>
         COOKOON se réserve le droit, à sa seule discrétion, de modifier le Site,
