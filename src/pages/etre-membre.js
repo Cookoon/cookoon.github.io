@@ -64,9 +64,11 @@ const MemberPage = () => (
                 />
                 <p className="h4">Une réunion de travail avec votre équipe</p>
                 <p className="text-justify small mb-0">
-                  Un comité d'entreprise, une réunion, une séance de formation,
-                  pour deux heures ou pour la journée, louez un Cookoon et...
-                  réservez le service traiteur !
+                  Pour sortir de la salle Rome ou la salle XL, profitez d'un
+                  Cookoon avec votre équipe pour travailler dans un cadre
+                  original et vous concentrer en dehors de vos problématiques.
+                  <br />Profitez des services supplémentaires pour tout vous
+                  simplifier.
                 </p>
               </div>
             </div>
@@ -90,7 +92,11 @@ const MemberPage = () => (
                 />
 
                 <p className="h4">Une journée de formation</p>
-                <p className="text-justify small mb-0">TODO texte</p>
+                <p className="text-justify small mb-0">
+                  Formez-vous dans un cadre original et spontané. Demandez
+                  l'option traiteur et des outils (paperboard, retroprojecteur,
+                  cahiers, etc.) pour vous éviter toute contrainte.
+                </p>
               </div>
             </div>
           </div>
@@ -112,7 +118,12 @@ const MemberPage = () => (
                   aria-hidden="true"
                 />
                 <p className="h4">Un match de foot sur grand écran</p>
-                <p className="text-justify small mb-0">TODO texte</p>
+                <p className="text-justify small mb-0">
+                  Vous n'avez pas la place chez vous pour un grand mur blanc et
+                  un retroprojecteur ? Profitez de celui de l'un de nos Hôtes
+                  pour regarder une finale de Champion's League ou de Jeux
+                  Olympiques !
+                </p>
               </div>
             </div>
           </div>
