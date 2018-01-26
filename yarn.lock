@@ -2489,8 +2489,8 @@ dom-walk@^0.1.0:
   resolved "https://registry.yarnpkg.com/dom-walk/-/dom-walk-0.1.1.tgz#672226dc74c8f799ad35307df936aba11acd6018"
 
 domain-browser@^1.1.1:
-  version "1.1.7"
-  resolved "https://registry.yarnpkg.com/domain-browser/-/domain-browser-1.1.7.tgz#867aa4b093faa05f1de08c06f4d7b21fdf8698bc"
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/domain-browser/-/domain-browser-1.2.0.tgz#3d31f50191a6749dd1375a7f522e823d42e54eda"
 
 domelementtype@1, domelementtype@^1.3.0:
   version "1.3.0"
@@ -3558,9 +3558,9 @@ gatsby-1-config-css-modules@^1.0.8:
   dependencies:
     babel-runtime "^6.26.0"
 
-gatsby-cli@^1.1.29:
-  version "1.1.29"
-  resolved "https://registry.yarnpkg.com/gatsby-cli/-/gatsby-cli-1.1.29.tgz#590f766ca61591e69a7793660b767257b896d6fe"
+gatsby-cli@^1.1.31:
+  version "1.1.31"
+  resolved "https://registry.yarnpkg.com/gatsby-cli/-/gatsby-cli-1.1.31.tgz#31534dd5a6df0dff5fe9dcb39de0bd072c318290"
   dependencies:
     babel-code-frame "^6.26.0"
     babel-runtime "^6.26.0"
@@ -3647,8 +3647,8 @@ gatsby-react-router-scroll@^1.0.8:
     warning "^3.0.0"
 
 gatsby@^1.9.158:
-  version "1.9.166"
-  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-1.9.166.tgz#556e7c3450b7cbb674ca03c776eda598d073d493"
+  version "1.9.169"
+  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-1.9.169.tgz#4070a4773157c5dbbe14ba2a34e8206cf4247950"
   dependencies:
     async "^2.1.2"
     babel-code-frame "^6.22.0"
@@ -3688,7 +3688,7 @@ gatsby@^1.9.158:
     front-matter "^2.1.0"
     fs-extra "^4.0.1"
     gatsby-1-config-css-modules "^1.0.8"
-    gatsby-cli "^1.1.29"
+    gatsby-cli "^1.1.31"
     gatsby-link "^1.6.34"
     gatsby-module-loader "^1.0.9"
     gatsby-react-router-scroll "^1.0.8"
@@ -3745,6 +3745,7 @@ gatsby@^1.9.158:
     style-loader "^0.13.0"
     type-of "^2.0.1"
     url-loader "^0.5.7"
+    uuid "^3.1.0"
     v8-compile-cache "^1.1.0"
     webpack "^1.13.3"
     webpack-configurator "^0.3.0"
@@ -7525,8 +7526,8 @@ regexpu-core@^2.0.0:
     regjsparser "^0.1.4"
 
 registry-auth-token@^3.0.1:
-  version "3.3.1"
-  resolved "https://registry.yarnpkg.com/registry-auth-token/-/registry-auth-token-3.3.1.tgz#fb0d3289ee0d9ada2cbb52af5dfe66cb070d3006"
+  version "3.3.2"
+  resolved "https://registry.yarnpkg.com/registry-auth-token/-/registry-auth-token-3.3.2.tgz#851fd49038eecb586911115af845260eec983f20"
   dependencies:
     rc "^1.1.6"
     safe-buffer "^5.0.1"
