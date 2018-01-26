@@ -1,8 +1,8 @@
-import React from 'react';
-import Link from 'gatsby-link';
+import React from "react";
+import Link from "gatsby-link";
 
-import Helmet from 'react-helmet';
-import Banner from '../components/Banner';
+import Helmet from "react-helmet";
+import Banner from "../components/Banner";
 
 const HostPage = () => (
   <div>
@@ -32,7 +32,7 @@ const HostPage = () => (
       </h2>
 
       <div className="row">
-        <div className="col-md px-4 d-flex flex-column justify-content-between align-items-center">
+        <div className="col-md px-4">
           <div>
             <i className="co co-home text-primary fa-5x" aria-hidden="true" />
             <h3 className="font-weight-normal my-4">Un appartement</h3>
@@ -50,7 +50,7 @@ const HostPage = () => (
           <div className="mb-3" />
         </div>
 
-        <div className="col-md px-4 d-flex flex-column justify-content-between align-items-center">
+        <div className="col-md px-4">
           <div>
             <i
               className="co co-success text-primary fa-5x"
@@ -73,7 +73,7 @@ const HostPage = () => (
           <div className="mb-3" />
         </div>
 
-        <div className="col-md px-4 pb-4 d-flex flex-column justify-content-between align-items-center">
+        <div className="col-md px-4 pb-4">
           <div>
             <i
               className="co co-concierge text-primary fa-5x"
@@ -81,10 +81,10 @@ const HostPage = () => (
             />
             <h3 className="font-weight-normal my-4">En toute tranquilité</h3>
           </div>
-          <p>Seuls les membres peuvent louer l'appartement de l'Hôte.</p>
           <p>
-            Chaque location fait l'objet d'un check-in et d'un check-out par vos
-            soins ou par un concierge Cookoon.
+            Seuls les membres peuvent louer l'appartement de l'Hôte. Chaque
+            location fait l'objet d'un check-in et d'un check-out par vos soins
+            ou par un concierge Cookoon.
           </p>
           <p>
             AXA, notre partenaire, garantit toutes les locations via un contrat

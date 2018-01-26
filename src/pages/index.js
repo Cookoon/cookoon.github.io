@@ -1,11 +1,11 @@
-import React from 'react';
-import Link from 'gatsby-link';
+import React from "react";
+import Link from "gatsby-link";
 
-import Banner from '../components/Banner';
-import appStoreBadge from '../images/appStoreBadge.png';
-import googlePlayBadge from '../images/googlePlayBadge.png';
-import ctaBackground from '../images/ctaBackground.jpg';
-import iconAxa from '../images/iconAxa.jpg';
+import Banner from "../components/Banner";
+import appStoreBadge from "../images/appStoreBadge.png";
+import googlePlayBadge from "../images/googlePlayBadge.png";
+import ctaBackground from "../images/ctaBackground.jpg";
+import iconAxa from "../images/iconAxa.jpg";
 
 const IndexPage = () => (
   <div>
@@ -40,7 +40,7 @@ const IndexPage = () => (
       </h2>
 
       <div className="row">
-        <div className="col-md pb-4 px-4 d-flex flex-column justify-content-between align-items-center">
+        <div className="col-md pb-4 px-4">
           <div>
             <i className="co co-user fa-5x text-primary" aria-hidden="true" />
             <h3 className="font-weight-normal my-3">Etre Membre</h3>
@@ -54,7 +54,7 @@ const IndexPage = () => (
           </p>
         </div>
 
-        <div className="col-md pb-4 px-4 d-flex flex-column justify-content-between align-items-center">
+        <div className="col-md pb-4 px-4">
           <div>
             <i
               className="co co-success fa-5x text-primary"
@@ -73,7 +73,7 @@ const IndexPage = () => (
           </p>
         </div>
 
-        <div className="col-md pb-4 px-4 d-flex flex-column justify-content-between align-items-center">
+        <div className="col-md pb-4 px-4">
           <div>
             <i
               className="co co-concierge fa-5x text-primary"
