@@ -47,7 +47,6 @@ const HostPage = () => (
             conseillons en fonction de la taille, de l'emplacement et des
             caractéristiques de son logement.
           </p>
-          <div className="mb-3" />
         </div>
 
         <div className="col-md px-4">
@@ -70,7 +69,6 @@ const HostPage = () => (
             des options supplémentaires : Conciergerie et Ménage à partir de
             20€.
           </p>
-          <div className="mb-3" />
         </div>
 
         <div className="col-md px-4 pb-4">
