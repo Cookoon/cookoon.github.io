@@ -1,11 +1,11 @@
-import React from 'react';
-import Link from 'gatsby-link';
+import React from "react";
+import Link from "gatsby-link";
 
-import Banner from '../components/Banner';
-import appStoreBadge from '../images/appStoreBadge.png';
-import googlePlayBadge from '../images/googlePlayBadge.png';
-import ctaBackground from '../images/ctaBackground.jpg';
-import iconAxa from '../images/iconAxa.jpg';
+import Banner from "../components/Banner";
+import appStoreBadge from "../images/appStoreBadge.png";
+import googlePlayBadge from "../images/googlePlayBadge.png";
+import ctaBackground from "../images/ctaBackground.jpg";
+import iconAxa from "../images/iconAxa.jpg";
 
 const IndexPage = () => (
   <div>
@@ -112,7 +112,7 @@ const IndexPage = () => (
       </div>
     </div>
 
-    <div className="container text-center">
+    <div className="container-fluid text-center">
       <div className="row">
         <div className="col-md p-5 d-flex flex-column justify-content-between align-items-center bg-primary text-white">
           <h2 className="h3 font-weight-normal mb-4">

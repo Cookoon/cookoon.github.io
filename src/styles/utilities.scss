@@ -11,3 +11,25 @@
 .h-7r {
   height: 7rem;
 }
+
+.bg-extend-left:before {
+  content: "";
+  background-color: inherit;
+  position: absolute;
+  height: 100%;
+  width: 200%;
+  z-index: -1;
+  top: 0;
+  right: 0;
+}
+
+.bg-extend-right:after {
+  content: "";
+  background-color: inherit;
+  position: absolute;
+  height: 100%;
+  width: 200%;
+  z-index: -1;
+  top: 0;
+  left: 0;
+}
