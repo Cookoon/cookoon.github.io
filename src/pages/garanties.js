@@ -85,7 +85,6 @@ const InsurancePage = () => (
           <a
             href="https://drive.google.com/open?id=1YSDLo0SK3z9Yf0lLvoSO7KCp6Jv7OGnO"
             target="_blank"
-            rel="noreferrer noopener"
           >
             conditions générales
           </a>{' '}
@@ -93,7 +92,6 @@ const InsurancePage = () => (
           <a
             href="https://drive.google.com/open?id=1HxostqQkQs0FxH9a4-aXeey9oHTiD4Sa"
             target="_blank"
-            rel="noreferrer noopener"
           >
             conditions particulières
           </a>{' '}
