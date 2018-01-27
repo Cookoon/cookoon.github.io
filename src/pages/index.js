@@ -1,11 +1,11 @@
-import React from "react";
-import Link from "gatsby-link";
+import React from 'react';
+import Link from 'gatsby-link';
 
-import Banner from "../components/Banner";
-import appStoreBadge from "../images/appStoreBadge.png";
-import googlePlayBadge from "../images/googlePlayBadge.png";
-import ctaBackground from "../images/ctaBackground.jpg";
-import iconAxa from "../images/iconAxa.jpg";
+import Banner from '../components/Banner';
+import appStoreBadge from '../images/appStoreBadge.png';
+import googlePlayBadge from '../images/googlePlayBadge.png';
+import ctaBackground from '../images/ctaBackground.jpg';
+import iconAxa from '../images/iconAxa.jpg';
 
 const IndexPage = () => (
   <div>
@@ -33,11 +33,7 @@ const IndexPage = () => (
     </Banner>
 
     <div className="container text-center">
-      <h2 className="h3 pt-5 mb-5">
-        En toute simplicité
-        <br />
-        <span className="font-italic">Comment ça marche ?</span>
-      </h2>
+      <h2 className="h3 pt-5 mb-5">En toute simplicité</h2>
 
       <div className="row">
         <div className="col-md pb-4 px-4">

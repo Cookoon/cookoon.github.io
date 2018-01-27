@@ -9,7 +9,7 @@ const MemberPage = () => (
 
     <Banner>
       <h1 className="h4 font-weight-light mb-4">
-        Nos membres louent des Cookoon en 3 minutes tous les jours pour tous
+        Nos membres louent des Cookoon en trois minutes tous les jours pour tous
         leurs événements.
       </h1>
     </Banner>

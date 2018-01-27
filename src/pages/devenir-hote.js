@@ -25,11 +25,7 @@ const HostPage = () => (
     </Banner>
 
     <div className="container text-center">
-      <h2 className="h3 text-center pt-5 mb-5">
-        Être Hôte Cookoon
-        <br />
-        <span className="font-italic">Comment ça marche ?</span>
-      </h2>
+      <h2 className="h3 text-center pt-5 mb-5">Être Hôte Cookoon</h2>
 
       <div className="row">
         <div className="col-md px-4">

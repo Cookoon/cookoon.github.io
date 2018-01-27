@@ -1,10 +1,10 @@
-import React from "react";
-import Link from "gatsby-link";
-import Helmet from "react-helmet";
+import React from 'react';
+import Link from 'gatsby-link';
+import Helmet from 'react-helmet';
 
-import Banner from "../components/Banner";
-import Faq from "../components/Faq";
-import logoAxa from "../images/logoAxa.png";
+import Banner from '../components/Banner';
+import Faq from '../components/Faq';
+import logoAxa from '../images/logoAxa.png';
 
 const InsurancePage = () => (
   <div>
@@ -13,7 +13,8 @@ const InsurancePage = () => (
       <div className="row">
         <div className="col-md-9 d-flex align-items-center">
           <h1 className="h4 font-weight-light mb-4 mb-md-0">
-            Votre assurance incluse à chaque location grâce à notre partenaire
+            Votre assurance incluse
+            <br />à chaque location grâce à notre partenaire
           </h1>
         </div>
         <div className="col-md-3 d-flex justify-content-center justify-content-md-start align-items-center">
@@ -80,22 +81,22 @@ const InsurancePage = () => (
         <i className="co co-check fa-3x text-primary mx-3" aria-hidden="true" />
         <p className="mb-0">
           Les informations ci-dessus sont non contractuelles, pour toute
-          information supplémentaire, merci de consulter les{" "}
+          information supplémentaire, merci de consulter les{' '}
           <a
             href="https://drive.google.com/open?id=1YSDLo0SK3z9Yf0lLvoSO7KCp6Jv7OGnO"
             target="_blank"
             rel="noreferrer noopener"
           >
             conditions générales
-          </a>{" "}
-          et les{" "}
+          </a>{' '}
+          et les{' '}
           <a
             href="https://drive.google.com/open?id=1HxostqQkQs0FxH9a4-aXeey9oHTiD4Sa"
             target="_blank"
             rel="noreferrer noopener"
           >
             conditions particulières
-          </a>{" "}
+          </a>{' '}
           des garanties offertes par Cookoon.
         </p>
       </div>
