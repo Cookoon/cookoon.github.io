@@ -39,7 +39,7 @@ const MemberPage = () => (
                 <p className="h4">Un dîner entre amis</p>
                 <p className="small mb-0">
                   Pour un déjeuner ou un repas entre amis, quand on manque de
-                  plance ou que l'on souhaite changer d'air, Cookon est idéal.
+                  place ou que l'on souhaite changer d'air, Cookon est idéal.
                   <br />Ça l'est encore plus avec un chef à domicile !
                 </p>
               </div>
@@ -61,7 +61,7 @@ const MemberPage = () => (
                 />
                 <p className="h4">Une réunion de travail avec votre équipe</p>
                 <p className="small mb-0">
-                  Pour sortir de la salle Rome ou la salle XL, profitez d'un
+                  Pour changer de la salle Rome ou de la salle XL, profitez d'un
                   Cookoon avec votre équipe pour travailler dans un cadre
                   original et vous concentrer en dehors de vos problématiques.
                   <br />Profitez des services supplémentaires pour tout vous
@@ -182,7 +182,7 @@ const MemberPage = () => (
             </h2>
             <p>
               Afin que nos membres puissent créer leurs micro-événements du
-              quotidien à l'image de leurs envies, nous proposons un gamme de
+              quotidien à l'image de leurs envies, nous proposons une gamme de
               services accessibles dès la réservation et un service de
               conciergerie dédié.
             </p>

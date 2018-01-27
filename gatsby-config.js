@@ -2,10 +2,10 @@ module.exports = {
   siteMetadata: {
     name: 'Cookoon',
     title: 'Recevons partout !',
-    description: 'Une communauté exclusive pour recevoir et partager',
+    description: 'Une communauté exclusive pour recevoir et échanger',
     keywords:
-      'cookoon, recevons, partout, communauté, exclusive, recevoir, partager',
-    siteUrl: 'http://www.cookoon.fr', // TODO update to https when available
+      'cookoon, recevons, partout, communauté, exclusive, recevoir, échanger',
+    siteUrl: 'https://cookoon.fr',
     twitter: '@cookoon'
   },
   plugins: [
