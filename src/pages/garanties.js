@@ -14,7 +14,8 @@ const InsurancePage = () => (
         <div className="col-md-9 d-flex align-items-center">
           <h1 className="h4 font-weight-light mb-4 mb-md-0">
             Votre assurance incluse
-            <br />à chaque location grâce à notre partenaire
+            <br />à chaque location
+            <br />grâce à notre partenaire
           </h1>
         </div>
         <div className="col-md-3 d-flex justify-content-center justify-content-md-start align-items-center">
