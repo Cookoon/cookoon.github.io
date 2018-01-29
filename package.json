@@ -19,17 +19,15 @@
     "react-helmet": "^5.2.0",
     "reactstrap": "^5.0.0-alpha.4"
   },
-  "keywords": [
-    "gatsby",
-    "cookoon"
-  ],
+  "keywords": ["gatsby", "cookoon"],
   "license": "MIT",
   "main": "n/a",
   "scripts": {
     "build": "gatsby build",
     "deploy": "gatsby build && gh-pages -d public -b master",
     "develop": "gatsby develop",
-    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.js\"",
+    "format":
+      "prettier --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.js\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {

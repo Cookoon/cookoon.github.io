@@ -11,7 +11,7 @@ const InsurancePage = () => (
     <Helmet title="Garanties" />
     <Banner>
       <div className="row">
-        <div className="col-md-9 d-flex align-items-center">
+        <div className="col-md-9 d-flex justify-content-center justify-content-md-start align-items-center">
           <h1 className="h3 mb-4 mb-md-0">
             Votre assurance incluse
             <br />à chaque location
