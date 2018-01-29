@@ -4,6 +4,10 @@
   }
 }
 
+.h-100vh {
+  height: 100vh;
+}
+
 .w-6r {
   width: 6rem;
 }
@@ -13,7 +17,7 @@
 }
 
 .bg-extend-left:before {
-  content: "";
+  content: '';
   background-color: inherit;
   position: absolute;
   height: 100%;
@@ -24,7 +28,7 @@
 }
 
 .bg-extend-right:after {
-  content: "";
+  content: '';
   background-color: inherit;
   position: absolute;
   height: 100%;

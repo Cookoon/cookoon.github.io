@@ -1,13 +1,14 @@
 // Graphical variables
-@import "config/fonts";
-@import "config/colors";
-@import "config/bootstrap-variables";
+@import 'config/fonts';
+@import 'config/colors';
+@import 'config/bootstrap-variables';
 
 // External libraries
-@import "~bootstrap/scss/bootstrap";
-@import "~font-awesome/css/font-awesome.css";
-@import "vendor/icons";
-@import "utilities";
+@import '~bootstrap/scss/bootstrap';
+@import '~font-awesome/css/font-awesome.css';
+@import 'vendor/icons';
 
 // Components
-@import "components/index";
+@import 'utilities';
+@import 'layouts';
+@import 'components/index';
