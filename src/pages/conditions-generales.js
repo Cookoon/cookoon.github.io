@@ -1,11 +1,9 @@
-import React from 'react';
-import Helmet from 'react-helmet';
+import React from "react";
+import Helmet from "react-helmet";
 
 const TermsPage = () => (
   <div>
     <Helmet title="Conditions générales" />
-
-    <div className="bg-primary h-7r" />
 
     <div className="container pt-4">
       <h3>Prologue</h3>
