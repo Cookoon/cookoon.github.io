@@ -53,7 +53,7 @@ class TemplateWrapper extends Component {
             { name: 'twitter:creator', content: twitter },
             { name: 'twitter:title', content: nameAndTitle },
             { name: 'twitter:description', content: description },
-            { name: 'twitter:image:src', content: ogImageUrl }
+            { name: 'twitter:image', content: ogImageUrl }
           ]}
         />
         <CookoonNav pathname={this.props.location.pathname} />

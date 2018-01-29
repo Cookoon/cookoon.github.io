@@ -34,7 +34,7 @@ const ExamplePage = () => (
           content: 'Specific Twitter description'
         },
         {
-          name: 'twitter:image:src',
+          name: 'twitter:image',
           content: 'https://specific.open.graph/image_url.jpg'
         }
       ]}
