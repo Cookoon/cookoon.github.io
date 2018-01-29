@@ -12,7 +12,7 @@ const InsurancePage = () => (
     <Banner>
       <div className="row">
         <div className="col-md-9 d-flex align-items-center">
-          <h1 className="h4 font-weight-light mb-4 mb-md-0">
+          <h1 className="h3 mb-4 mb-md-0">
             Votre assurance incluse
             <br />à chaque location
             <br />grâce à notre partenaire

@@ -8,7 +8,7 @@ const MemberPage = () => (
     <Helmet title="Etre membre" />
 
     <Banner>
-      <h1 className="h4 font-weight-light mb-4">
+      <h1 className="h3 mb-4">
         Nos membres louent des Cookoon en trois minutes tous les jours pour tous
         leurs événements.
       </h1>

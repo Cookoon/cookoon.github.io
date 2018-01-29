@@ -9,7 +9,7 @@ const HostPage = () => (
     <Helmet title="Devenir hôte" />
 
     <Banner>
-      <h1 className="h4 font-weight-light mb-5">
+      <h1 className="h3 mb-5">
         Rentabilisez votre logement
         <br />durant vos absences quotidiennes
         <br />sans contraintes grâce aux services proposés
