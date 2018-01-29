@@ -1,4 +1,12 @@
 .cookoon-nav {
+  &-simple {
+    background-color: $blue;
+    padding: 0px !important;
+    position: fixed !important;
+    & + .content {
+      margin-top: 5rem !important;
+    }
+  }
   z-index: 1;
   background-color: transparent;
   transition: background-color 0.5s ease;
@@ -16,19 +24,18 @@
     top: 0;
   }
 }
-
 @include media-breakpoint-down(sm) {
   .cookoon-nav {
     background-color: $blue;
-    & + .content {
-      margin-top: 0px;
-      transition: margin-top 0.5s ease;
-    }
     &-top {
       padding-top: 0px;
       position: fixed;
       width: 100%;
       top: 0;
+    }
+    & + .content {
+      margin-top: 0px;
+      transition: margin-top 0.5s ease;
     }
     &-opened + .content {
       margin-top: 120px;
