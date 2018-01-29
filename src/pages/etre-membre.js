@@ -15,11 +15,11 @@ const MemberPage = () => (
     </Banner>
 
     <div className="container text-center">
-      <h2 className="h3 pt-5 mb-5">
+      <p className="h4 font-italic pt-5">Vous êtes membre ?</p>
+      <h2 className="h3 mb-5">
         Louez un Cookoon
         <br />pour tous vos besoins personnels ou professionnels
       </h2>
-
       <div className="row text-white">
         <div className="col-md pb-4 d-flex justify-content-center">
           <div className="flip-container">
@@ -29,18 +29,17 @@ const MemberPage = () => (
                   className="co co-reversed-notifications fa-5x"
                   aria-hidden="true"
                 />
-                <h3>Un dîner entre amis</h3>
+                <h3>Un repas</h3>
               </div>
               <div className="back bg-dark rounded p-4 d-flex flex-column justify-content-around align-items-center">
                 <i
                   className="co co-reversed-notifications fa-3x mb-2"
                   aria-hidden="true"
                 />
-                <p className="h4">Un dîner entre amis</p>
+                <p className="h4">Un repas</p>
                 <p className="small mb-0">
-                  Pour un déjeuner ou un repas entre amis, quand on manque de
-                  place ou que l'on souhaite changer d'air, Cookon est idéal.
-                  <br />Ça l'est encore plus avec un chef à domicile !
+                  Pour un déjeuner d'affaire, un dîner entre amis, un brunch en
+                  famille, avec un chef, un traiteur ou en cuisinant soi-même
                 </p>
               </div>
             </div>
@@ -52,20 +51,19 @@ const MemberPage = () => (
             <div className="flipper">
               <div className="front bg-primary rounded p-4 d-flex flex-column justify-content-around align-items-center">
                 <i className="co co-reversed-user fa-5x" aria-hidden="true" />
-                <h3>Une réunion de travail avec votre équipe</h3>
+                <h3>Une réunion ou un rendez-vous</h3>
               </div>
               <div className="back bg-dark rounded p-4 d-flex flex-column justify-content-around align-items-center">
                 <i
                   className="co co-reversed-user fa-3x mb-2"
                   aria-hidden="true"
                 />
-                <p className="h4">Une réunion de travail avec votre équipe</p>
+                <p className="h4">Une réunion ou un rendez-vous</p>
                 <p className="small mb-0">
-                  Pour changer de la salle Rome ou de la salle XL, profitez d'un
-                  Cookoon avec votre équipe pour travailler dans un cadre
-                  original et vous concentrer en dehors de vos problématiques.
-                  <br />Profitez des services supplémentaires pour tout vous
-                  simplifier.
+                  Pour un rendez, une réunion de travail, un comité d'entreprise
+                  original, une séance de coaching, un cours de langue...
+                  <br />Votre concierge peut s'occuper des carnets de note ou
+                  des bouteilles d'eau !
                 </p>
               </div>
             </div>
@@ -76,23 +74,22 @@ const MemberPage = () => (
           <div className="flip-container">
             <div className="flipper">
               <div className="front bg-primary rounded p-4 d-flex flex-column justify-content-around align-items-center">
-                <i
-                  className="co co-reversed-addcookoon fa-5x"
-                  aria-hidden="true"
-                />
-                <h3>Une journée de formation</h3>
+                <i className="co co-reversed-bank fa-5x" aria-hidden="true" />
+                <h3>Une journée de travail</h3>
               </div>
               <div className="back bg-dark rounded p-4 d-flex flex-column justify-content-around align-items-center">
                 <i
-                  className="co co-reversed-addcookoon fa-3x mb-2"
+                  className="co co-reversed-bank fa-3x mb-2"
                   aria-hidden="true"
                 />
 
-                <p className="h4">Une journée de formation</p>
+                <p className="h4">Une journée de travail</p>
                 <p className="small mb-0">
-                  Formez-vous dans un cadre original et spontané. Demandez
-                  l'option traiteur et des outils (paperboard, retroprojecteur,
-                  cahiers, etc.) pour vous éviter toute contrainte.
+                  Pour une formation, une journée de team building, une
+                  assemblée générale...
+                  <br />Votre concierge s'occupe du catering, du vidéo
+                  projecteur ou de gérer la venue de vos invités si vous le
+                  souhaitez.
                 </p>
               </div>
             </div>
@@ -107,19 +104,20 @@ const MemberPage = () => (
                   className="co co-reversed--camera fa-5x"
                   aria-hidden="true"
                 />
-                <h3>Un match de foot sur grand écran</h3>
+                <h3>Un événement sportif ou culturel sur grand écran</h3>
               </div>
               <div className="back bg-dark rounded p-4 d-flex flex-column justify-content-around align-items-center">
                 <i
                   className="co co-reversed--camera fa-3x mb-2"
                   aria-hidden="true"
                 />
-                <p className="h4">Un match de foot sur grand écran</p>
+                <p className="h4">
+                  Un événement sportif ou culturel sur grand écran
+                </p>
                 <p className="small mb-0">
-                  Vous n'avez pas la place chez vous pour un grand mur blanc et
-                  un retroprojecteur ? Profitez de celui de l'un de nos Hôtes
-                  pour regarder une finale de Champion's League ou de Jeux
-                  Olympiques !
+                  Pour regarder, sur grand écran, une finale de Champion's
+                  League ou des Jeux Olympiques, la remise de la Palme d'Or ou
+                  même le dernier blockbuster...
                 </p>
               </div>
             </div>
@@ -130,19 +128,25 @@ const MemberPage = () => (
           <div className="flip-container">
             <div className="flipper">
               <div className="front bg-primary rounded p-4 d-flex flex-column justify-content-around align-items-center">
-                <i className="co co-reversed-bank fa-5x" aria-hidden="true" />
-                <h3>Un vide-dressing</h3>
+                <i
+                  className="co co-reversed-success fa-5x"
+                  aria-hidden="true"
+                />
+                <h3>
+                  Un vide-dressing, un salon de lecture, une séance de yoga...
+                </h3>
               </div>
               <div className="back bg-dark rounded p-4 d-flex flex-column justify-content-around align-items-center">
                 <i
-                  className="co co-reversed-bank fa-3x mb-2"
+                  className="co co-reversed-success fa-3x mb-2"
                   aria-hidden="true"
                 />
-                <p className="h4">Un vide-dressing</p>
+                <p className="h4">
+                  Un vide-dressing, un salon de lecture, une séance de yoga...
+                </p>
                 <p className="small mb-0">
-                  Pour recevoir vos ami(e)s, ou vos acheteurs et exposer vos
-                  produits, Cookoon est idéal pour accueillir votre événement en
-                  toute simplicité.
+                  Pour réunir des amis autour d'une activité, d'un hobby ou d'un
+                  centre d'intérêt, avec ou sans l'aide de votre concierge.
                 </p>
               </div>
             </div>
@@ -155,13 +159,13 @@ const MemberPage = () => (
               <div className="front bg-primary rounded p-4 d-flex flex-column justify-content-around align-items-center">
                 <i className="fa fa-instagram fa-5x" aria-hidden="true" />
                 <h3>
-                  Des nouvelles idées ?<br />#cookoonlife
+                  De nouvelles idées ?<br />#cookoonlife
                 </h3>
               </div>
               <div className="back bg-dark rounded p-4 d-flex flex-column justify-content-around align-items-center">
                 <i className="fa fa-instagram fa-3x mb-2" aria-hidden="true" />
                 <p className="h4">
-                  Des nouvelles idées ?<br />#cookoonlife
+                  De nouvelles idées ?<br />#cookoonlife
                 </p>
                 <p className="small mb-0">
                   Faites-nous part de toutes vos expériences avec #cookoonlife

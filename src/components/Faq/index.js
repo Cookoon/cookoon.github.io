@@ -1,12 +1,12 @@
-import React from "react";
-import ReactDOM from "react-dom";
+import React from 'react';
+import ReactDOM from 'react-dom';
 
 import {
   Accordion,
   AccordionItem,
   AccordionItemTitle,
   AccordionItemBody
-} from "react-accessible-accordion";
+} from 'react-accessible-accordion';
 
 const Faq = () => (
   <Accordion>
@@ -26,10 +26,10 @@ const Faq = () => (
           </li>
         </ul>
         <p>
-          Attention, cette assurance ne se substitue pas à l’assurance
+          Attention, cette assurance ne se substitue pas à l'assurance
           habitation. Les espaces mis en location sur Cookoon doivent être
           couverts par un contrat Multirisque Habitation ou un
-          contratd’assurance spécifique en fonction du local loué.
+          contratd'assurance spécifique en fonction du local loué.
         </p>
       </AccordionItemBody>
     </AccordionItem>
@@ -41,10 +41,10 @@ const Faq = () => (
         <ul>
           <li>
             Particulier ou professionnel ayant réservé un logement meublé via
-            l’application ou le site Cookoon ;
+            l'application ou le site Cookoon ;
           </li>
           <li>Son conjoint et ses enfants ;</li>
-          <li>Toute autre personne participant à l’occupation du lieu.</li>
+          <li>Toute autre personne participant à l'occupation du lieu.</li>
         </ul>
       </AccordionItemBody>
     </AccordionItem>
@@ -72,15 +72,15 @@ const Faq = () => (
           <li>Les bâtiments classés monuments historiques</li>
           <li>
             Les chalets de haute montagne (inaccessibles aux véhicules de
-            secours pendant au moins une partie de l’année)
+            secours pendant au moins une partie de l'année)
           </li>
           <li>
             Les installations extérieures au bien loué (piscine, tennis, statues
             à demeure, bancs de pierre,…)
           </li>
           <li>
-            Les objets de valeurs personnels (bijoux, objets d’arts ...) et les
-            fonds et valeurs de l’occupant (chèques, espèces, tickets cadeaux
+            Les objets de valeurs personnels (bijoux, objets d'arts...) et les
+            fonds et valeurs de l'occupant (chèques, espèces, tickets cadeaux
             etc.)
           </li>
         </ul>
@@ -111,17 +111,17 @@ const Faq = () => (
       </AccordionItemTitle>
       <AccordionItemBody>
         <p>
-          En cas d’incident, il appartient à l’occupant de le déclarer dans les
-          délais indiqués ci-dessous. Si l’hôte constate, après l’occupation, un
-          sinistre qui n’a pas été porté à sa connaissance par l’occupant, il
+          En cas d'incident, il appartient à l'occupant de le déclarer dans les
+          délais indiqués ci-dessous. Si l'hôte constate, après l'occupation, un
+          sinistre qui n'a pas été porté à sa connaissance par l'occupant, il
           lui appartient alors de le déclarer.
         </p>
         <ul>
           <li>dans les 2 jours ouvrés pour le vol</li>
           <li>
-            dans les 10 jours de la publication de l’arrêté interministériel
-            constatant l’état de catastrophe naturelle s’il s’agit de dommages
-            mettant en œuvre l’assurance de ce risque
+            dans les 10 jours de la publication de l'arrêté interministériel
+            constatant l'état de catastrophe naturelle s'il s'agit de dommages
+            mettant en œuvre l'assurance de ce risque
           </li>
           <li>dans les 5 jours pour les autres cas.</li>
         </ul>
