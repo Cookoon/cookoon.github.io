@@ -22,7 +22,7 @@ const Footer = () => (
         <div className="nav-item px-3">
           <a
             className="nav-link"
-            href="mailto:presse@cookoon.fr"
+            href="mailto:Cookoon<presse@cookoon.fr>"
             target="_blank"
             rel="noreferrer noopener"
           >

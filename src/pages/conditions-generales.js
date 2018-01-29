@@ -8,7 +8,9 @@ const TermsPage = () => (
     <div className="bg-primary h-7r" />
 
     <div className="container pt-4">
-      <h3>Prologue</h3>
+      <h1>Conditions Générales d'Utilisation</h1>
+
+      <h2>Prologue</h2>
       <p>Vous êtes nouveau membre de la communauté COOKOON, bienvenue ! </p>
       <p>
         Vous vous apprêtez à lire les conditions générales de services aux
@@ -20,7 +22,7 @@ const TermsPage = () => (
         précisent notamment les limitations et exclusions de responsabilité.
       </p>
 
-      <h3>1. Introduction</h3>
+      <h2>1. Introduction</h2>
       <p>
         Réceptions Nouvelles SAS propose une plateforme communautaire et fermée,
         dénommée COOKOON, permettant à ses membres de se rencontrer en ligne, de
@@ -40,7 +42,7 @@ const TermsPage = () => (
         s'adapter aux besoins spécifiques de ses membres.
       </p>
 
-      <h3>2. Définition des termes clés</h3>
+      <h2>2. Définition des termes clés</h2>
       <p>
         « Annonce » désigne une annonce déposée par un Membre pour proposer un
         Espace à la location par le biais du Site et de l'Application.
@@ -128,14 +130,22 @@ const TermsPage = () => (
         après usage sans s'occuper de la remise en état.
       </p>
       <p>
-        « Stripe » désigne le service de paiement tiers (https://stripe.com/fr)
-        utilisé par COOKOON pour gérer les flux financiers entre les Membres
-        ainsi que les flux financiers entre les Membres et COOKOON.
+        « Stripe » désigne le service de paiement tiers (<a
+          href="https://stripe.com/fr"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          https://stripe.com/fr
+        </a>) utilisé par COOKOON pour gérer les flux financiers entre les
+        Membres ainsi que les flux financiers entre les Membres et COOKOON.
       </p>
       <p>
-        « Site » désigne le site Internet https://www.cookoon.fr et, plus
-        généralement, tout site Internet par lequel Réception Nouvelles SAS
-        donne accès à la plateforme COOKOON.
+        « Site » désigne le site Internet{' '}
+        <a href="https://cookoon.fr" target="_blank" rel="noreferrer noopener">
+          https://cookoon.fr
+        </a>{' '}
+        et, plus généralement, tout site Internet par lequel Réception Nouvelles
+        SAS donne accès à la plateforme COOKOON.
       </p>
       <p>
         « Taxe » désigne toute taxe sur les ventes, taxe sur la valeur ajoutée
@@ -147,10 +157,10 @@ const TermsPage = () => (
         autorités fiscales.
       </p>
 
-      <h3>
+      <h2>
         3. Fonctionnement du Site, de l'Application et des Options COOKOON
-      </h3>
-      <h4>3.1 Création et bonne administration d'un compte</h4>
+      </h2>
+      <h3>3.1 Création et bonne administration d'un compte</h3>
       <p>
         Pour créer un compte, toute personne physique ou morale doit
         préalablement avoir été invitée à le faire par un Membre.
@@ -210,7 +220,7 @@ const TermsPage = () => (
         compte, le Membre signalera immédiatement ces activités à COOKOON.
       </p>
 
-      <h4>3.2 Création d'une Annonce</h4>
+      <h3>3.2 Création d'une Annonce</h3>
       <p>
         Tous les Membres peuvent publier des Annonces afin de mettre à
         disposition des Espaces.
@@ -257,7 +267,7 @@ const TermsPage = () => (
         quant au contenu de ses Annonces.
       </p>
 
-      <h4>3.3 Contrôle des Membres et Annonces</h4>
+      <h3>3.3 Contrôle des Membres et Annonces</h3>
       <p>
         Les Membres sont seuls responsables du Contenu et des Annonces qu'ils
         proposent sur COOKOON. Ils sont tenus de fournir des informations
@@ -276,7 +286,7 @@ const TermsPage = () => (
         Membres.
       </p>
 
-      <h4>3.4 Choix d'un Espace et envoi d'une demande</h4>
+      <h3>3.4 Choix d'un Espace et envoi d'une demande</h3>
       <p>
         En se connectant sur le Site ou l'Application, le Cookooner peut étudier
         les différents Espaces proposés par les Hôtes.
@@ -286,7 +296,7 @@ const TermsPage = () => (
         demandes de réservation à des Hôtes.
       </p>
 
-      <h4>3.5 Choix des Options</h4>
+      <h3>3.5 Choix des Options</h3>
       <p>
         En plus de la mise à disposition de sa plateforme technologique COOKOON,
         COOKOON propose à ses Membres différentes Options leur permettant une
@@ -336,7 +346,7 @@ const TermsPage = () => (
         état de l'Espace suite à des dégradations volontaires ou involontaires.
       </p>
 
-      <h4>3.6 Approbation</h4>
+      <h3>3.6 Approbation</h3>
       <p>
         Lorsqu'un Cookooner effectue une demande de réservation auprès d'un
         Hôte, ce dernier reçoit un email lui indiquant :
@@ -364,7 +374,7 @@ const TermsPage = () => (
         automatiquement les autres demandes de location.
       </p>
 
-      <h4>3.7 Evaluation et notation</h4>
+      <h3>3.7 Evaluation et notation</h3>
       <p>
         Une fois l'Espace quitté par le Cookooner et le check-out effectué,
         l'Hôte et le Cookooner reçoivent une demande pour savoir s'ils sont
@@ -372,14 +382,14 @@ const TermsPage = () => (
         formulaire leur est envoyé pour connaître les problèmes rencontrés.
       </p>
 
-      <h3>4. Conditions financières</h3>
+      <h2>4. Conditions financières</h2>
       <p>
         Les flux financiers entre les Membres et au profit de COOKOON
         s'effectuent obligatoirement par le biais sécurisé de Stripe. A cet
         effet, la création d'un profil COOKOON emporte automatiquement et de
         plein droit création d'un profil et d'une fiche client Stripe.
       </p>
-      <h4>4.1 Pour les Hôtes</h4>
+      <h3>4.1 Pour les Hôtes</h3>
       <p>
         Pour la mise en relation de l'Hôte et du Cookooner et la réservation de
         l'Espace qui en résulte, COOKOON perçoit de l'Hôte une rémunération
@@ -394,7 +404,7 @@ const TermsPage = () => (
         de l'Hôte).
       </p>
 
-      <h4>4.2 Pour les Cookooners</h4>
+      <h3>4.2 Pour les Cookooners</h3>
       <p>
         Pour la mise en relation de l'Hôte et du Cookooner et la réservation de
         l'Espace qui en résulte, COOKOON perçoit du Cookooner une rémunération
@@ -422,7 +432,7 @@ const TermsPage = () => (
         réservation augmenté des Frais du Cookooner.
       </p>
 
-      <h4>4.3 Récapitulatif</h4>
+      <h3>4.3 Récapitulatif</h3>
       <p>
         En conséquence des éléments décrits supra, les frais perçus par COOKOON
         lors de la réservation de l'Espace d'un Hôte par un Cookooner sont ou
@@ -456,8 +466,8 @@ const TermsPage = () => (
         </li>
       </ul>
 
-      <h4>4.4 Généralités</h4>
-      <h4>4.4.1 Annulation et remboursements des Espaces</h4>
+      <h3>4.4 Généralités</h3>
+      <h4 id="4.4.1">4.4.1 Annulation et remboursements des Espaces</h4>
       <p>
         Chaque Membre doit faire un usage responsable de COOKOON en effectuant
         ou acceptant des réservations réfléchies sans avoir recours à
@@ -524,8 +534,15 @@ const TermsPage = () => (
         L'Option Ménage et l'Option Concierge peuvent être modifiées et annulées
         sous réserve de respecter un délai de prévenance de 6 heures avant
         l'heure prévue pour la réalisation de l'Option. Les Membres doivent,
-        pour ce faire, envoyer un mail à concierge@cookoon.fr en indiquant le
-        numéro de leur réservation d'Espace.
+        pour ce faire, envoyer un mail à{' '}
+        <a
+          href="mailto:Concierge Cookoon<concierge@cookoon.fr>"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          concierge@cookoon.fr
+        </a>{' '}
+        en indiquant le numéro de leur réservation d'Espace.
       </p>
       <p>
         Pour les autres Options, les conditions de modification et d'annulation
@@ -533,8 +550,8 @@ const TermsPage = () => (
         s'appliqueront.
       </p>
 
-      <h3>5. Utilisation des Espaces </h3>
-      <h4>5.1 Code de conduite du Cookooner</h4>
+      <h2>5. Utilisation des Espaces </h2>
+      <h3>5.1 Code de conduite du Cookooner</h3>
       <p>
         La règle centrale qui régit le comportement des Membres et l'usage des
         Espaces est le respect des biens confiés et des personnes. Ainsi l'Hôte
@@ -543,7 +560,7 @@ const TermsPage = () => (
         laisser l'Espace qu'il a utilisé dans un état identique à celui dans
         lequel il était lors du check-in ou de l'état des lieux.
       </p>
-      <h4>5.2 Check in / Check Out</h4>
+      <h3>5.2 Check in / Check Out</h3>
       <p>
         Afin d'encadrer l'usage des Espaces, COOKOON met à disposition des
         Membres un système de check- in / check-out permettant à l'Hôte (ou à la
@@ -556,7 +573,7 @@ const TermsPage = () => (
         éventuelles discussions et controverses qui pourraient en résulter entre
         les Hôtes et les Cookooners.
       </p>
-      <h4>5.3 Prolongement de séjour dans l'Espace</h4>
+      <h3>5.3 Prolongement de séjour dans l'Espace</h3>
       <p>
         Lorsqu'un Cookooner a fait la réservation d'un Espace à une date et un
         horaire et pour une durée fixe, une fois que celle-ci est validée, il ne
@@ -567,7 +584,7 @@ const TermsPage = () => (
         à trois fois le prix du temps dépassé, calculé sur la base du tarif
         horaire de la réservation.
       </p>
-      <h4>5.4 Dépôt de garantie</h4>
+      <h3>5.4 Dépôt de garantie</h3>
       <p>
         Lorsqu'un Cookooner réserve un Espace, une demande d'autorisation d'un
         montant forfaitaire de 300 € est effectuée sur la carte bancaire du
@@ -581,7 +598,7 @@ const TermsPage = () => (
         COOKOON à titre de pénalités, sans préjudice des dommages-intérêts qui
         pourrait être réclamés par l'Hôte, en complément.
       </p>
-      <h4>5.5 Dommages</h4>
+      <h3>5.5 Dommages</h3>
       <p>
         En cas de réclamation d'un Hôte suite à l'usage d'un Espace par un
         Cookooner et sur présentation de preuves notamment photographiques, le
@@ -596,7 +613,7 @@ const TermsPage = () => (
         retourner directement contre le Cookooner et il sera fait application
         des dispositions de l'article 5.4 ci-dessus.
       </p>
-      <h4>5.6 Signalement d'une mauvaise conduite</h4>
+      <h3>5.6 Signalement d'une mauvaise conduite</h3>
       <p>
         Si un Hôte ou un Cookooner constate un comportement inapproprié dans
         l'Espace, il doit le signaler au commissariat puis avertir COOKOON en
@@ -604,7 +621,7 @@ const TermsPage = () => (
         police.
       </p>
 
-      <h3>6. Déclarations et taxes</h3>
+      <h2>6. Déclarations et taxes</h2>
       <p>
         Les réglementations nationales ou locales peuvent encadrer la location
         d'Espaces entre particuliers.
@@ -647,8 +664,8 @@ const TermsPage = () => (
         facturées.
       </p>
 
-      <h3>7. Conditions liées à l'Application et à son Contenu</h3>
-      <h4>7.1 Licence pour l'Application</h4>
+      <h2>7. Conditions liées à l'Application et à son Contenu</h2>
+      <h3>7.1 Licence pour l'Application</h3>
       <p>
         COOKOON concède à chaque Membre une licence limitée, non transmissible
         et non exclusive afin qu'il puisse télécharger une copie de
@@ -661,7 +678,7 @@ const TermsPage = () => (
         document de même nature du Store sur lequel l'application aura été
         téléchargée.
       </p>
-      <h4>7.2 Contenu Collectif</h4>
+      <h3>7.2 Contenu Collectif</h3>
       <p>
         COOKOON concède à chaque Membre une licence limitée, non transmissible
         et non exclusive afin qu'il puisse accéder et consulter au Contenu
@@ -672,7 +689,7 @@ const TermsPage = () => (
         outil, une œuvre dérivée ou inspirée du Site, de l'Application, des
         Options ou du Contenu Collectif.
       </p>
-      <h4>7.3 Contenu des Membres</h4>
+      <h3>7.3 Contenu des Membres</h3>
       <p>
         Chaque Membre peut à sa seule discrétion poster du contenu, textes,
         photos, vidéos ou autre sur sa page ou son profil COOKOON.
@@ -743,7 +760,7 @@ const TermsPage = () => (
         Le Membre s'engage à se conformer à l'ensemble des lois et
         réglementations en vigueur sur le territoire français.
       </p>
-      <h4>7.4 Liens</h4>
+      <h3>7.4 Liens</h3>
       <p>
         Le Site et l'Application peuvent contenir des liens vers du Contenu
         provenant de tiers sites Internet tiers gérés par des sociétés
@@ -751,7 +768,7 @@ const TermsPage = () => (
         COOKOON n'assume aucune responsabilité quant au contenu de ces sites
         tiers ou au contenu des sites vers lesquels ils peuvent renvoyer.
       </p>
-      <h4>7.5 Propriété intellectuelle</h4>
+      <h3>7.5 Propriété intellectuelle</h3>
       <p>
         COOKOON se réserve le droit d'ôter un Contenu qui violerait les droits
         d'auteur d'un tiers. De même si COOKOON constate des violations répétées
@@ -759,8 +776,8 @@ const TermsPage = () => (
         clôturer le compte du Membre concerné.
       </p>
 
-      <h3>8. Responsabilité</h3>
-      <h4>8.1 Responsabilité </h4>
+      <h2>8. Responsabilité</h2>
+      <h3>8.1 Responsabilité </h3>
       <p>
         COOKOON est un prestataire de services et met en relation les Membres en
         vue de la location de courte durée d'Espaces. COOKOON n'est ni
@@ -825,7 +842,7 @@ const TermsPage = () => (
         l'Application à la suite d'un défaut technique ou de problèmes liés
         notamment à l'encombrement du réseau.
       </p>
-      <h4>8.2 Assurance</h4>
+      <h3>8.2 Assurance</h3>
       <p>
         Afin de protéger et de rassurer les Hôtes, COOKOON et AXA France ont mis
         en place une solution d'assurance dédiée qui couvre les biens
@@ -864,7 +881,7 @@ const TermsPage = () => (
           </li>
         </ul>
       </p>
-      <h4>8.3 Renonciation à recours</h4>
+      <h3>8.3 Renonciation à recours</h3>
       <p>
         Chaque Membre renonce à tout recours contre COOKOON, ses dirigeants,
         représentants ou employés pour toute réclamation, dommage, perte ou
@@ -873,8 +890,8 @@ const TermsPage = () => (
         réservation, la location, l'utilisation, l'état d'un Espace.
       </p>
 
-      <h3>9. Champ d'application du présent accord</h3>
-      <h4>9.1 Conditions de service et généralités</h4>
+      <h2>9. Champ d'application du présent accord</h2>
+      <h3>9.1 Conditions de service et généralités</h3>
       <p>
         Lorsque vous utilisez le Site ou l'Application, vous acceptez de
         respecter et d'être juridiquement lié par les dispositions des présentes
@@ -889,8 +906,14 @@ const TermsPage = () => (
         Vos informations personnelles seront traitées conformément à la loi
         Informatique et Libertés du 6 janvier 1978. Chaque membre dispose d'un
         droit d'accès, de rectification ou de radiation des informations le
-        concernant qui pourra être exercé en adressant un e-mail à
-        contact@cookoon.fr.
+        concernant qui pourra être exercé en adressant un e-mail à{' '}
+        <a
+          href="mailto:Cookoon<contact@cookoon.fr>"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          contact@cookoon.fr
+        </a>.
       </p>
       <p>
         COOKOON pourra utiliser le système des cookies permettant la mesure
@@ -902,17 +925,23 @@ const TermsPage = () => (
       </p>
       {/* <p>
         Veuillez également lire attentivement notre Charte de Protection des
-        Données à Caractère Personnel, consultable sur le site
-        https://www.COOKOON.fr/terms/privacy_policy.
+        Données à Caractère Personnel, consultable sur le site{' '}
+        <a
+          href="https://cookoon.fr/privacy"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          https://cookoon.fr/privacy
+        </a>.
       </p> */}
-      <h4>9.2 Modification et notification</h4>
+      <h3>9.2 Modification et notification</h3>
       <p>
         COOKOON se réserve le droit, à sa seule discrétion, de modifier le Site,
         l'Application, les Options, les Frais de Service, les Frais d'Option et
         les présentes Conditions à tout moment et sans notification préalable.
       </p>
       <p>Les modifications seront notifiées aux Membres par tout moyen. </p>
-      <h4>9.3 Admissibilité</h4>
+      <h3>9.3 Admissibilité</h3>
       <p>
         Le Site, l'Application et les Options s'adressent uniquement aux
         personnes majeures, l'accès aux mineurs est strictement interdit. En
@@ -926,10 +955,17 @@ const TermsPage = () => (
         personne mineure, COOKOON se réserve le droit de suspendre momentanément
         ou définitivement l'accès du Membre concerné au Site et à l'Application.
       </p>
-      <h4>9.4 Résiliation et suspension</h4>
+      <h3>9.4 Résiliation et suspension</h3>
       <p>
         Les Membres peuvent à tout moment demander la fermeture de leur compte
-        en envoyant un email à : contact@cookoon.fr.
+        en envoyant un email à :{' '}
+        <a
+          href="mailto:Cookoon<contact@cookoon.fr>"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          contact@cookoon.fr
+        </a>.
       </p>
       <p>
         Si vous supprimez votre compte COOKOON en tant qu'Hôte, toute
@@ -960,7 +996,7 @@ const TermsPage = () => (
         que cela puisse donner lieu à l'allocation de dommages et intérêts de
         quelque nature que ce soit.
       </p>
-      <h4>9.5 Loi applicable et juridiction compétente</h4>
+      <h3>9.5 Loi applicable et juridiction compétente</h3>
       <p>
         Les présentes conditions sont régies et interprétées conformément à la
         loi française.
