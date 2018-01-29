@@ -1,0 +1,2 @@
+webpackJsonp([0xf66f77a79b57],{185:function(e,t,u){"use strict";function l(e){return e&&e.__esModule?e:{default:e}}t.__esModule=!0;var n=u(2),a=l(n),f=u(57),r=l(f),c=function(){return a.default.createElement("div",null,a.default.createElement("h1",null,"Devenir hôte"),a.default.createElement(r.default,{to:"/"},"Accueil"))};t.default=c,e.exports=t.default}});
+//# sourceMappingURL=component---src-pages-devenir-hote-js-3db87fc259e4d9577a42.js.map

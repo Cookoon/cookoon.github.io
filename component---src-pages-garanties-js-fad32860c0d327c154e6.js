@@ -1,0 +1,2 @@
+webpackJsonp([0xa7e49a349e28],{187:function(e,t,u){"use strict";function l(e){return e&&e.__esModule?e:{default:e}}t.__esModule=!0;var a=u(2),n=l(a),r=u(57),c=l(r),d=function(){return n.default.createElement("div",null,n.default.createElement("h1",null,"Garanties"),n.default.createElement(c.default,{to:"/"},"Accueil"))};t.default=d,e.exports=t.default}});
+//# sourceMappingURL=component---src-pages-garanties-js-fad32860c0d327c154e6.js.map
