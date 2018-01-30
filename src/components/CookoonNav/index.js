@@ -13,7 +13,8 @@ import {
 class CookoonNav extends Component {
   state = {
     isOpen: false,
-    isTop: true
+    isTop: true,
+    opacity: 0
   };
 
   componentDidMount() {
@@ -35,10 +36,10 @@ class CookoonNav extends Component {
   };
 
   handleScroll = () => {
-    const isTop = window.scrollY < 30;
-    if (isTop !== this.state.isTop) {
-      this.setState({ isTop });
-    }
+    this.setState({
+      isTop: window.scrollY < 30,
+      opacity: Math.min(1, window.scrollY / 512)
+    });
   };
 
   classes = () =>
@@ -52,6 +53,7 @@ class CookoonNav extends Component {
   render() {
     return (
       <div className={this.classes()} onBlur={this.closeOnNav}>
+        <div className="background" style={{ opacity: this.state.opacity }} />
         <Navbar dark expand="md">
           <div className="container">
             <NavbarBrand href="/">

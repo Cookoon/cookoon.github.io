@@ -1,27 +1,31 @@
 .cookoon-nav {
-  &-simple {
-    background-color: $blue;
-    padding: 0px !important;
-    position: fixed !important;
-    & + .content {
-      margin-top: 5rem !important;
-    }
-  }
   z-index: 1;
-  background-color: transparent;
-  transition: background-color 0.5s ease;
-  &-top {
-    padding-top: 30px;
-    padding-bottom: 10px;
+  .background {
     position: absolute;
-    width: 100%;
     top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: $blue;
+  }
+  &-top {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding-top: 30px;
   }
   &-scrolled {
-    background-color: $blue;
     position: fixed;
-    width: 100%;
     top: 0;
+    width: 100%;
+  }
+  &-simple {
+    background-color: $blue;
+    padding-top: 0px !important;
+    position: fixed !important;
+    & + main {
+      margin-top: 5rem !important;
+    }
   }
 }
 @include media-breakpoint-down(sm) {
