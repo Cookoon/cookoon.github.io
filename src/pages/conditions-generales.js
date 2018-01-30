@@ -859,26 +859,27 @@ const TermsPage = () => (
       <p>
         Les conditions générales et particulières du contrat souscrit avec AXA
         France (notamment la liste détaillée des garanties, la durée du contrat,
-        les franchises et les plafonds appliqués) peuvent être consultées ici :
-        <ul>
-          <li>
-            <a
-              href="https://drive.google.com/open?id=1YSDLo0SK3z9Yf0lLvoSO7KCp6Jv7OGnO"
-              target="_blank"
-            >
-              Conditions générales
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://drive.google.com/open?id=1HxostqQkQs0FxH9a4-aXeey9oHTiD4Sa"
-              target="_blank"
-            >
-              Conditions particulières
-            </a>
-          </li>
-        </ul>
+        les franchises et les plafonds appliqués) peuvent être consultées ici :{' '}
       </p>
+
+      <ul>
+        <li>
+          <a
+            href="https://drive.google.com/open?id=1YSDLo0SK3z9Yf0lLvoSO7KCp6Jv7OGnO"
+            target="_blank"
+          >
+            Conditions générales
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://drive.google.com/open?id=1HxostqQkQs0FxH9a4-aXeey9oHTiD4Sa"
+            target="_blank"
+          >
+            Conditions particulières
+          </a>
+        </li>
+      </ul>
       <h3>8.3 Renonciation à recours</h3>
       <p>
         Chaque Membre renonce à tout recours contre COOKOON, ses dirigeants,
