@@ -88,7 +88,8 @@ const HostPage = () => (
         </div>
       </div>
     </div>
-    <div className="bg-white py-5">
+
+    <div className="bg-white py-5 text-center text-md-left">
       <div className="container">
         <div className="row">
           <div className="col-md d-flex flex-column justify-content-around">
