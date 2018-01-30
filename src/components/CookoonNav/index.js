@@ -38,7 +38,7 @@ class CookoonNav extends Component {
   handleScroll = () => {
     this.setState({
       isTop: window.scrollY < 30,
-      opacity: Math.min(1, window.scrollY / 512)
+      opacity: Math.min(1, window.scrollY / 30)
     });
   };
 
