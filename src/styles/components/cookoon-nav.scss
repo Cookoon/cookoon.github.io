@@ -22,8 +22,11 @@
   main {
     transition: margin-top 0.5s ease;
   }
-  .cookoon-nav-opened + main {
-    margin-top: 120px;
+  .cookoon-nav {
+    font-size: 1.2rem;
+    &-opened + main {
+      margin-top: 120px;
+    }
   }
 }
 
