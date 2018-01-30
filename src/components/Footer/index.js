@@ -8,7 +8,29 @@ const Footer = () => (
         <span className="text-nowrap">® Réceptions Nouvelles 2018</span> ·{' '}
         <span className="text-nowrap">Tous droits réservés</span>
       </div>
-      <div className="navbar-nav">
+      <div className="navbar-nav align-items-center">
+        <div className="nav-item px-3">
+          <a
+            className="nav-link"
+            href="https://www.facebook.com/groups/378511112571275"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <i className="fa fa-facebook-square fa-2x" aria-hidden="true" />
+          </a>
+        </div>
+
+        <div className="nav-item px-3">
+          <a
+            className="nav-link"
+            href="https://fr.linkedin.com/company/cookoon"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <i className="fa fa-linkedin-square fa-2x" aria-hidden="true" />
+          </a>
+        </div>
+
         <div className="nav-item px-3">
           <a
             className="nav-link"
@@ -19,6 +41,7 @@ const Footer = () => (
             Contact
           </a>
         </div>
+
         <div className="nav-item px-3">
           <a
             className="nav-link"
@@ -29,6 +52,7 @@ const Footer = () => (
             Presse
           </a>
         </div>
+
         <div className="nav-item px-3">
           <a
             className="nav-link"
@@ -39,6 +63,7 @@ const Footer = () => (
             Aide
           </a>
         </div>
+
         <div className="nav-item px-3 pr-md-0">
           <Link to="/conditions-generales/" className="nav-link">
             Conditions générales
