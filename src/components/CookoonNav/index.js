@@ -35,7 +35,10 @@ class CookoonNav extends Component {
   };
 
   handleScroll = () => {
-    this.setState({ isTop: window.scrollY < 30 });
+    const isTop = window.scrollY < 30;
+    if (isTop !== this.state.isTop) {
+      this.setState({ isTop });
+    }
   };
 
   classes = () =>
