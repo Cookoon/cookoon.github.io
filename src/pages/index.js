@@ -115,7 +115,7 @@ const IndexPage = () => (
             <br />Vous pouvez postuler en proposant votre logement !
           </p>
           <a
-            href="https://satisfaction.cookoon.fr/to/ljnp8X"
+            href="https://bonjour.cookoon.fr/to/ljnp8X"
             className="btn btn-lg btn-light px-5 text-uppercase"
             target="_blank"
             rel="noreferrer noopener"
