@@ -59,7 +59,7 @@ const IndexPage = () => (
             <h3 className="font-weight-normal my-3">Organiser un événement</h3>
           </div>
           <p>
-            Louez l'appartement d'un autre membre en 3 minutes pour tous vos
+            Louez l'appartement d'un autre membre en trois minutes pour tous vos
             besoins de courte durée : rendez-vous, dîner entre amis, réunions,
             etc.
           </p>
@@ -79,8 +79,9 @@ const IndexPage = () => (
           </div>
           <p>
             Participez à la vie de la communauté en proposant votre appartement
-            ou votre maison, pour rentabiliser votre lieu de vie pendant vos
-            absences quotidiennes. Et pas besoin de dormir ailleurs !
+            ou votre maison et rentabilisez votre lieu de vie pendant vos
+            absences quotidiennes. Le plus Cookoon : pas besoin de dormir
+            ailleurs !
           </p>
           <p>
             Choisissez des services pour vous affranchir de toutes contraintes :
@@ -113,12 +114,14 @@ const IndexPage = () => (
             Vous n'avez pas de parrain ?
             <br />Vous pouvez postuler en proposant votre logement !
           </p>
-          <Link
-            to="/devenir-hote/"
+          <a
+            href="https://satisfaction.cookoon.fr/to/ljnp8X"
             className="btn btn-lg btn-light px-5 text-uppercase"
+            target="_blank"
+            rel="noreferrer noopener"
           >
-            Devenir hôte
-          </Link>
+            Postuler
+          </a>
         </div>
 
         <div className="col-md p-5 d-flex flex-column justify-content-between align-items-center bg-white">

@@ -15,7 +15,7 @@ const HostPage = () => (
         <br />sans contraintes grâce aux services proposés
       </h1>
       <a
-        href="https://quentin21.typeform.com/to/ljnp8X"
+        href="https://satisfaction.cookoon.fr/to/ljnp8X"
         className="btn btn-lg btn-light px-5 text-uppercase"
         target="_blank"
         rel="noreferrer noopener"
@@ -157,7 +157,7 @@ const HostPage = () => (
         </div>
       </div>
       <a
-        href="https://quentin21.typeform.com/to/ljnp8X"
+        href="https://satisfaction.cookoon.fr/to/ljnp8X"
         className="btn btn-lg btn-light px-5 text-uppercase"
         target="_blank"
         rel="noreferrer noopener"
