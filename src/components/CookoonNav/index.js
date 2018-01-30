@@ -35,17 +35,13 @@ class CookoonNav extends Component {
   };
 
   handleScroll = () => {
-    const isTop = window.scrollY < 30;
-    if (isTop !== this.state.isTop) {
-      this.setState({ isTop });
-    }
+    this.setState({ isTop: window.scrollY < 30 });
   };
 
   classes = () =>
     classNames('cookoon-nav', {
       'cookoon-nav-simple': this.props.pathname === '/conditions-generales/',
       'cookoon-nav-top': this.state.isTop,
-      'cookoon-nav-scrolled': !this.state.isTop,
       'cookoon-nav-opened': this.state.isOpen
     });
 
