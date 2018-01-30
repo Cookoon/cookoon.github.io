@@ -24,7 +24,8 @@ class CookoonNav extends Component {
     document.removeEventListener('scroll', this.handleScroll);
   }
 
-  toggle = () => {
+  handleTogglerClick = () => {
+    this.navbarToggler.focus();
     this.setState({
       isOpen: !this.state.isOpen
     });
@@ -50,13 +51,20 @@ class CookoonNav extends Component {
 
   render() {
     return (
-      <div className={this.classes()} onBlur={this.closeOnNav}>
+      <div className={this.classes()}>
         <Navbar dark expand="md">
           <div className="container">
             <NavbarBrand href="/">
               <i className="co co-logo fa-3x" aria-hidden="true" />
             </NavbarBrand>
-            <NavbarToggler onClick={this.toggle} />
+            <button
+              className="navbar-toggler"
+              ref={button => (this.navbarToggler = button)}
+              onClick={this.handleTogglerClick}
+              onBlur={this.closeOnNav}
+            >
+              <span className="navbar-toggler-icon" />
+            </button>
             <Collapse isOpen={this.state.isOpen} navbar>
               <Nav navbar>
                 <NavItem className="px-3">
