@@ -45,7 +45,6 @@ class CookoonNav extends Component {
     classNames('cookoon-nav', {
       'cookoon-nav-simple': this.props.pathname === '/conditions-generales/',
       'cookoon-nav-top': this.state.isTop,
-      'cookoon-nav-scrolled': !this.state.isTop,
       'cookoon-nav-opened': this.state.isOpen
     });
 

@@ -1,45 +1,36 @@
 .cookoon-nav {
-  &-simple {
-    background-color: $blue;
-    padding: 0px !important;
-    position: fixed !important;
-    & + .content {
-      margin-top: 5rem !important;
-    }
-  }
   z-index: 1;
-  background-color: transparent;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: $blue;
   transition: background-color 0.5s ease;
-  &-top {
-    padding-top: 30px;
-    padding-bottom: 10px;
-    position: absolute;
-    width: 100%;
-    top: 0;
-  }
-  &-scrolled {
-    background-color: $blue;
-    position: fixed;
-    width: 100%;
-    top: 0;
+  &-simple + main {
+    margin-top: 5rem !important;
   }
 }
-@include media-breakpoint-down(sm) {
-  .cookoon-nav {
-    background-color: $blue;
-    &-top {
-      padding-top: 0px;
-      position: fixed;
-      width: 100%;
-      top: 0;
-    }
-    & + .content {
-      margin-top: 0px;
-      transition: margin-top 0.5s ease;
-    }
-    &-opened + .content {
-      margin-top: 120px;
-      transition: margin-top 0.5s ease;
-    }
+
+@include media-breakpoint-up(md) {
+  .cookoon-nav-top:not(.cookoon-nav-simple) {
+    position: absolute;
+    background-color: transparent;
+    padding-top: 30px;
   }
+}
+
+@include media-breakpoint-down(sm) {
+  main {
+    transition: margin-top 0.5s ease;
+  }
+  .cookoon-nav-opened + main {
+    margin-top: 120px;
+  }
+}
+
+// Offset anchors
+:target:before {
+  content: '';
+  display: block;
+  height: 90px;
+  margin-top: -90px;
 }
