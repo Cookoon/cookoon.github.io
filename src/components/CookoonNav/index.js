@@ -44,7 +44,12 @@ class CookoonNav extends Component {
 
   classes = () =>
     classNames('cookoon-nav', {
-      'cookoon-nav-simple': this.props.pathname === '/conditions-generales/',
+      'cookoon-nav-simple': [
+        '/conditions-generales',
+        '/conditions-generales/',
+        '/livre-blanc',
+        '/livre-blanc/'
+      ].includes(this.props.pathname),
       'cookoon-nav-top': this.state.isTop,
       'cookoon-nav-opened': this.state.isOpen
     });
