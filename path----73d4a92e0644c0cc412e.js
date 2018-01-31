@@ -1,2 +1,0 @@
-webpackJsonp([60335399758886],{97:function(o,e){o.exports={data:{site:{siteMetadata:{name:"Cookoon",title:"Cookoon - Une communauté exclusive pour organiser vos événements chez les autres",description:"Une communauté exclusive pour organiser vos événements chez les autres",keywords:"cookoon, communauté, événements",url:"https://cookoon.github.io",twitter:"@cookoon"}}},layoutContext:{}}}});
-//# sourceMappingURL=path----73d4a92e0644c0cc412e.js.map

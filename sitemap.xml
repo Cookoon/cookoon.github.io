@@ -5,4 +5,5 @@
 <url> <loc>https://cookoon.fr/etre-membre/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://cookoon.fr/garanties/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://cookoon.fr/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://cookoon.fr/livre-blanc/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 </urlset>

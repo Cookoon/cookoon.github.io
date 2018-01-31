@@ -1,2 +1,0 @@
-webpackJsonp([60335399758886],{93:function(o,e){o.exports={data:{site:{siteMetadata:{name:"Cookoon",title:"Recevons partout !",description:"Une communauté exclusive pour recevoir et échanger",keywords:"cookoon, recevons, partout, communauté, exclusive, recevoir, échanger",siteUrl:"https://cookoon.fr",twitter:"@cookoon"}}},layoutContext:{}}}});
-//# sourceMappingURL=path----3e2ee54c97516688c5b2.js.map
