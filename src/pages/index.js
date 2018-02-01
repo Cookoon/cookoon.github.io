@@ -16,7 +16,7 @@ const IndexPage = () => (
       </h1>
       <div className="store-badge">
         <a
-          href="https://itunes.apple.com/fr/app/cookoon-inside/id1291943406"
+          href="https://itunes.apple.com/fr/app/cookoon-inside/id1291943406?mt=8"
           target="_blank"
           className="d-inline-block mx-1 ml-md-0 mr-md-3 my-2"
         >
