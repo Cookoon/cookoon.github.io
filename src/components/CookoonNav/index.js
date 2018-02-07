@@ -1,14 +1,7 @@
 import React, { Component } from 'react';
 import Link from 'gatsby-link';
 import classNames from 'classnames';
-import {
-  Collapse,
-  Navbar,
-  NavbarToggler,
-  NavbarBrand,
-  Nav,
-  NavItem
-} from 'reactstrap';
+import { Collapse, Navbar, NavbarBrand, Nav, NavItem } from 'reactstrap';
 
 class CookoonNav extends Component {
   state = {
