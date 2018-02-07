@@ -9,8 +9,9 @@ const MemberPage = () => (
 
     <Banner>
       <h1 className="h3 mb-4">
-        Nos membres louent des Cookoon en trois minutes tous les jours pour tous
-        leurs événements.
+        Nos membres reçoivent et échangent :
+        <br />les uns organisent leurs événements quotidiens, les autres les
+        accueillent, tous s’impliquent.
       </h1>
     </Banner>
 
