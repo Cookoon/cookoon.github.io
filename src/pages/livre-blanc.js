@@ -9,7 +9,7 @@ const WhitePaperPage = () => (
     <div className="container">
       <iframe
         className="white-paper mt-3 mb-3"
-        src="https://drive.google.com/file/d/1JBbeiJRRCPEpc4KwQ2UT9NzN3Z9T-cse/preview"
+        src="https://drive.google.com/file/d/1CM1ZdA3OizqfrLn6Tt-vGS-Bmd-S_YFQ/preview"
       />
     </div>
   </div>
