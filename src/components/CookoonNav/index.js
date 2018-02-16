@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Link from 'gatsby-link';
 import classNames from 'classnames';
+import onClickOutside from 'react-onclickoutside';
 import { Collapse, Navbar, NavbarBrand, Nav, NavItem } from 'reactstrap';
 
 class CookoonNav extends Component {
@@ -17,16 +18,17 @@ class CookoonNav extends Component {
     document.removeEventListener('scroll', this.handleScroll);
   }
 
-  handleTogglerClick = () => {
-    this.navbarToggler.focus();
+  toggleNavbar = () => {
     this.setState({
       isOpen: !this.state.isOpen
     });
   };
 
-  closeOnNav = () => {
+  closeNavbar = () => {
     this.setState({ isOpen: false });
   };
+
+  handleClickOutside = this.closeNavbar;
 
   handleScroll = () => {
     const isTop = window.scrollY < 30;
@@ -52,18 +54,17 @@ class CookoonNav extends Component {
       <div className={this.classes()}>
         <Navbar dark expand="md">
           <div className="container">
-            <NavbarBrand href="/">
+            <NavbarBrand href="/" onClick={this.closeNavbar}>
               <i className="co co-logo fa-3x" aria-hidden="true" />
             </NavbarBrand>
-            <button
-              className="navbar-toggler"
-              ref={button => (this.navbarToggler = button)}
-              onClick={this.handleTogglerClick}
-              onBlur={this.closeOnNav}
-            >
+            <button className="navbar-toggler" onClick={this.toggleNavbar}>
               <span className="navbar-toggler-icon" />
             </button>
-            <Collapse isOpen={this.state.isOpen} navbar>
+            <Collapse
+              isOpen={this.state.isOpen}
+              onClick={this.closeNavbar}
+              navbar
+            >
               <Nav navbar>
                 <NavItem className="px-3">
                   <Link
@@ -101,4 +102,4 @@ class CookoonNav extends Component {
   }
 }
 
-export default CookoonNav;
+export default onClickOutside(CookoonNav);
