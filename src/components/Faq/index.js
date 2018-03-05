@@ -17,8 +17,8 @@ const Faq = () => (
       <AccordionItemBody>
         <ul>
           <li>
-            La responsabilité civile du locataire encourue vis-à- vis du
-            propriétaire;
+            La responsabilité civile du locataire encourue vis-à-vis du
+            propriétaire ;
           </li>
           <li>
             Les dommages aux biens : incendie, inondation , dégâts des eaux,

@@ -11,7 +11,7 @@ const MemberPage = () => (
       <h1 className="h3 mb-4">
         Nos membres reçoivent et échangent :
         <br />les uns organisent leurs événements quotidiens, les autres les
-        accueillent, tous s’impliquent.
+        accueillent, tous s'impliquent.
       </h1>
     </Banner>
 
