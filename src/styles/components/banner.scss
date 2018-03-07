@@ -19,18 +19,21 @@
 }
 
 @include media-breakpoint-down(sm) {
-  .banner .device-frame {
-    margin-top: 3rem;
-  }
-
   .banner {
+    min-height: 120vw;
     padding-top: 7rem;
+    .device-frame {
+      max-width: 90vh;
+      margin-top: 3rem;
+    }
   }
 }
 
 @include media-breakpoint-down(xs) {
-  .banner .device-frame {
-    margin-top: 1rem;
+  .banner {
+    .device-frame {
+      margin-top: 1rem;
+    }
   }
 }
 
