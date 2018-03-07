@@ -29,7 +29,7 @@ const HostPage = () => (
 
       <iframe
         className="host-video mb-3"
-        src="https://player.vimeo.com/video/256423369?title=0&byline=0&portrait=0"
+        src="https://player.vimeo.com/video/256423369?color=006f8b"
         frameBorder="0"
         allowFullScreen
       />
