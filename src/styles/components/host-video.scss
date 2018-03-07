@@ -1,4 +1,10 @@
 .host-video {
   width: 100%;
-  height: 50vw;
+  height: 40vw;
+}
+
+@include media-breakpoint-only(xs) {
+  .host-video {
+    height: 50vw;
+  }
 }
