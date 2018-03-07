@@ -25,7 +25,14 @@ const HostPage = () => (
     </Banner>
 
     <div className="container text-center">
-      <h2 className="h3 text-center pt-5 mb-5">Être Hôte Cookoon</h2>
+      <h2 className="h3 text-center pt-5 mb-3">Être Hôte Cookoon</h2>
+
+      <iframe
+        className="host-video mb-3"
+        src="https://player.vimeo.com/video/256423369?title=0&byline=0&portrait=0"
+        frameBorder="0"
+        allowFullScreen
+      />
 
       <div className="row">
         <div className="col-md px-4">
