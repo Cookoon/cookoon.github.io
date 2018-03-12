@@ -391,8 +391,8 @@ const TermsPage = () => (
       <p>
         Pour la mise en relation de l'Hôte et du Cookooner et la réservation de
         l'Espace qui en résulte, COOKOON perçoit de l'Hôte une rémunération
-        égale à cinq pourcent (5%) de la rémunération à verser par le Cookooner
-        pour la location de l'Espace (tarif horaire x nombre d'heures).
+        égale à sept pourcent (7 %) de la rémunération à verser par le Cookooner
+        pour la location de l'Espace (tarif horaire × nombre d'heures).
       </p>
       <p>
         Pour chaque réservation, l'Hôte reçoit par conséquent une rémunération
@@ -406,8 +406,8 @@ const TermsPage = () => (
       <p>
         Pour la mise en relation de l'Hôte et du Cookooner et la réservation de
         l'Espace qui en résulte, COOKOON perçoit du Cookooner une rémunération
-        égale à sept pourcent (7%) de la rémunération à verser par le Cookooner
-        pour la location de l'Espace (tarif horaire x nombre d'heures).
+        égale à cinq pourcent (5 %) de la rémunération à verser par le Cookooner
+        pour la location de l'Espace (tarif horaire × nombre d'heures).
       </p>
       <p>
         Le Cookooner doit par conséquent verser une rémunération égale au nombre
@@ -439,11 +439,11 @@ const TermsPage = () => (
       <p>Mise à disposition d'Espace :</p>
       <ul>
         <li>
-          Frais de l'Hôte : 5 % du montant demandé par l'Hôte en application du
+          Frais de l'Hôte : 7 % du montant demandé par l'Hôte en application du
           tarif horaire
         </li>
         <li>
-          Frais du Cookooner : 7% du montant demandé par l'Hôte en application
+          Frais du Cookooner : 5 % du montant demandé par l'Hôte en application
           du tarif horaire
         </li>
       </ul>
