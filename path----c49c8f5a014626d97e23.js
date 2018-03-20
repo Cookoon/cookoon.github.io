@@ -1,0 +1,2 @@
+webpackJsonp([60335399758886],{107:function(o,e){o.exports={data:{site:{siteMetadata:{name:"Cookoon",title:"Recevons partout !",description:"Une communauté sélective pour recevoir et partager",keywords:"cookoon, recevons, partout, communauté, communaute, sélective,\n    selective, recevoir, partager",siteUrl:"https://cookoon.fr",twitter:"@cookoon"}}},layoutContext:{}}}});
+//# sourceMappingURL=path----c49c8f5a014626d97e23.js.map
