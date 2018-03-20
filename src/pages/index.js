@@ -11,7 +11,7 @@ const IndexPage = () => (
   <div>
     <Banner>
       <h1 className="h3 mb-4">
-        Une communauté exclusive
+        Une communauté sélective
         <br />pour recevoir et partager
       </h1>
       <div className="store-badge">

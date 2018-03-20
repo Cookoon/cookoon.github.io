@@ -102,7 +102,7 @@ const HostPage = () => (
           <div className="col-md d-flex flex-column justify-content-around">
             <h2 className="h3">Qui sommes-nous ?</h2>
             <p>
-              Cookoon est une communauté exclusive qui repose sur la confiance
+              Cookoon est une communauté sélective qui repose sur la confiance
               et l'implication de ses membres.
             </p>
             <p>
