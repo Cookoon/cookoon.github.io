@@ -4,9 +4,15 @@ import Link from 'gatsby-link';
 import Helmet from 'react-helmet';
 import Banner from '../components/Banner';
 
-const sendAnalyticsEvent = () => {
+const sendAnalyticsEventTopCTA = () => {
   if (typeof ga === 'function') {
-    ga('send', 'event', 'Postuler', 'click');
+    ga('send', 'event', 'HostCTA', 'click', 'devenir-hote top CTA');
+  }
+};
+
+const sendAnalyticsEventBottomCTA = () => {
+  if (typeof ga === 'function') {
+    ga('send', 'event', 'HostCTA', 'click', 'devenir-hote bottom CTA');
   }
 };
 
@@ -25,7 +31,7 @@ const HostPage = () => (
         className="btn btn-lg btn-light px-5 text-uppercase"
         target="_blank"
         rel="noreferrer noopener"
-        onClick={sendAnalyticsEvent}
+        onClick={sendAnalyticsEventTopCTA}
       >
         Postuler
       </a>
@@ -176,6 +182,7 @@ const HostPage = () => (
         className="btn btn-lg btn-light px-5 text-uppercase"
         target="_blank"
         rel="noreferrer noopener"
+        onClick={sendAnalyticsEventBottomCTA}
       >
         Postuler
       </a>

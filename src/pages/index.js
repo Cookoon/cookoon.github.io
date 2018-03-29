@@ -9,7 +9,7 @@ import iconAxa from '../images/iconAxa.jpg';
 
 const sendAnalyticsEvent = () => {
   if (typeof ga === 'function') {
-    ga('send', 'event', 'Postuler', 'click');
+    ga('send', 'event', 'HostCTA', 'click', 'index');
   }
 };
 
