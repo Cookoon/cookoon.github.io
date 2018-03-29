@@ -4,6 +4,12 @@ import Link from 'gatsby-link';
 import Helmet from 'react-helmet';
 import Banner from '../components/Banner';
 
+const sendAnalyticsEvent = () => {
+  if (typeof ga === 'function') {
+    ga('send', 'event', 'Postuler', 'click');
+  }
+};
+
 const HostPage = () => (
   <div>
     <Helmet title="Devenir hôte" />
@@ -19,6 +25,7 @@ const HostPage = () => (
         className="btn btn-lg btn-light px-5 text-uppercase"
         target="_blank"
         rel="noreferrer noopener"
+        onClick={sendAnalyticsEvent}
       >
         Postuler
       </a>

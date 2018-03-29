@@ -7,6 +7,12 @@ import googlePlayBadge from '../images/googlePlayBadge.png';
 import ctaBackground from '../images/ctaBackground.jpg';
 import iconAxa from '../images/iconAxa.jpg';
 
+const sendAnalyticsEvent = () => {
+  if (typeof ga === 'function') {
+    ga('send', 'event', 'Postuler', 'click');
+  }
+};
+
 const IndexPage = () => (
   <div>
     <Banner>
@@ -119,6 +125,7 @@ const IndexPage = () => (
             className="btn btn-lg btn-light px-5 text-uppercase"
             target="_blank"
             rel="noreferrer noopener"
+            onClick={sendAnalyticsEvent}
           >
             Postuler
           </a>
