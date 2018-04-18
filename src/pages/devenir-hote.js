@@ -27,7 +27,7 @@ const HostPage = () => (
         <br />sans contraintes grâce aux services proposés
       </h1>
       <a
-        href="https://bonjour.cookoon.fr/to/ljnp8X"
+        href="https://cookoon.typeform.com/to/iY7Heh"
         className="btn btn-lg btn-light px-5 text-uppercase"
         target="_blank"
         rel="noreferrer noopener"
@@ -178,7 +178,7 @@ const HostPage = () => (
         </div>
       </div>
       <a
-        href="https://bonjour.cookoon.fr/to/ljnp8X"
+        href="https://cookoon.typeform.com/to/iY7Heh"
         className="btn btn-lg btn-light px-5 text-uppercase"
         target="_blank"
         rel="noreferrer noopener"
