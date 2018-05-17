@@ -93,6 +93,15 @@ class CookoonNav extends Component {
                     Garanties
                   </Link>
                 </NavItem>
+                <NavItem className="px-3">
+                  <Link
+                    to="/livre-blanc/"
+                    className="nav-link"
+                    activeClassName="active"
+                  >
+                    Livre Blanc
+                  </Link>
+                </NavItem>
               </Nav>
             </Collapse>
           </div>
