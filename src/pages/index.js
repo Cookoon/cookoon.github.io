@@ -114,20 +114,21 @@ const IndexPage = () => (
     <div className="container-fluid text-center">
       <div className="row">
         <div className="col-md p-5 d-flex flex-column justify-content-between align-items-center bg-primary text-white">
-          <h2 className="h3 mb-4">Rejoindre la communauté ?</h2>
-          <p>Seuls les membres parrainés peuvent rejoindre Cookoon.</p>
+          <h2 className="h3 mb-4">Rejoindre la communauté</h2>
           <p>
-            Vous n'avez pas de parrain ?
-            <br />Vous pouvez postuler en proposant votre logement !
+            Rejoindre Cookoon ? Vous n'avez pas d'invitation ?
+            <br />
+            Proposez votre logement ou inscrivez votre candidature sur liste d'attente.
+            Elle sera examinée avec bienveillance par un comité d'hôtes !
           </p>
           <a
-            href="https://cookoon.typeform.com/to/iY7Heh"
+            href="https://cookoon.typeform.com/to/mEeE1Z"
             className="btn btn-lg btn-light px-5 text-uppercase"
             target="_blank"
             rel="noreferrer noopener"
             onClick={sendAnalyticsEvent}
           >
-            Postuler
+            Je sonne le portier
           </a>
         </div>
 
