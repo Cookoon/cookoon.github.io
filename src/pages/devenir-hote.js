@@ -51,7 +51,7 @@ const HostPage = () => (
         <div className="col-md px-4">
           <div>
             <i className="co co-home text-primary fa-5x" aria-hidden="true" />
-            <h3 className="font-weight-normal my-4">Un appartement</h3>
+            <h3 className="font-weight-normal my-4">Un logement</h3>
           </div>
           <p>
             Les Hôtes inscrivent leur logement sur l'application Cookoon, le
@@ -59,9 +59,9 @@ const HostPage = () => (
             le paiement quelques jours après chaque location.
           </p>
           <p>
-            Le tarif horaire de location est fixé par l'Hôte, que nous
-            conseillons en fonction de la taille, de l'emplacement et des
-            caractéristiques de son logement.
+            Le tarif horaire de location est fixé librement par l'Hôte
+            en fonction de la taille, de l'emplacement et des caractéristiques
+            de son logement.
           </p>
         </div>
 
@@ -76,7 +76,7 @@ const HostPage = () => (
             </h3>
           </div>
           <p>
-            Avec seulement 2 locations de quelques heures par semaine, les
+            Avec seulement deux locations de quelques heures par semaine, les
             membres peuvent obtenir jusqu'à 1500 € par mois en fonction du tarif
             horaire qu'ils proposent.
           </p>
@@ -169,10 +169,10 @@ const HostPage = () => (
           <div className="offset-md-1 col-md-10 offset-lg-2 col-lg-8">
             <h2 className="h3">Vous souhaitez rejoindre la communauté ?</h2>
             <p className="py-3">
-              Si vous ne connaissez pas de membres Cookoon ayant des
-              invitations, vous pouvez postuler en proposant votre logement :
-              appartement, maison, loft ou ... château!
-              <br />S'il est retenu vous serez invité à nous rejoindre.
+              Sonnez le portier !  Sans invitation vous pouvez tout de même
+              tenter de rejoindre Cookoon soit en proposant votre logement soit
+              en envoyant votre candidature qui sera mise sur liste d'attente
+              puis examinée par un comité d'hôtes.
             </p>
           </div>
         </div>
