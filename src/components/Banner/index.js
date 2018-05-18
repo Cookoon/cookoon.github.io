@@ -2,7 +2,6 @@ import React from 'react';
 
 import logo from '../../images/logo.png';
 import bannerBackground from './bannerBackground.jpg';
-import appScreen from './appScreen.jpg';
 import DeviceFrame from '../DeviceFrame';
 
 const Banner = ({ children }) => (
@@ -16,10 +15,8 @@ const Banner = ({ children }) => (
           <img alt="Cookoon" src={logo} className="mb-4" />
           {children}
         </div>
-        <div className="col-md-5 col-lg-4 offset-xl-1 col-xl-3 d-flex justify-content-center">
-          <DeviceFrame>
-            <img alt="Application Cookoon" src={appScreen} />
-          </DeviceFrame>
+        <div className="col-md-5 col-lg-4 offset-xl-1 col-xl-3 d-flex justify-content-center xs-frame-shadow">
+          <DeviceFrame />
         </div>
       </div>
     </div>

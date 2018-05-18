@@ -10,22 +10,14 @@
       height: auto;
     }
   }
-  .screen {
-    position: absolute;
-    top: 11.6%;
-    left: 6.7%;
-    width: 86.6%;
-    height: 76.9%;
-    img {
-      max-width: 100%;
-      height: auto;
-    }
-  }
 }
 
 @include media-breakpoint-down(xs) {
   .device-frame {
     width: 90%;
+  }
+  .xs-frame-shadow {
+    background: linear-gradient(0deg, #f8f9fa9c, #004254);
   }
 }
 
