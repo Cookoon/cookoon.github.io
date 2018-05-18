@@ -2,7 +2,6 @@ import React from 'react';
 
 import logo from '../../images/logo.png';
 import bannerBackground from './bannerBackground.jpg';
-import appScreen from './appScreen.jpg';
 import DeviceFrame from '../DeviceFrame';
 
 const Banner = ({ children }) => (

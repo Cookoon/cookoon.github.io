@@ -1,11 +1,11 @@
 import React from 'react';
 
-import appScreen from './cookoonApp.png';
+import iphoneFrame from './cookoonApp.png';
 
 const DeviceFrame = () => (
   <div className="device-frame">
     <div className="frame">
-      <img src={appScreen} />
+      <img src={iphoneFrame} />
     </div>
   </div>
 );
