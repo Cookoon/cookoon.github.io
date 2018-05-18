@@ -3,3 +3,9 @@
   background-size: cover;
   background-position: center;
 }
+
+@include media-breakpoint-only(xs) {
+  .cta {
+    background-position-x: 68%;
+  }
+}
