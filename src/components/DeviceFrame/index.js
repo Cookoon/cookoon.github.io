@@ -1,12 +1,11 @@
 import React from 'react';
 
-import deviceFrame from './deviceFrame.png';
+import appScreen from './cookoonApp.png';
 
-const DeviceFrame = ({ children }) => (
+const DeviceFrame = () => (
   <div className="device-frame">
-    <div className="screen">{children}</div>
     <div className="frame">
-      <img src={deviceFrame} />
+      <img src={appScreen} />
     </div>
   </div>
 );
