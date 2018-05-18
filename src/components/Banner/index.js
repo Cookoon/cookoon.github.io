@@ -17,9 +17,7 @@ const Banner = ({ children }) => (
           {children}
         </div>
         <div className="col-md-5 col-lg-4 offset-xl-1 col-xl-3 d-flex justify-content-center">
-          <DeviceFrame>
-            <img alt="Application Cookoon" src={appScreen} />
-          </DeviceFrame>
+          <DeviceFrame />
         </div>
       </div>
     </div>
