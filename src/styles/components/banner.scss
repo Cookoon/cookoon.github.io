@@ -13,8 +13,11 @@
   .store-badge img {
     height: 3rem;
   }
-  .device-frame {
+  .app-screen {
     margin-top: 14rem;
+    width: 100%;
+    max-width: 540px;
+    overflow: hidden;
   }
 }
 
@@ -22,7 +25,7 @@
   .banner {
     min-height: 120vw;
     padding-top: 7rem;
-    .device-frame {
+    .app-screen {
       max-width: 90vh;
       margin-top: 3rem;
     }
@@ -31,8 +34,9 @@
 
 @include media-breakpoint-down(xs) {
   .banner {
-    .device-frame {
+    .app-screen {
       margin-top: 1rem;
+      width: 90%;
     }
   }
 }
@@ -40,5 +44,8 @@
 @media (max-width: 320px) {
   .banner {
     height: 125vh;
+    .app-screen {
+      width: 75%;
+    }
   }
 }
