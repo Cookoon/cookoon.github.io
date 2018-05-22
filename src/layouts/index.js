@@ -14,6 +14,7 @@ class TemplateWrapper extends Component {
       name,
       title,
       description,
+      fbAppId,
       keywords,
       siteUrl,
       twitter
@@ -48,6 +49,7 @@ class TemplateWrapper extends Component {
             { property: 'og:image', content: ogImageSquareUrl },
             { property: 'og:image:width', content: '600' },
             { property: 'og:image:height', content: '600' },
+            { property: 'fb:app_id', content: fbAppId },
             { name: 'twitter:card', content: 'summary_large_image' },
             { name: 'twitter:site', content: name },
             { name: 'twitter:creator', content: twitter },
@@ -79,6 +81,7 @@ export const pageQuery = graphql`
         name
         title
         description
+        fbAppId
         keywords
         siteUrl
         twitter

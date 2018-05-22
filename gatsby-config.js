@@ -3,6 +3,7 @@ module.exports = {
     name: 'Cookoon',
     title: 'Recevons partout !',
     description: 'Une communauté sélective pour recevoir et partager',
+    fbAppId: '186829152103890',
     keywords: `cookoon, recevons, partout, communauté, communaute, sélective,
     selective, recevoir, partager`,
     siteUrl: 'https://cookoon.fr',
