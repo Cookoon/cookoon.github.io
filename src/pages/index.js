@@ -116,9 +116,11 @@ const IndexPage = () => (
         <div className="col-md p-5 d-flex flex-column justify-content-between align-items-center bg-primary text-white">
           <h2 className="h3 mb-4">Rejoindre la communauté</h2>
           <p>
-            Rejoindre Cookoon ? Vous n'avez pas d'invitation ?
+            Vous n'avez pas d'invitation ?
             <br />
-            Proposez votre logement ou inscrivez votre candidature sur liste d'attente.
+            Proposez votre logement ou inscrivez votre candidature sur liste
+            d'attente.
+            <br />
             Elle sera examinée avec bienveillance par un comité d'hôtes !
           </p>
           <a
