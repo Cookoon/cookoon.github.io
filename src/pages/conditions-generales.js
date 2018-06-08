@@ -264,7 +264,7 @@ const TermsPage = () => (
         modifié.
       </p>
       <p>
-        L'Hôte qui publie une ou plusieurs Annonces est seul responsable des
+        L'Hôte qui publie une (ou deux) Annonce(s) est seul responsable des
         Annonces et de leurs Contenus. En conséquence l'Hôte garantit à COOKOON
         que toute Annonce, réservation d'Espace ou usage faisant l'objet d'une
         Annonce est conforme aux lois et règlements applicables nationaux ou
