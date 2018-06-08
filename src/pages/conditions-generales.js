@@ -43,11 +43,9 @@ const TermsPage = () => (
         </li>
         <li>
           suite à candidature soumise au vote d'un comité d'hôtes
-          (Bouton Sonner le portier sur l'application)          
+          (Bouton Sonner le portier sur l'application)
         </li>
       </ul>
-
-
       <p>
         COOKOON propose également un certain nombre de services à ses
         utilisateurs afin de simplifier l'utilisation des espaces et de
@@ -184,6 +182,7 @@ const TermsPage = () => (
       <ul>
         <li>Prénom</li>
         <li>Nom</li>
+        <li>Date de naissance</li>
         <li>Téléphone</li>
         <li>Email</li>
         <li>Mot de passe. </li>
