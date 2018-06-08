@@ -502,40 +502,19 @@ const TermsPage = () => (
       </p>
       <p>
         En tant que Cookooner, si vous souhaitez annuler une réservation, vous
-        êtes soumis au régime d'annulation choisi par l'Hôte et mentionné sur
-        l'Annonce de l'Espace, étant précisé que l'Hôte peut choisir entre trois
-        régimes d'annulation :
-      </p>
-      <ul>
-        <li>
-          Rigide : l'annulation est possible jusqu'à 48h avant la date et
-          l'heure de réservation prévue sans frais / entre 48h et 24h, seule 50%
-          de la somme versée est remboursée / moins de 2h, le montant total de
-          la réservation est dû.
-        </li>
-        <li>
-          Semi-Flexible : l'annulation est possible jusqu'à 24h avant la date et
-          l'heure de réservation sans frais / entre 24h et 2h, seule 50% de la
-          somme versée est remboursée / moins de 2h, le montant total de la
-          réservation est dû.
-        </li>
-        <li>
-          Flexible : l'annulation sans frais est possible jusqu'à 2h avant la
-          date et l'heure de réservation / moins de 2h, le montant total de la
-          réservation est dû.
-        </li>
-      </ul>
-      <p>
-        En l'absence de choix par l'hôte le régime d'annulation applicable est
-        le plus favorable au Cookooner : le régime flexible.
+        êtes soumis au régime d'annulation suivant : concernant le lieu,
+        l'annulation est possible jusqu'à 48h avant la date et l'heure de
+        réservation prévue sans frais / entre 48h et 24h, seule 50% de la somme
+        versée est remboursée / moins de 2h, le montant total de la réservation
+        est dû.
       </p>
       <p>
         En cas d'annulation d'une réservation par l'Hôte, le Cookooner sera
         intégralement remboursé.
       </p>
       <p>
-        Si l'hôte annule une réservation dans les 24H précédent le début de la
-        location, une pénalité de 15 € pourra être appliquée par COOKOON.
+        Si l'hôte annule une réservation dans les 72H précédent le début de la
+        location, une pénalité de 60 € pourra être appliquée par COOKOON.
       </p>
       <p>
         Suite à un nombre trop important d'annulations faisant suite à des
