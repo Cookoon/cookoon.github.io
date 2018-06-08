@@ -30,10 +30,22 @@ const TermsPage = () => (
       <p>
         COOKOON propose ainsi de mettre en relation des personnes disposant d'un
         espace propre à la réception avec des utilisateurs ayant besoin d'un
-        espace pour une courte durée. L'utilisation de la plateforme est
-        toutefois limitée : l'inscription n'est possible que sur parrainage
-        d'une personne physique ou morale déjà membre de la communauté COOKOON.
+        espace pour une courte durée. L'utilisation de la plateforme est toutefois
+        limitée, l'inscription n'est possible que dans trois cas :
       </p>
+      <ul>
+        <li>
+          sur parrainage d'une personne physique ou morale déjà présente
+        </li>
+        <li>
+          suite à la proposition et l'acceptation d'un  logement propre à la
+          réception ( Bouton Sonner le portier sur l'application)
+        </li>
+        <li>
+          suite à candidature soumise au vote d'un comité d'hôtes
+          (Bouton Sonner le portier sur l'application)
+        </li>
+      </ul>
       <p>
         COOKOON propose également un certain nombre de services à ses
         utilisateurs afin de simplifier l'utilisation des espaces et de
@@ -170,6 +182,7 @@ const TermsPage = () => (
       <ul>
         <li>Prénom</li>
         <li>Nom</li>
+        <li>Date de naissance</li>
         <li>Téléphone</li>
         <li>Email</li>
         <li>Mot de passe. </li>
@@ -251,12 +264,19 @@ const TermsPage = () => (
         modifié.
       </p>
       <p>
-        L'Hôte qui publie une ou plusieurs Annonces est seul responsable des
+        L'Hôte qui publie une (ou deux) Annonce(s) est seul responsable des
         Annonces et de leurs Contenus. En conséquence l'Hôte garantit à COOKOON
         que toute Annonce, réservation d'Espace ou usage faisant l'objet d'une
         Annonce est conforme aux lois et règlements applicables nationaux ou
         locaux mais également à tout contrat passé par lui avec des tiers (baux,
         contrats de location, règlement internes de syndic etc.)
+      </p>
+      <p>
+        La plateforme Cookoon intègre automatiquement une réduction de 15% à
+        partir de 4 heures consécutives de location et de 20% à partir de 10
+        heures consécutives de location. Par exemple : pour un appartement au
+        prix de 20 € de l'heure, le locataire paiera 60 € pour 3 heures, 85 €
+        pour 5h et 160 € pour 10 heures.
       </p>
       <p>
         Pour aider l'Hôte à optimiser ses Annonces, COOKOON peut mettre à sa
@@ -392,7 +412,8 @@ const TermsPage = () => (
         Pour la mise en relation de l'Hôte et du Cookooner et la réservation de
         l'Espace qui en résulte, COOKOON perçoit de l'Hôte une rémunération
         égale à sept pourcent (7 %) de la rémunération à verser par le Cookooner
-        pour la location de l'Espace (tarif horaire × nombre d'heures).
+        pour la location de l'Espace (tarif horaire × nombre d'heures x éventuel
+        coefficient pour location supérieures à 4h).
       </p>
       <p>
         Pour chaque réservation, l'Hôte reçoit par conséquent une rémunération
@@ -407,7 +428,8 @@ const TermsPage = () => (
         Pour la mise en relation de l'Hôte et du Cookooner et la réservation de
         l'Espace qui en résulte, COOKOON perçoit du Cookooner une rémunération
         égale à sept pourcent (7 %) de la rémunération à verser par le Cookooner
-        pour la location de l'Espace (tarif horaire × nombre d'heures).
+        pour la location de l'Espace (tarif horaire × nombre d'heures x éventuel
+        coefficient pour location supérieures à 4h).
       </p>
       <p>
         Le Cookooner doit par conséquent verser une rémunération égale au nombre
@@ -480,40 +502,19 @@ const TermsPage = () => (
       </p>
       <p>
         En tant que Cookooner, si vous souhaitez annuler une réservation, vous
-        êtes soumis au régime d'annulation choisi par l'Hôte et mentionné sur
-        l'Annonce de l'Espace, étant précisé que l'Hôte peut choisir entre trois
-        régimes d'annulation :
-      </p>
-      <ul>
-        <li>
-          Rigide : l'annulation est possible jusqu'à 48h avant la date et
-          l'heure de réservation prévue sans frais / entre 48h et 24h, seule 50%
-          de la somme versée est remboursée / moins de 2h, le montant total de
-          la réservation est dû.
-        </li>
-        <li>
-          Semi-Flexible : l'annulation est possible jusqu'à 24h avant la date et
-          l'heure de réservation sans frais / entre 24h et 2h, seule 50% de la
-          somme versée est remboursée / moins de 2h, le montant total de la
-          réservation est dû.
-        </li>
-        <li>
-          Flexible : l'annulation sans frais est possible jusqu'à 2h avant la
-          date et l'heure de réservation / moins de 2h, le montant total de la
-          réservation est dû.
-        </li>
-      </ul>
-      <p>
-        En l'absence de choix par l'hôte le régime d'annulation applicable est
-        le plus favorable au Cookooner : le régime flexible.
+        êtes soumis au régime d'annulation suivant : concernant le lieu,
+        l'annulation est possible jusqu'à 48h avant la date et l'heure de
+        réservation prévue sans frais / entre 48h et 24h, seule 50% de la somme
+        versée est remboursée / moins de 2h, le montant total de la réservation
+        est dû.
       </p>
       <p>
         En cas d'annulation d'une réservation par l'Hôte, le Cookooner sera
         intégralement remboursé.
       </p>
       <p>
-        Si l'hôte annule une réservation dans les 24H précédent le début de la
-        location, une pénalité de 15 € pourra être appliquée par COOKOON.
+        Si l'hôte annule une réservation dans les 72H précédent le début de la
+        location, une pénalité de 60 € pourra être appliquée par COOKOON.
       </p>
       <p>
         Suite à un nombre trop important d'annulations faisant suite à des
@@ -582,21 +583,7 @@ const TermsPage = () => (
         à trois fois le prix du temps dépassé, calculé sur la base du tarif
         horaire de la réservation.
       </p>
-      <h3>5.4 Dépôt de garantie</h3>
-      <p>
-        Lorsqu'un Cookooner réserve un Espace, une demande d'autorisation d'un
-        montant forfaitaire de 300 € est effectuée sur la carte bancaire du
-        Membre. Si la mise à disposition de l'Espace s'effectue sans incident,
-        cette somme n'est pas débitée suite au check-out et la demande
-        d'autorisation est annulée.
-      </p>
-      <p>
-        En revanche si la mise à disposition de l'Espace est marquée par des
-        incidents (bris, casse, dégradations...), cette somme sera débitée par
-        COOKOON à titre de pénalités, sans préjudice des dommages-intérêts qui
-        pourrait être réclamés par l'Hôte, en complément.
-      </p>
-      <h3>5.5 Dommages</h3>
+      <h3>5.4 Dommages</h3>
       <p>
         En cas de réclamation d'un Hôte suite à l'usage d'un Espace par un
         Cookooner et sur présentation de preuves notamment photographiques, le
@@ -611,7 +598,7 @@ const TermsPage = () => (
         retourner directement contre le Cookooner et il sera fait application
         des dispositions de l'article 5.4 ci-dessus.
       </p>
-      <h3>5.6 Signalement d'une mauvaise conduite</h3>
+      <h3>5.5 Signalement d'une mauvaise conduite</h3>
       <p>
         Si un Hôte ou un Cookooner constate un comportement inapproprié dans
         l'Espace, il doit le signaler au commissariat puis avertir COOKOON en
