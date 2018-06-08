@@ -272,6 +272,13 @@ const TermsPage = () => (
         contrats de location, règlement internes de syndic etc.)
       </p>
       <p>
+        La plateforme Cookoon intègre automatiquement une réduction de 15% à
+        partir de 4 heures consécutives de location et de 20% à partir de 10
+        heures consécutives de location. Par exemple : pour un appartement au
+        prix de 20 € de l'heure, le locataire paiera 60 € pour 3 heures, 85 €
+        pour 5h et 160 € pour 10 heures.
+      </p>
+      <p>
         Pour aider l'Hôte à optimiser ses Annonces, COOKOON peut mettre à sa
         disposition des outils de conseil notamment pour la fixation du juste
         tarif. L'Hôte reste néanmoins seul décisionnaire et seul responsable
