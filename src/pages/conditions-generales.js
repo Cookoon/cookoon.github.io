@@ -412,7 +412,8 @@ const TermsPage = () => (
         Pour la mise en relation de l'Hôte et du Cookooner et la réservation de
         l'Espace qui en résulte, COOKOON perçoit de l'Hôte une rémunération
         égale à sept pourcent (7 %) de la rémunération à verser par le Cookooner
-        pour la location de l'Espace (tarif horaire × nombre d'heures).
+        pour la location de l'Espace (tarif horaire × nombre d'heures x éventuel
+        coefficient pour location supérieures à 4h).
       </p>
       <p>
         Pour chaque réservation, l'Hôte reçoit par conséquent une rémunération
