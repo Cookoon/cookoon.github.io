@@ -583,21 +583,7 @@ const TermsPage = () => (
         à trois fois le prix du temps dépassé, calculé sur la base du tarif
         horaire de la réservation.
       </p>
-      <h3>5.4 Dépôt de garantie</h3>
-      <p>
-        Lorsqu'un Cookooner réserve un Espace, une demande d'autorisation d'un
-        montant forfaitaire de 300 € est effectuée sur la carte bancaire du
-        Membre. Si la mise à disposition de l'Espace s'effectue sans incident,
-        cette somme n'est pas débitée suite au check-out et la demande
-        d'autorisation est annulée.
-      </p>
-      <p>
-        En revanche si la mise à disposition de l'Espace est marquée par des
-        incidents (bris, casse, dégradations...), cette somme sera débitée par
-        COOKOON à titre de pénalités, sans préjudice des dommages-intérêts qui
-        pourrait être réclamés par l'Hôte, en complément.
-      </p>
-      <h3>5.5 Dommages</h3>
+      <h3>5.4 Dommages</h3>
       <p>
         En cas de réclamation d'un Hôte suite à l'usage d'un Espace par un
         Cookooner et sur présentation de preuves notamment photographiques, le
@@ -612,7 +598,7 @@ const TermsPage = () => (
         retourner directement contre le Cookooner et il sera fait application
         des dispositions de l'article 5.4 ci-dessus.
       </p>
-      <h3>5.6 Signalement d'une mauvaise conduite</h3>
+      <h3>5.5 Signalement d'une mauvaise conduite</h3>
       <p>
         Si un Hôte ou un Cookooner constate un comportement inapproprié dans
         l'Espace, il doit le signaler au commissariat puis avertir COOKOON en
