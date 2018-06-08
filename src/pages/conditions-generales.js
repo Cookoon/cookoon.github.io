@@ -30,10 +30,24 @@ const TermsPage = () => (
       <p>
         COOKOON propose ainsi de mettre en relation des personnes disposant d'un
         espace propre à la réception avec des utilisateurs ayant besoin d'un
-        espace pour une courte durée. L'utilisation de la plateforme est
-        toutefois limitée : l'inscription n'est possible que sur parrainage
-        d'une personne physique ou morale déjà membre de la communauté COOKOON.
+        espace pour une courte durée. L'utilisation de la plateforme est toutefois
+        limitée, l'inscription n'est possible que dans trois cas :
       </p>
+      <ul>
+        <li>
+          sur parrainage d'une personne physique ou morale déjà présente
+        </li>
+        <li>
+          suite à la proposition et l'acceptation d'un  logement propre à la
+          réception ( Bouton Sonner le portier sur l'application)
+        </li>
+        <li>
+          suite à candidature soumise au vote d'un comité d'hôtes
+          (Bouton Sonner le portier sur l'application)          
+        </li>
+      </ul>
+
+
       <p>
         COOKOON propose également un certain nombre de services à ses
         utilisateurs afin de simplifier l'utilisation des espaces et de
