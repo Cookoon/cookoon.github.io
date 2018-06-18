@@ -8,12 +8,6 @@ import googlePlayBadge from '../images/googlePlayBadge.png';
 import ctaBackground from '../images/ctaBackground.jpg';
 import iconAxa from '../images/iconAxa.jpg';
 
-const sendAnalyticsEvent = () => {
-  if (typeof ga === 'function') {
-    ga('send', 'event', 'HostCTA', 'click', 'index');
-  }
-};
-
 const IndexPage = () => (
   <div>
     <Banner>
