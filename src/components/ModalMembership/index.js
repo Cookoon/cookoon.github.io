@@ -42,36 +42,40 @@ class ModalMembership extends React.Component {
                 </strong>
               </p>
             </div>
-            <div className="membership-actions">
-              <div>
+            <div className="membership-actions text-center">
+              <div className='membership-action'>
                 <a
-                  href="https://cookoon.typeform.com/to/mEeE1Z"
-                  className="btn btn-primary btn-action btn-block"
+                  href="https://cookoon.typeform.com/to/iY7Heh"
+                  className="btn btn-primary btn-block rounded-0"
                   target="_blank"
                   rel="noreferrer noopener"
                   onClick={this.sendAnalyticsEvent}
                 >
-                  Je propose mon appartement
+                  JE PROPOSE MON APPARTEMENT
                 </a>
-                <p>
+                <p className='py-3'>
                   Grand loft ou petit appartement cosy ? <br />
                   Qu'il puisse accueillir un dîner grand siècle ou un entretien
                   professionnel, votre appartement est peut-être la clef pour
                   rejoindre Cookoon.
                 </p>
               </div>
-              <p className='small'>======= ou ======</p>
-              <div>
+              <div className="hr small text-primary text-center pt-2 mb-4">
+                <div className="rule"></div>
+                <p>ou</p>
+                <div className="rule"></div>
+              </div>
+              <div className='membership-action'>
                 <a
                   href="https://cookoon.typeform.com/to/mEeE1Z"
-                  className="btn btn-primary btn-action btn-block"
+                  className="btn btn-primary btn-block rounded-0"
                   target="_blank"
                   rel="noreferrer noopener"
                   onClick={this.sendAnalyticsEvent}
                 >
-                  Je propose mon appartement
+                  JE ME PRÉSENTE
                 </a>
-                <p>
+                <p className='py-3'>
                   Faites-nous parvenir votre candidature, elle sera inscrite sur
                   la liste d'attente et examinée avec bienveillance par un comité
                   de membres.
