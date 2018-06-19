@@ -1,0 +1,31 @@
+.membership {
+  &-header {
+    border-bottom: none;
+  }
+  &-intro {
+    max-width: 350px;
+    margin: auto;
+    img {
+      width: 80px;
+    }
+  }
+  &-actions {
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    padding: 0 20px;
+  }
+  &-action {
+    margin: 0 auto;
+    max-width: 300px;
+    a {
+      font-family: 'GFS Didot', serif;
+    }
+  }
+}
+
+@media (max-width: 767.98px) {
+  .membership-actions {
+    display: block;
+  }
+}

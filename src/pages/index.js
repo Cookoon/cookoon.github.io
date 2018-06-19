@@ -2,16 +2,11 @@ import React from 'react';
 import Link from 'gatsby-link';
 
 import Banner from '../components/Banner';
+import ModalMembership from '../components/ModalMembership';
 import appStoreBadge from '../images/appStoreBadge.png';
 import googlePlayBadge from '../images/googlePlayBadge.png';
 import ctaBackground from '../images/ctaBackground.jpg';
 import iconAxa from '../images/iconAxa.jpg';
-
-const sendAnalyticsEvent = () => {
-  if (typeof ga === 'function') {
-    ga('send', 'event', 'HostCTA', 'click', 'index');
-  }
-};
 
 const IndexPage = () => (
   <div>
@@ -123,7 +118,10 @@ const IndexPage = () => (
             <br />
             Elle sera examinée avec bienveillance par un comité d'hôtes !
           </p>
-          <a
+
+
+          {/* Todo : REmove link when done */}
+          {/* <a
             href="https://cookoon.typeform.com/to/mEeE1Z"
             className="btn btn-lg btn-light px-5 text-uppercase"
             target="_blank"
@@ -131,7 +129,8 @@ const IndexPage = () => (
             onClick={sendAnalyticsEvent}
           >
             Je sonne le portier
-          </a>
+          </a> */}
+          <ModalMembership buttonLabel='Je sonne le portier' className='modal-lg' />
         </div>
 
         <div className="col-md p-5 d-flex flex-column justify-content-between align-items-center bg-white">
