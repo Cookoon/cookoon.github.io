@@ -130,7 +130,7 @@ const IndexPage = () => (
           >
             Je sonne le portier
           </a> */}
-          <ModalMembership buttonLabel='Je sonne le portier' />
+          <ModalMembership buttonLabel='Je sonne le portier' className='modal-lg' />
         </div>
 
         <div className="col-md p-5 d-flex flex-column justify-content-between align-items-center bg-white">

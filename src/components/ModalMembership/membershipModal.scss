@@ -1,0 +1,17 @@
+.membership {
+  &-header {
+    border-bottom: none;
+  }
+  &-intro {
+    max-width: 350px;
+    margin: auto;
+    img {
+      width: 100px;
+    }
+  }
+  &-actions {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
