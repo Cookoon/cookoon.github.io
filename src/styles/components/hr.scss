@@ -1,0 +1,11 @@
+.hr {
+  color: $blue;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  .rule {
+    flex: 2;
+    border-top: 1px solid $blue;
+    margin: 0 2rem;
+  }
+}
