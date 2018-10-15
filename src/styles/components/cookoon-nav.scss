@@ -16,6 +16,14 @@
     background-color: transparent;
     padding-top: 30px;
   }
+
+  .navbar-nav {
+    display: flex;
+    width: 100%;
+    .nav-item:last-child {
+      margin-left: auto;
+    }
+  }
 }
 
 @include media-breakpoint-down(sm) {
