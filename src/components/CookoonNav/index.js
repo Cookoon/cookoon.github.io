@@ -102,6 +102,11 @@ class CookoonNav extends Component {
                     Livre Blanc
                   </Link>
                 </NavItem>
+                <NavItem className="px-3">
+                  <a href="https://app.cookoon.fr/pro" className='nav-link' target='_blank'>
+                    Cookoon for Business <i className="fa fa-sign-in"></i>
+                  </a>
+                </NavItem>
               </Nav>
             </Collapse>
           </div>
