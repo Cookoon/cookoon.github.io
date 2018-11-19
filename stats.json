@@ -1,9 +1,5 @@
 {
   "assetsByChunkName": {
-    "path---presentation-for-buisness": [
-      "path---presentation-for-buisness-a0e39f21c11f6a62c5ab.js",
-      "path---presentation-for-buisness-a0e39f21c11f6a62c5ab.js.map"
-    ],
     "component---src-pages-index-js": [
       "component---src-pages-index-js-6f2071bdb2218c899d36.js",
       "component---src-pages-index-js-6f2071bdb2218c899d36.js.map"
@@ -11,10 +7,6 @@
     "path---livre-blanc": [
       "path---livre-blanc-a0e39f21c11f6a62c5ab.js",
       "path---livre-blanc-a0e39f21c11f6a62c5ab.js.map"
-    ],
-    "component---src-pages-presentation-for-buisness-js": [
-      "component---src-pages-presentation-for-buisness-js-6971d7db0777050f825a.js",
-      "component---src-pages-presentation-for-buisness-js-6971d7db0777050f825a.js.map"
     ],
     "path---": [
       "path----22f0b2e82849c927f026.js",
@@ -33,12 +25,16 @@
       "path---garanties-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-4f7ababffd4e4c491531.js",
-      "component---src-layouts-index-js-4f7ababffd4e4c491531.js.map"
+      "component---src-layouts-index-js-bc8b1a04714f8de917c0.js",
+      "component---src-layouts-index-js-bc8b1a04714f8de917c0.js.map"
     ],
     "path---index": [
       "path---index-a0e39f21c11f6a62c5ab.js",
       "path---index-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-presentation-for-business-js": [
+      "component---src-pages-presentation-for-business-js-31f6bf936690f5aacd5d.js",
+      "component---src-pages-presentation-for-business-js-31f6bf936690f5aacd5d.js.map"
     ],
     "component---src-pages-404-js": [
       "component---src-pages-404-js-ee619e0bfdc1c8cd06d0.js",
@@ -72,9 +68,13 @@
       "component---src-pages-conditions-generales-js-8a3c0c02b2304885409f.js",
       "component---src-pages-conditions-generales-js-8a3c0c02b2304885409f.js.map"
     ],
+    "path---presentation-for-business": [
+      "path---presentation-for-business-a0e39f21c11f6a62c5ab.js",
+      "path---presentation-for-business-a0e39f21c11f6a62c5ab.js.map"
+    ],
     "app": [
-      "app-69f96188cc3380e25e38.js",
-      "app-69f96188cc3380e25e38.js.map"
+      "app-8dc29d18a90dcf386550.js",
+      "app-8dc29d18a90dcf386550.js.map"
     ],
     "path---404": [
       "path---404-a0e39f21c11f6a62c5ab.js",
