@@ -44,8 +44,8 @@ class CookoonNav extends Component {
         '/conditions-generales/',
         '/livre-blanc',
         '/livre-blanc/',
-        '/presentation-for-buisness',
-        '/presentation-for-buisness/'
+        '/presentation-for-business',
+        '/presentation-for-business/'
       ].includes(this.props.pathname),
       'cookoon-nav-top': this.state.isTop,
       'cookoon-nav-opened': this.state.isOpen

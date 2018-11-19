@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'gatsby-link';
 import Helmet from 'react-helmet';
 
-const BuisnessPresentationPage = () => (
+const BusinessPresentationPage = () => (
   <div>
     <Helmet title="For Buisness" />
 
@@ -16,4 +16,4 @@ const BuisnessPresentationPage = () => (
   </div>
 );
 
-export default BuisnessPresentationPage;
+export default BusinessPresentationPage;
