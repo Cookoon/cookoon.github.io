@@ -1,5 +1,9 @@
 {
   "assetsByChunkName": {
+    "path---presentation-for-buisness": [
+      "path---presentation-for-buisness-a0e39f21c11f6a62c5ab.js",
+      "path---presentation-for-buisness-a0e39f21c11f6a62c5ab.js.map"
+    ],
     "component---src-pages-index-js": [
       "component---src-pages-index-js-6f2071bdb2218c899d36.js",
       "component---src-pages-index-js-6f2071bdb2218c899d36.js.map"
@@ -7,6 +11,10 @@
     "path---livre-blanc": [
       "path---livre-blanc-a0e39f21c11f6a62c5ab.js",
       "path---livre-blanc-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-presentation-for-buisness-js": [
+      "component---src-pages-presentation-for-buisness-js-6971d7db0777050f825a.js",
+      "component---src-pages-presentation-for-buisness-js-6971d7db0777050f825a.js.map"
     ],
     "path---": [
       "path----22f0b2e82849c927f026.js",
@@ -25,8 +33,8 @@
       "path---garanties-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-a31cf29499f5f070faaa.js",
-      "component---src-layouts-index-js-a31cf29499f5f070faaa.js.map"
+      "component---src-layouts-index-js-4f7ababffd4e4c491531.js",
+      "component---src-layouts-index-js-4f7ababffd4e4c491531.js.map"
     ],
     "path---index": [
       "path---index-a0e39f21c11f6a62c5ab.js",
@@ -65,8 +73,8 @@
       "component---src-pages-conditions-generales-js-8a3c0c02b2304885409f.js.map"
     ],
     "app": [
-      "app-314c0c5df788da134ba8.js",
-      "app-314c0c5df788da134ba8.js.map"
+      "app-69f96188cc3380e25e38.js",
+      "app-69f96188cc3380e25e38.js.map"
     ],
     "path---404": [
       "path---404-a0e39f21c11f6a62c5ab.js",
