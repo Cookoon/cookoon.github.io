@@ -8,6 +8,10 @@
   p {
     margin: 0;
   }
+  a {
+    color: black;
+    text-decoration: none;
+  }
   &-logo-block {
     display: flex;
     justify-content: space-around;

@@ -133,7 +133,7 @@ const IndexPage = () => (
           <ModalMembership buttonLabel='Je sonne le portier' className='modal-lg' />
         </div>
 
-        <div className="col-md p-5 d-flex flex-column justify-content-between align-items-center bg-white">
+        <div id='experience' className="col-md p-5 d-flex flex-column justify-content-between align-items-center bg-white">
           <h2 className="h3 mb-4">En toute sécurité</h2>
           <p>Toutes les locations sont assurées par notre partenaire</p>
           <img src={iconAxa} role="presentation" className="mb-4 w-6r" />
