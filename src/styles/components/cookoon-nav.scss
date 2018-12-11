@@ -1,47 +1,26 @@
 .cookoon-nav {
-  z-index: 1;
-  position: fixed;
-  top: 0;
   width: 100%;
-  background-color: $blue;
-  transition: background-color 0.5s ease;
-  &-simple + main {
-    padding-top: 5rem !important;
+  background: white;
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  align-items: center;
+  p {
+    margin: 0;
   }
-}
-
-@include media-breakpoint-up(md) {
-  .cookoon-nav-top:not(.cookoon-nav-simple) {
-    position: absolute;
-    background-color: transparent;
-    padding-top: 30px;
-  }
-
-  .navbar-nav {
+  &-logo-block {
     display: flex;
-    width: 100%;
-    .nav-item:last-child {
-      margin-left: auto;
+    justify-content: space-around;
+    align-items: center;
+    p {
+      padding: 0 0 0 30px;
+      margin: 0;
+    }
+    img {
+      height: 12px;
     }
   }
-}
-
-@include media-breakpoint-down(sm) {
-  main {
-    transition: margin-top 0.5s ease;
+  &-business {
+    align-self: flex-end;
   }
-  .cookoon-nav {
-    font-size: 1.2rem;
-    &-opened + main {
-      margin-top: 180px;
-    }
-  }
-}
-
-// Offset anchors
-:target:before {
-  content: '';
-  display: block;
-  height: 90px;
-  margin-top: -90px;
 }
