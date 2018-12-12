@@ -27,15 +27,39 @@ const Footer = () => (
           </Link>
         </div>
         <div className='col-md mt-2'>
-          <p>Le livre blanc</p>
-          <p>Presse</p>
-          <p>Contact</p>
+          <Link to="/livre-blanc">
+            <p>Le livre blanc</p>
+          </Link>
+          <a
+            href="mailto:Cookoon<presse@cookoon.fr>"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <p>Presse</p>
+          </a>
+          <a
+            href="mailto:Concierge Cookoon<concierge@cookoon.fr>"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <p>Contact</p>
+          </a>
         </div>
         <div className='col-md mt-2'>
           <p> Retrouvez Cookoon sur votre smartphone</p>
           <div className='d-flex mt-2'>
-            <img className='app-logo' alt="App store" src={appStoreBadge} />
-            <img className='app-logo ml-2' alt="Play store" src={googlePlayBadge} />
+            <a
+              href="https://itunes.apple.com/fr/app/cookoon-inside/id1291943406"
+              target="_blank"
+            >
+              <img className='app-logo' alt="App store" src={appStoreBadge} />
+            </a>
+            <a
+              href="https://play.google.com/store/apps/details?id=cookoon.cookoonandroid"
+              target="_blank"
+            >
+              <img className='app-logo ml-2' alt="Play store" src={googlePlayBadge} />
+            </a>
           </div>
         </div>
       </div>
