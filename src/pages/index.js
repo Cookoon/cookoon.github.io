@@ -1,37 +1,18 @@
 import React from 'react';
 import Link from 'gatsby-link';
 
-import Banner from '../components/Banner';
 import ModalMembership from '../components/ModalMembership';
+import BannerCard from '../components/BannerCard';
 import appStoreBadge from '../images/appStoreBadge.png';
 import googlePlayBadge from '../images/googlePlayBadge.png';
 import ctaBackground from '../images/ctaBackground.jpg';
 import iconAxa from '../images/iconAxa.jpg';
+import backgroundFirst from '../images/cookoon-diner.png';
+import backgroundSecond from '../images/cookoon-diner.png';
 
 const IndexPage = () => (
   <div>
-    <Banner>
-      <h1 className="h3 mb-4">
-        Une communauté sélective
-        <br />pour recevoir et partager
-      </h1>
-      <div className="store-badge">
-        <a
-          href="https://itunes.apple.com/fr/app/cookoon-inside/id1291943406?mt=8"
-          target="_blank"
-          className="d-inline-block mx-1 ml-md-0 mr-md-3 my-2"
-        >
-          <img alt="App Store" src={appStoreBadge} />
-        </a>
-        <a
-          href="https://play.google.com/store/apps/details?id=cookoon.cookoonandroid"
-          target="_blank"
-          className="d-inline-block mx-1 ml-md-0 mr-md-3 my-2"
-        >
-          <img alt="Google Play" src={googlePlayBadge} />
-        </a>
-      </div>
-    </Banner>
+    <BannerCard background={backgroundFirst} />
 
     <div className="container text-center">
       <h2 className="h3 pt-5 mb-5">En toute simplicité</h2>

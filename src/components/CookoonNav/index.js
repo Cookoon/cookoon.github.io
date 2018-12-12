@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from 'gatsby-link';
 import logo from '../../images/logo-black-small.png';
+import './cookoon-nav.scss';
 
 const CookoonNav = () => (
   <nav className='cookoon-nav'>
