@@ -29,6 +29,29 @@ const IndexPage = () => (
       </div>
     </div>
 
+    <div className="container mt-5">
+      <div className="text-card">
+        <h3>Grâce à Cookoon, partagez avec vos convives une expérience sur-mesure, élégante.</h3>
+        <hr className='bg-light' />
+        <div className='row'>
+          <div className="col-md">
+            <p>for pleasure</p>
+            <p>
+              dîner d’anniversaire, repas de mariage,
+              cours de cuisine, dégustations de vin.
+            </p>
+          </div>
+          <div className="col-md">
+            <p>for business</p>
+            <p>
+              dîner d’affaires, cocktail clients,
+              journée de formation, petit déjeuner presse.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
 
     <div className="container text-center">
       <h2 className="h3 pt-5 mb-5">En toute simplicité</h2>
