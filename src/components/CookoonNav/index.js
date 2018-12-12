@@ -10,12 +10,12 @@ const CookoonNav = () => (
         <Link to="/">
           <img alt="Cookoon" src={logo} />
         </Link>
-        <Link to="/#experience">
+        <a href='/#experience'>
           <p>L'experience</p>
-        </Link>
-        <Link to="/#reseau">
+        </a>
+        <a href="/#reseau">
           <p>Le réseau</p>
-        </Link>
+        </a>
       </div>
       <div className='cookoon-nav-business d-none d-md-block'>
         <p>Cookoon for Business</p>

@@ -1,7 +1,6 @@
 import React from 'react';
 import Link from 'gatsby-link';
 
-import ModalMembership from '../components/ModalMembership';
 import BannerCard from '../components/BannerCard';
 import ImageCard from '../components/ImageCard';
 import appStoreBadge from '../images/appStoreBadge.png';
@@ -20,7 +19,7 @@ const IndexPage = () => (
     <div className="container">
       <div className="row">
         <div className="col-md mt-4">
-          <ImageCard background={highlight1} text='Un calme unique' />
+          <ImageCard background={highlight1} text='Un cadre unique' />
         </div>
         <div className="col-md mt-4">
           <ImageCard background={highlight2} text='Un chef privé' />
@@ -31,7 +30,7 @@ const IndexPage = () => (
       </div>
     </div>
 
-    <div className="container my-5" id='experience'>
+    <div className="container my-5 anchor" id='experience'>
       <div className="text-card">
         <h3>Grâce à Cookoon, partagez avec vos convives une expérience sur-mesure, élégante.</h3>
         <hr className='bg-light' />
@@ -56,7 +55,7 @@ const IndexPage = () => (
 
     <BannerCard background={backgroundSecond} text='Un réseau sélectif, qui fonctionne grâce à la cooptation.' />
 
-    <div className="container my-5" id='reseau'>
+    <div className="container mt-5 anchor" id='reseau'>
       <div className="text-card">
         <h3>Cookoon est bâtit sur la confiance entre membres.</h3>
         <hr className='bg-light' />

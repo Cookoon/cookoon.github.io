@@ -2,7 +2,6 @@ import React from 'react';
 import Link from 'gatsby-link';
 
 import Helmet from 'react-helmet';
-import Banner from '../components/Banner';
 
 const sendAnalyticsEventTopCTA = () => {
   if (typeof ga === 'function') {
@@ -19,23 +18,6 @@ const sendAnalyticsEventBottomCTA = () => {
 const HostPage = () => (
   <div>
     <Helmet title="Devenir hôte" />
-
-    <Banner>
-      <h1 className="h3 mb-5">
-        Rentabilisez votre logement
-        <br />durant vos absences quotidiennes
-        <br />sans contraintes grâce aux services proposés
-      </h1>
-      <a
-        href="https://cookoon.typeform.com/to/iY7Heh"
-        className="btn btn-lg btn-light px-5 text-uppercase"
-        target="_blank"
-        rel="noreferrer noopener"
-        onClick={sendAnalyticsEventTopCTA}
-      >
-        Postuler
-      </a>
-    </Banner>
 
     <div className="container text-center">
       <h2 className="h3 text-center pt-5 mb-3">Être Hôte Cookoon</h2>

@@ -2,27 +2,12 @@ import React from 'react';
 import Link from 'gatsby-link';
 import Helmet from 'react-helmet';
 
-import Banner from '../components/Banner';
 import Faq from '../components/Faq';
 import logoAxa from '../images/logoAxa.png';
 
 const InsurancePage = () => (
   <div>
     <Helmet title="Garanties" />
-    <Banner>
-      <div className="row">
-        <div className="col-md-9 d-flex justify-content-center justify-content-md-start align-items-center">
-          <h1 className="h3 mb-4 mb-md-0">
-            Votre assurance incluse
-            <br />à chaque location
-            <br />grâce à notre partenaire
-          </h1>
-        </div>
-        <div className="col-md-3 d-flex justify-content-center justify-content-md-start align-items-center">
-          <img src={logoAxa} alt="Axa" className="w-6r" />
-        </div>
-      </div>
-    </Banner>
     <div className="bg-primary text-white">
       <div className="container">
         <h2 className="h3 text-center pt-5 mb-5">
