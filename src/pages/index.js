@@ -3,6 +3,7 @@ import Link from 'gatsby-link';
 
 import ModalMembership from '../components/ModalMembership';
 import BannerCard from '../components/BannerCard';
+import ImageCard from '../components/ImageCard';
 import appStoreBadge from '../images/appStoreBadge.png';
 import googlePlayBadge from '../images/googlePlayBadge.png';
 import ctaBackground from '../images/ctaBackground.jpg';
@@ -13,6 +14,21 @@ import backgroundSecond from '../images/cookoon-diner.png';
 const IndexPage = () => (
   <div>
     <BannerCard background={backgroundFirst} />
+
+    <div className="container">
+      <div className="row">
+        <div className="col-md mt-4">
+          <ImageCard background={backgroundFirst} text='Un calme unique' />
+        </div>
+        <div className="col-md mt-4">
+          <ImageCard background={backgroundFirst} text='Un chef privé' />
+        </div>
+        <div className="col-md mt-4">
+          <ImageCard background={backgroundFirst} text='Un service sur mesure' />
+        </div>
+      </div>
+    </div>
+
 
     <div className="container text-center">
       <h2 className="h3 pt-5 mb-5">En toute simplicité</h2>
