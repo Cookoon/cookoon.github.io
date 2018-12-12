@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'gatsby-link';
-import AxaLogo from '../../images/iconAxa.jpg'
+import AxaLogo from '../../images/axa_logo_white.png'
 import appStoreBadge from '../../images/appStoreBadge.png'
 import googlePlayBadge from '../../images/googlePlayBadge.png'
 import './footer.scss'
@@ -27,9 +27,9 @@ const Footer = () => (
         </div>
         <div className='col-md mt-2'>
           <p> Retrouvez Cookoon sur votre smartphone</p>
-          <div className='d-flex'>
+          <div className='d-flex mt-2'>
             <img className='app-logo' alt="App store" src={appStoreBadge} />
-            <img className='app-logo' alt="Play store" src={googlePlayBadge} />
+            <img className='app-logo ml-2' alt="Play store" src={googlePlayBadge} />
           </div>
         </div>
       </div>
