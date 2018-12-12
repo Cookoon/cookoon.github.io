@@ -8,7 +8,7 @@ class BannerCard extends React.Component {
         <div className='banner-card' style={{ backgroundImage: `url(${this.props.background})` }}>
           <div className='banner-card-text'>
             <h3>
-              Faites de toutes vos réceptions un moment d’exception.
+              {this.props.text}
             </h3>
           </div>
         </div>
