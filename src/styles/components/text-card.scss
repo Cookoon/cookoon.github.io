@@ -5,4 +5,12 @@
   h3 {
     font-family: 'GFS Didot', serif;
   }
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  &--white {
+    background: white;
+    color: black;
+  }
 }

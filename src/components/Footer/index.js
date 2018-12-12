@@ -16,7 +16,9 @@ const Footer = () => (
           </div>
         </div>
         <div className='col-md mt-2'>
-          <p>Devenir Hôte</p>
+          <Link to="/devenir-hote">
+            <p>Devenir Hôte</p>
+          </Link>  
           <p>Les garanties</p>
           <p>Conditions Générales d’Utilisation</p>
         </div>
