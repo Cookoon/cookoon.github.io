@@ -6,10 +6,12 @@ import BannerCard from '../components/BannerCard';
 import ImageCard from '../components/ImageCard';
 import appStoreBadge from '../images/appStoreBadge.png';
 import googlePlayBadge from '../images/googlePlayBadge.png';
-import ctaBackground from '../images/ctaBackground.jpg';
 import iconAxa from '../images/iconAxa.jpg';
 import backgroundFirst from '../images/cookoon-diner.png';
 import backgroundSecond from '../images/cookoon-spot.png';
+import highlight1 from '../images/cookoon-highlight-1.png';
+import highlight2 from '../images/cookoon-highlight-2.png';
+import highlight3 from '../images/cookoon-highlight-3.png';
 
 const IndexPage = () => (
   <div>
@@ -18,13 +20,13 @@ const IndexPage = () => (
     <div className="container">
       <div className="row">
         <div className="col-md mt-4">
-          <ImageCard background={backgroundFirst} text='Un calme unique' />
+          <ImageCard background={highlight1} text='Un calme unique' />
         </div>
         <div className="col-md mt-4">
-          <ImageCard background={backgroundFirst} text='Un chef privé' />
+          <ImageCard background={highlight2} text='Un chef privé' />
         </div>
         <div className="col-md mt-4">
-          <ImageCard background={backgroundFirst} text='Un service sur mesure' />
+          <ImageCard background={highlight3} text='Un service sur mesure' />
         </div>
       </div>
     </div>
