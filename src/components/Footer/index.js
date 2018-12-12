@@ -1,77 +1,40 @@
 import React from 'react';
 import Link from 'gatsby-link';
+import AxaLogo from '../../images/iconAxa.jpg'
+import appStoreBadge from '../../images/appStoreBadge.png'
+import googlePlayBadge from '../../images/googlePlayBadge.png'
+import './footer.scss'
 
 const Footer = () => (
-  <footer className="navbar navbar-expand-md navbar-dark bg-dark text-center">
-    <div className="container py-4 justify-content-center justify-content-md-between">
-      <div className="navbar-text">
-        <span className="text-nowrap">® Réceptions Nouvelles 2018</span> ·{' '}
-        <span className="text-nowrap">Tous droits réservés</span>
-      </div>
-      <div className="navbar-nav align-items-center">
-        <div className="nav-item px-3">
-          <a
-            className="nav-link"
-            href="https://www.facebook.com/groups/378511112571275"
-            target="_blank"
-            rel="noreferrer noopener"
-          >
-            <i className="fa fa-facebook-square fa-2x" aria-hidden="true" />
-          </a>
+  <div className='container'>
+    <footer className="footer">
+      <div className='row'>
+        <div className='col-md'>
+          <div className='d-flex'>
+            <p>Avec le soutien <br/> de notre partenaire</p>
+            <img className='axa-logo' alt="Axa Logo" src={AxaLogo} />
+          </div>
         </div>
-
-        <div className="nav-item px-3">
-          <a
-            className="nav-link"
-            href="https://fr.linkedin.com/company/cookoon"
-            target="_blank"
-            rel="noreferrer noopener"
-          >
-            <i className="fa fa-linkedin-square fa-2x" aria-hidden="true" />
-          </a>
+        <div className='col-md'>
+          <p>Devenir Hôte</p>
+          <p>Les garanties</p>
+          <p>Conditions Générales d’Utilisation</p>
         </div>
-
-        <div className="nav-item px-3">
-          <a
-            className="nav-link"
-            href="mailto:Concierge Cookoon<concierge@cookoon.fr>"
-            target="_blank"
-            rel="noreferrer noopener"
-          >
-            Contact
-          </a>
+        <div className='col-md'>
+          <p>Le livre blanc</p>
+          <p>Presse</p>
+          <p>Contact</p>
         </div>
-
-        <div className="nav-item px-3">
-          <a
-            className="nav-link"
-            href="mailto:Cookoon<presse@cookoon.fr>"
-            target="_blank"
-            rel="noreferrer noopener"
-          >
-            Presse
-          </a>
-        </div>
-
-        <div className="nav-item px-3">
-          <a
-            className="nav-link"
-            href="https://aide.cookoon.fr"
-            target="_blank"
-            rel="noreferrer noopener"
-          >
-            Aide
-          </a>
-        </div>
-
-        <div className="nav-item px-3 pr-md-0">
-          <Link to="/conditions-generales/" className="nav-link">
-            Conditions générales
-          </Link>
+        <div className='col-md'>
+          <p> Retrouvez Cookoon sur votre smartphone</p>
+          <div className='d-flex'>
+            <img className='app-logo' alt="App store" src={appStoreBadge} />
+            <img className='app-logo' alt="Play store" src={googlePlayBadge} />
+          </div>
         </div>
       </div>
-    </div>
-  </footer>
+    </footer>
+  </div>
 );
 
 export default Footer;

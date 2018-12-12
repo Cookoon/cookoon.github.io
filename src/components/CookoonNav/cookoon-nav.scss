@@ -28,3 +28,11 @@
     align-self: flex-end;
   }
 }
+
+@media (max-width: 320px) {
+  .cookoon-nav-logo-block {
+    p {
+      padding: 0 0 0 15px;
+    }
+  }
+}
