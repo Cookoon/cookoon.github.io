@@ -1,16 +1,12 @@
 .text-card {
-  background: $blue;
-  color: white;
   padding: 25px;
+  border-top: 1px solid $gold;
+  border-bottom: 1px solid $gold;
   h3 {
-    font-family: 'GFS Didot', serif;
+    font-family: 'EB Garamond', serif;
   }
   a {
-    color: white;
-    text-decoration: none;
-  }
-  &--white {
-    background: white;
     color: black;
+    text-decoration: none;
   }
 }
