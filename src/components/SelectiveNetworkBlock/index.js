@@ -18,7 +18,7 @@ const SelectiveNetworkBlock = () => (
 
     <div className="container mt-4">
       <div className="text-card">
-        <h3>Cookoon est bâtit sur la confiance entre membres.</h3>
+        <h3 className='mb-4'>Cookoon est bâtit sur la confiance entre membres.</h3>
         <div className='row'>
           <div className="col-md">
             <p>
