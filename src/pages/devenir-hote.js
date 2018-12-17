@@ -1,9 +1,7 @@
 import React from 'react';
 import Link from 'gatsby-link';
 import Helmet from 'react-helmet';
-
-import BannerCard from '../components/BannerCard';
-import backgroundSecond from '../images/cookoon-spot.png';
+import SelectiveNetworkBlock from '../components/SelectiveNetworkBlock';
 
 const sendAnalyticsEventTopCTA = () => {
   if (typeof ga === 'function') {
@@ -22,15 +20,15 @@ const HostPage = () => (
     <Helmet title="Devenir hôte" />
 
     <div className="container">
-      <div className="text-card text-card--white">
+      <div className="text-card">
         <h3 className="pt-2 mb-3">Devenir Hôte Cookoon</h3>
-        <h4>
+        <p>
           Rentabilisez votre logement durant vos absences quotidiennes sans contraintes grâce aux services proposés.
-        </h4>
+        </p>
       </div>
 
       <iframe
-        className="host-video mb-3"
+        className="host-video my-3"
         src="https://player.vimeo.com/video/256423369?color=006f8b"
         frameBorder="0"
         allowFullScreen
@@ -83,32 +81,7 @@ const HostPage = () => (
       </div>
     </div>
 
-    <BannerCard background={backgroundSecond} text='Un réseau sélectif, qui fonctionne grâce à la cooptation.' />
-
-    <div className="container mt-4">
-      <div className="text-card">
-        <h3>Cookoon est bâtit sur la confiance entre membres.</h3>
-        <hr className='bg-light' />
-        <div className='row'>
-          <div className="col-md">
-            <p>
-              Les hôtes Cookoon ouvrent les portes de
-              leurs magnifiques demeures. Le réseau
-              permet de leur garantir des usages
-              respectueux des biens et des personnes.
-            </p>
-          </div>
-          <div className="col-md">
-            <p>
-              Sans invitation d’un membre, il est tout de même possible
-              de rejoindre Cookoon en proposant sa maison, ou en
-              postulant. Un comité d’hôtes étudiera votre candidature, et
-              statuera pour vous répondre rapidement.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
+    <SelectiveNetworkBlock />
 
   </div>
 );
