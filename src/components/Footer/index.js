@@ -10,8 +10,8 @@ const Footer = () => (
     <footer className="footer">
       <div className='row mt-2'>
         <div className='col-md mt-2'>
-          <div className='d-flex'>
-            <p className='text-left'>Avec le soutien <br/> de notre partenaire</p>
+          <div className='d-flex align-items-center'>
+            <p className='text-left'>En partenariat avec</p>
             <img className='axa-logo ml-2' alt="Axa Logo" src={AxaLogo} />
           </div>
         </div>
@@ -35,7 +35,7 @@ const Footer = () => (
             target="_blank"
             rel="noreferrer noopener"
           >
-            <p>Presse</p>
+            <p>Contact Presse</p>
           </a>
           <a
             href="mailto:Concierge Cookoon<concierge@cookoon.fr>"
