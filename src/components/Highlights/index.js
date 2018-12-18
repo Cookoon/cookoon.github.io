@@ -15,7 +15,7 @@ const Highlights = () => (
         <ImageCard background={highlight2} text='Un chef privé' />
       </div>
       <div className="col-md mt-4">
-        <ImageCard background={highlight3} text='Un service sur mesure' />
+        <ImageCard background={highlight3} text='Un service sur-mesure' />
       </div>
     </div>
   </div>

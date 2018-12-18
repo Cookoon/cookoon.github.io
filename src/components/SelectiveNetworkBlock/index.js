@@ -13,12 +13,12 @@ const SelectiveNetworkBlock = () => (
   <div id='reseau'>
     <BannerCard
       background={backgroundSecond}
-      text="Un réseau sélectif, qui fonctionne grâce à la cooptation."
+      text="Un réseau sélectif fondé sur la cooptation."
     />
 
     <div className="container mt-4">
       <div className="text-card">
-        <h3 className='mb-4'>Cookoon est bâtit sur la confiance entre membres.</h3>
+        <h3 className='mb-4'>Cookoon est bâti sur la confiance entre membres.</h3>
         <div className='row'>
           <div className="col-md">
             <p>

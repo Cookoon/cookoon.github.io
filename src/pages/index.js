@@ -14,21 +14,25 @@ const IndexPage = () => (
 
     <div className="container my-5 anchor" id='experience'>
       <div className="text-card">
-        <h3 className='mb-4'>Grâce à Cookoon, partagez avec vos convives une expérience sur-mesure, élégante.</h3>
+        <h3 className='mb-4'>Grâce à Cookoon, partagez avec vos convives une expérience sur-mesure, élégante et discrète.</h3>
         <div className='row'>
           <div className="col-md">
-            <p>for pleasure</p>
-            <p>
-              dîner d’anniversaire, repas de mariage,
-              cours de cuisine, dégustations de vin.
-            </p>
+            <p><b>For pleasure</b></p>
+            <ul>
+              <li>dîner d’anniversaire</li>
+              <li>déjeuner de mariage</li>
+              <li>cours de cuisine</li>
+              <li>dégustations de vin</li>
+            </ul>
           </div>
           <div className="col-md">
-            <p>for business</p>
-            <p>
-              dîner d’affaires, cocktail clients,
-              journée de formation, petit déjeuner presse.
-            </p>
+            <p><b>For business</b></p>
+            <ul>
+              <li>dîner d’affaires</li>
+              <li>cocktail clients</li>
+              <li>journée de formation</li>
+              <li>petit déjeuner presse</li>
+            </ul>
           </div>
         </div>
       </div>
