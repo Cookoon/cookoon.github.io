@@ -19,8 +19,8 @@ const CookoonNav = () => (
       </div>
       <div className='cookoon-nav-business d-none d-md-block'>
         <a href="https://app.cookoon.fr/pro" target='_blank'>
-          <p>Cookoon for Business</p>
-        </a>  
+          <p>Cookoon for Business <i className="fa fa-sign-in"></i></p>
+        </a>
       </div>
     </nav>
   </div>
