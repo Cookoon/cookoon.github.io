@@ -12,8 +12,24 @@
   width: 6rem;
 }
 
+h1, h2, h3, h4, h5 {
+  font-family: 'EB Garamond', serif;
+}
+
 .h-7r {
   height: 7rem;
+}
+
+// Offset for anchors
+:target:before {
+  content:"";
+  display:block;
+  height:30px; /* fixed header height*/
+  margin:-30px 0 0; /* negative fixed header height */
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 .bg-extend-left:before {

@@ -1,0 +1,40 @@
+.cookoon-nav {
+  width: 100%;
+  background: white;
+  display: flex;
+  padding: 20px 0;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'EB Garamond', serif;
+  font-size: 1.1rem;
+  p {
+    margin: 0;
+  }
+  a {
+    color: black;
+    text-decoration: none;
+  }
+  &-logo-block {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    p {
+      padding: 0 0 0 30px;
+      margin: 0;
+    }
+    img {
+      height: 12px;
+    }
+  }
+  &-business {
+    align-self: flex-end;
+  }
+}
+
+@media (max-width: 320px) {
+  .cookoon-nav-logo-block {
+    p {
+      padding: 0 0 0 15px;
+    }
+  }
+}

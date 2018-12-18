@@ -5,7 +5,7 @@ import Helmet from 'react-helmet';
 import CookoonNav from '../components/CookoonNav';
 import Footer from '../components/Footer';
 import '../styles/index.scss';
-import ogImage from '../images/ogImage.jpg';
+import ogImage from '../images/og_image.png';
 import ogImageSquare from '../images/ogImageSquare.jpg';
 
 class TemplateWrapper extends Component {

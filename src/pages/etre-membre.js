@@ -1,19 +1,9 @@
 import React from 'react';
 import Helmet from 'react-helmet';
 
-import Banner from '../components/Banner';
-
 const MemberPage = () => (
   <div>
     <Helmet title="Etre membre" />
-
-    <Banner>
-      <h1 className="h3 mb-4">
-        Nos membres reçoivent et échangent :
-        <br />les uns organisent leurs événements quotidiens, les autres les
-        accueillent, tous s'impliquent.
-      </h1>
-    </Banner>
 
     <div className="container text-center">
       <p className="h4 font-italic pt-5">Vous êtes membre ?</p>
