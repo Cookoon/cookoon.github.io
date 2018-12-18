@@ -8,7 +8,7 @@ import SelectiveNetworkBlock from '../components/SelectiveNetworkBlock';
 
 const IndexPage = () => (
   <div>
-    <BannerCard background={backgroundFirst} text='Faites de toutes vos réceptions un moment d’exception.' />
+    <BannerCard background={backgroundFirst} text="Organisez votre événement d'exception chez un membre Cookoon" />
 
     <Highlights />
 
