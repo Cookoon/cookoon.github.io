@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     name: 'Cookoon',
     title: 'Recevons partout !',
-    description: 'Une communauté sélective pour recevoir et partager',
+    description: 'Vos repas d’exception chez un particulier',
     fbAppId: '186829152103890',
     keywords: `cookoon, recevons, partout, communauté, communaute, sélective,
     selective, recevoir, partager`,
