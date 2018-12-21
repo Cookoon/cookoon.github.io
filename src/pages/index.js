@@ -14,7 +14,7 @@ const IndexPage = () => (
 
     <div className="container my-5 anchor" id='experience'>
       <div className="text-card">
-        <h3 className='mb-4'>Grâce à Cookoon, partagez avec vos convives une expérience sur-mesure, élégante et discrète.</h3>
+        <h3 className='mb-4'>Grâce à Cookoon, partagez avec vos convives une expérience sur-mesure, élégante et discrète</h3>
         <div className='row'>
           <div className="col-md">
             <p><b>For pleasure</b></p>
