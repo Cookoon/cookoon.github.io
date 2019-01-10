@@ -11,7 +11,7 @@ const CookoonNav = () => (
           <img alt="Cookoon" src={logo} />
         </Link>
         <a href='/#experience'>
-          <p>L'experience</p>
+          <p>L'expérience</p>
         </a>
         <a href="/#reseau">
           <p>Le réseau</p>
