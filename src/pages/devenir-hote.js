@@ -74,7 +74,7 @@ const HostPage = () => (
               rel="noreferrer noopener"
               onClick={sendAnalyticsEventBottomCTA}
             >
-              En savoir plus >
+              <u>Devenir hôte à Paris ></u>
             </a>
           </div>
         </div>

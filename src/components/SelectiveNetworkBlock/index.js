@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'gatsby-link';
 
 import BannerCard from '../BannerCard';
 import backgroundSecond from '../../images/cookoon-spot.png';
@@ -35,14 +36,20 @@ const SelectiveNetworkBlock = () => (
               postulant. Un comité d’hôtes étudiera votre candidature, et
               statuera pour vous répondre rapidement.
             </p>
-            <a
-              href="https://cookoon.typeform.com/to/mEeE1Z"
-              target="_blank"
-              rel="noreferrer noopener"
-              onClick={sendAnalyticsEvent}
-            >
-              <u>Entrez en relation avec notre Concierge ></u>
-            </a>
+            <div className='d-flex'>
+              <Link to="/devenir-hote">
+                <p><u>En savoir plus ></u></p>
+              </Link>
+              <a
+                href="https://cookoon.typeform.com/to/iY7Heh"
+                target="_blank"
+                rel="noreferrer noopener"
+                onClick={sendAnalyticsEvent}
+                className='ml-3'
+              >
+                <u>Devenir hôte à Paris ></u>
+              </a>
+            </div>
           </div>
         </div>
       </div>
