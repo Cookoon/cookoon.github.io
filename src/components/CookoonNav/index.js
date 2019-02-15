@@ -1,5 +1,7 @@
 import React from 'react';
 import Link from 'gatsby-link';
+import BusinessModal from '../BusinessModal';
+
 import logo from '../../images/logo-black-small.png';
 import './cookoon-nav.scss';
 
@@ -18,9 +20,7 @@ const CookoonNav = () => (
         </a>
       </div>
       <div className='cookoon-nav-business d-none d-md-block'>
-        <a href="https://app.cookoon.fr/pro" target='_blank'>
-          <p>Cookoon for Business <i className="fa fa-sign-in"></i></p>
-        </a>
+        <BusinessModal/>
       </div>
     </nav>
   </div>
