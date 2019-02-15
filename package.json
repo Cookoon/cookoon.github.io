@@ -19,6 +19,7 @@
     "react-accessible-accordion": "^2.2.1",
     "react-helmet": "^5.2.0",
     "react-onclickoutside": "^6.7.1",
+    "react-responsive-modal": "^3.6.0",
     "reactstrap": "5.0.0-beta"
   },
   "keywords": [
