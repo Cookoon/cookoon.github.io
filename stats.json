@@ -36,6 +36,10 @@
       "component---src-pages-presentation-for-business-js-bfc3db131d3483cff336.js",
       "component---src-pages-presentation-for-business-js-bfc3db131d3483cff336.js.map"
     ],
+    "component---src-pages-politique-confidentialite-js": [
+      "component---src-pages-politique-confidentialite-js-ea761e1f8c79ae9e964c.js",
+      "component---src-pages-politique-confidentialite-js-ea761e1f8c79ae9e964c.js.map"
+    ],
     "component---src-pages-404-js": [
       "component---src-pages-404-js-ee619e0bfdc1c8cd06d0.js",
       "component---src-pages-404-js-ee619e0bfdc1c8cd06d0.js.map"
@@ -47,6 +51,10 @@
     "path---404-html": [
       "path---404-html-a0e39f21c11f6a62c5ab.js",
       "path---404-html-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---politique-confidentialite": [
+      "path---politique-confidentialite-a0e39f21c11f6a62c5ab.js",
+      "path---politique-confidentialite-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-garanties-js": [
       "component---src-pages-garanties-js-a76348a713d5ff680c97.js",
@@ -73,8 +81,8 @@
       "path---presentation-for-business-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-8dc29d18a90dcf386550.js",
-      "app-8dc29d18a90dcf386550.js.map"
+      "app-18ec2b596f799225df21.js",
+      "app-18ec2b596f799225df21.js.map"
     ],
     "path---404": [
       "path---404-a0e39f21c11f6a62c5ab.js",

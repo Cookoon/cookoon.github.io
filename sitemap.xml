@@ -6,5 +6,6 @@
 <url> <loc>https://cookoon.fr/garanties/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://cookoon.fr/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://cookoon.fr/livre-blanc/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://cookoon.fr/politique-confidentialite/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://cookoon.fr/presentation-for-business/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 </urlset>
