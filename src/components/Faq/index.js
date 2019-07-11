@@ -3,17 +3,20 @@ import React from 'react';
 import {
   Accordion,
   AccordionItem,
-  AccordionItemTitle,
-  AccordionItemBody
+  AccordionItemHeading,
+  AccordionItemPanel,
+  AccordionItemButton
 } from 'react-accessible-accordion';
 
 const Faq = () => (
   <Accordion>
     <AccordionItem>
-      <AccordionItemTitle>
-        <p>Quelles sont les garanties ?</p>
-      </AccordionItemTitle>
-      <AccordionItemBody>
+      <AccordionItemHeading>
+        <AccordionItemButton>
+          Quelles sont les garanties ?
+        </AccordionItemButton>
+      </AccordionItemHeading>
+      <AccordionItemPanel>
         <ul>
           <li>
             La responsabilité civile du locataire encourue vis-à-vis du
@@ -30,13 +33,15 @@ const Faq = () => (
           couverts par un contrat Multirisque Habitation ou un
           contratd'assurance spécifique en fonction du local loué.
         </p>
-      </AccordionItemBody>
+      </AccordionItemPanel>
     </AccordionItem>
     <AccordionItem>
-      <AccordionItemTitle>
-        <p>Qui est couvert par l'offre Cookoon en partenariat en AXA ?</p>
-      </AccordionItemTitle>
-      <AccordionItemBody>
+      <AccordionItemHeading>
+        <AccordionItemButton>
+          Qui est couvert par l'offre Cookoon en partenariat en AXA ?
+        </AccordionItemButton>
+      </AccordionItemHeading>
+      <AccordionItemPanel>
         <ul>
           <li>
             Particulier ou professionnel ayant réservé un logement meublé via
@@ -45,13 +50,15 @@ const Faq = () => (
           <li>Son conjoint et ses enfants ;</li>
           <li>Toute autre personne participant à l'occupation du lieu.</li>
         </ul>
-      </AccordionItemBody>
+      </AccordionItemPanel>
     </AccordionItem>
     <AccordionItem>
-      <AccordionItemTitle>
-        <p>Quels sont les biens couverts par l'assurance ?</p>
-      </AccordionItemTitle>
-      <AccordionItemBody>
+      <AccordionItemHeading>
+        <AccordionItemButton>
+          Quels sont les biens couverts par l'assurance ?
+        </AccordionItemButton>
+      </AccordionItemHeading>
+      <AccordionItemPanel>
         <ul>
           <li>Les maisons ou villas</li>
           <li>Les appartements</li>
@@ -59,13 +66,15 @@ const Faq = () => (
           <li>Les dépendances de moins de 200 m2</li>
           <li>Les meubles contenus de dans la location meublée</li>
         </ul>
-      </AccordionItemBody>
+      </AccordionItemPanel>
     </AccordionItem>
     <AccordionItem>
-      <AccordionItemTitle>
-        <p>Quels sont les biens qui ne sont pas couverts par l'assurance ?</p>
-      </AccordionItemTitle>
-      <AccordionItemBody>
+      <AccordionItemHeading>
+        <AccordionItemButton>
+          Quels sont les biens qui ne sont pas couverts par l'assurance ?
+        </AccordionItemButton>
+      </AccordionItemHeading>
+      <AccordionItemPanel>
         <ul>
           <li>Les hôtels</li>
           <li>Les bâtiments classés monuments historiques</li>
@@ -83,13 +92,15 @@ const Faq = () => (
             etc.)
           </li>
         </ul>
-      </AccordionItemBody>
+      </AccordionItemPanel>
     </AccordionItem>
     <AccordionItem>
-      <AccordionItemTitle>
-        <p>Quelles sont les garanties ?</p>
-      </AccordionItemTitle>
-      <AccordionItemBody>
+      <AccordionItemHeading>
+        <AccordionItemButton>
+          Quelles sont les garanties ?
+        </AccordionItemButton>
+      </AccordionItemHeading>
+      <AccordionItemPanel>
         <p>
           La franchise est le montant qui reste à la charge du locataire en cas
           de sinistre.
@@ -102,13 +113,15 @@ const Faq = () => (
             placard endommagée)
           </li>
         </ul>
-      </AccordionItemBody>
+      </AccordionItemPanel>
     </AccordionItem>
     <AccordionItem>
-      <AccordionItemTitle>
-        <p>Que faire en cas d'incident ?</p>
-      </AccordionItemTitle>
-      <AccordionItemBody>
+      <AccordionItemHeading>
+        <AccordionItemButton>
+          Que faire en cas d'incident ?
+        </AccordionItemButton>
+      </AccordionItemHeading>
+      <AccordionItemPanel>
         <p>
           En cas d'incident, il appartient à l'occupant de le déclarer dans les
           délais indiqués ci-dessous. Si l'hôte constate, après l'occupation, un
@@ -124,22 +137,7 @@ const Faq = () => (
           </li>
           <li>dans les 5 jours pour les autres cas.</li>
         </ul>
-        {/* <p>Merci d'inclure :</p>
-        <ul>
-          <li>
-            vos coordonnées, la nature du sinistre (vol, dégât des eaux,
-            incendie…) et ses circonstances (date, lieu,…)
-          </li>
-          <li>
-            un état descriptif et estimatif, certifié sincère et signé, des
-            objets assurés qui ont été endommagés, volés ou détruits
-          </li>
-          <li>
-            les factures, bons de garantie, photos ou tout autre justificatif
-          </li>
-          <li>le dépôt de plainte en cas de vol.</li>
-        </ul> */}
-      </AccordionItemBody>
+      </AccordionItemPanel>
     </AccordionItem>
   </Accordion>
 );
