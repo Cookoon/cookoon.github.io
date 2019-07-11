@@ -73,20 +73,25 @@ TemplateWrapper.propTypes = {
   children: PropTypes.func
 };
 
-export default TemplateWrapper;
-
-export const pageQuery = graphql`
-  query SiteMetadataLookup {
-    site {
-      siteMetadata {
-        name
-        title
-        description
-        fbAppId
-        keywords
-        siteUrl
-        twitter
+export default () => (
+  <StaticQuery
+    query={graphql`
+      query SiteMetadataLookup {
+        site {
+          siteMetadata {
+            name
+            title
+            description
+            fbAppId
+            keywords
+            siteUrl
+            twitter
+          }
+        }
       }
-    }
-  }
-`;
+    `}
+    render={data => (
+      <TemplateWrapper />
+    )}
+  />
+)

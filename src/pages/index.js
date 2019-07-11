@@ -1,5 +1,5 @@
 import React from 'react';
-import Link from 'gatsby-link';
+import Helmet from 'react-helmet';
 
 import BannerCard from '../components/BannerCard';
 import backgroundFirst from '../images/cookoon-diner.png';
@@ -8,6 +8,7 @@ import SelectiveNetworkBlock from '../components/SelectiveNetworkBlock';
 
 const IndexPage = () => (
   <div>
+    <Helmet title="cookoon.fr" defer={false} />
     <BannerCard background={backgroundFirst} text="Organisez votre événement d'exception chez un membre Cookoon" />
 
     <Highlights />
