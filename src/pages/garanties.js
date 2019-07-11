@@ -2,9 +2,10 @@ import React from 'react';
 import Helmet from 'react-helmet';
 
 import Faq from '../components/Faq';
+import Layout from "../components/layout";
 
 const InsurancePage = () => (
-  <div>
+  <Layout>
     <Helmet title="Garanties" />
     <div className="bg-primary text-white">
       <div className="container">
@@ -83,7 +84,7 @@ const InsurancePage = () => (
         </p>
       </div>
     </div>
-  </div>
+  </Layout>
 );
 
 export default InsurancePage;

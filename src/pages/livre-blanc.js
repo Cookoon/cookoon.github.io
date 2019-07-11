@@ -1,8 +1,9 @@
 import React from 'react';
 import Helmet from 'react-helmet';
+import Layout from "../components/layout";
 
 const WhitePaperPage = () => (
-  <div>
+  <Layout>
     <Helmet title="Livre blanc" />
 
     <div className="container">
@@ -12,7 +13,7 @@ const WhitePaperPage = () => (
         frameBorder="0"
       />
     </div>
-  </div>
+  </Layout>
 );
 
 export default WhitePaperPage;

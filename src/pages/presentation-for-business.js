@@ -1,8 +1,9 @@
 import React from 'react';
 import Helmet from 'react-helmet';
+import Layout from "../components/layout";
 
 const BusinessPresentationPage = () => (
-  <div>
+  <Layout>
     <Helmet title="For Buisness" />
 
     <div className="container">
@@ -12,7 +13,7 @@ const BusinessPresentationPage = () => (
         frameBorder="0"
       />
     </div>
-  </div>
+  </Layout>
 );
 
 export default BusinessPresentationPage;
