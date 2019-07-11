@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import Modal from 'react-responsive-modal';
 import BusinessModalLink from '../BusinessModalLink';
 
@@ -28,7 +27,7 @@ export default class App extends React.Component {
           <p>
             Cookoon est un réseau permettant aux entreprises d'organiser déjeuners ou dîners clients,
             journées de formation, petits déjeuners de travail chez des particuliers.
-          <br/>
+          <br />
             Vous souhaitez vous servir de nos services sur-mesure pour des besoins professionnels ?
           </p>
           <div className='d-flex justify-content-around mt-5'>

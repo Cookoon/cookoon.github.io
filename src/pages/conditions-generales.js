@@ -1,8 +1,9 @@
 import React from 'react';
 import Helmet from 'react-helmet';
+import Layout from "../components/layout"
 
 const TermsPage = () => (
-  <div>
+  <Layout>
     <Helmet title="Conditions générales" />
 
     <div className="container pt-4">
@@ -997,7 +998,7 @@ const TermsPage = () => (
         remettre à la compétence du Tribunal de Commerce de Paris.
       </p>
     </div>
-  </div>
+  </Layout>
 );
 
 export default TermsPage;

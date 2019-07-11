@@ -1,8 +1,9 @@
 import React from 'react';
 import Helmet from 'react-helmet';
+import Layout from "../components/layout";
 
 const MemberPage = () => (
-  <div>
+  <Layout>
     <Helmet title="Etre membre" />
 
     <div className="container text-center">
@@ -220,7 +221,7 @@ const MemberPage = () => (
         </div>
       </div>
     </div>
-  </div>
+  </Layout>
 );
 
 export default MemberPage;

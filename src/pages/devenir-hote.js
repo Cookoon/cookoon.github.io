@@ -1,7 +1,7 @@
 import React from 'react';
-import Link from 'gatsby-link';
 import Helmet from 'react-helmet';
 import SelectiveNetworkBlock from '../components/SelectiveNetworkBlock';
+import Layout from "../components/layout";
 
 const sendAnalyticsEventTopCTA = () => {
   if (typeof ga === 'function') {
@@ -16,7 +16,7 @@ const sendAnalyticsEventBottomCTA = () => {
 };
 
 const HostPage = () => (
-  <div>
+  <Layout>
     <Helmet title="Devenir hôte" />
 
     <div className="container">
@@ -82,8 +82,7 @@ const HostPage = () => (
     </div>
 
     <SelectiveNetworkBlock />
-
-  </div>
+  </Layout>
 );
 
 export default HostPage;
