@@ -5,7 +5,6 @@ import { graphql } from 'gatsby';
 
 import CookoonNav from '../components/CookoonNav';
 import Footer from '../components/Footer';
-// import '../styles/index.scss';
 import ogImage from '../images/og_image.png';
 import ogImageSquare from '../images/ogImageSquare.jpg';
 

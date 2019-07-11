@@ -1,9 +1,7 @@
 import React from 'react';
-import Link from 'gatsby-link';
 import Helmet from 'react-helmet';
 
 import Faq from '../components/Faq';
-import logoAxa from '../images/logoAxa.png';
 
 const InsurancePage = () => (
   <div>
