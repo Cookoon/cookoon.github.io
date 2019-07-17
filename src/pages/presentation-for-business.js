@@ -4,7 +4,7 @@ import Layout from "../components/layout";
 
 const BusinessPresentationPage = () => (
   <Layout>
-    <Helmet title="For Buisness" />
+    <Helmet title="For Business" />
 
     <div className="container">
       <iframe
