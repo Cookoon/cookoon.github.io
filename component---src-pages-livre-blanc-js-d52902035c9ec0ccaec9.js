@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[11],{192:function(e,a,t){"use strict";t.r(a);var r=t(0),n=t.n(r),c=t(197),i=t.n(c),l=t(198);a.default=function(){return n.a.createElement(l.a,null,n.a.createElement(i.a,{title:"Livre blanc"}),n.a.createElement("div",{className:"container"},n.a.createElement("iframe",{className:"white-paper mt-3 mb-3",src:"https://drive.google.com/file/d/11h2Ox7iVJ7rWh9xEy4FezA6k2A2Ux34m/preview",frameBorder:"0"})))}}}]);
+//# sourceMappingURL=component---src-pages-livre-blanc-js-d52902035c9ec0ccaec9.js.map
